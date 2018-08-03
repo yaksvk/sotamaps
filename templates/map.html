@@ -1,0 +1,61 @@
+{% extends "index.html" %}
+{% block body %}
+<div id="map"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      });
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: {lat: 48.955, lng: 18.4632}
+        });
+
+        var goldStar = {
+          path: 'M 10,150 L 70,10 L 130,150 z',
+          fillColor: 'red',
+          fillOpacity: 0.8,
+          scale: .1,
+          strokeColor: 'black',
+          strokeWeight: 1
+        };
+
+        $.ajax({
+            url: 'json/summits',
+            type: 'GET',
+            dataType: "json",
+            cache: false,
+            async: false,
+            success : function(data){
+
+                for (var i in data) {
+                    console.log([data[i]['Latitude'], data[i]['Longitude']]);
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(data[i]['Latitude'], data[i]['Longitude']),
+                        icon: goldStar,
+                        map: map
+                    });
+                }
+                /*
+                console.log('map:' + map);
+                console.log('goldstar:' + goldStar);
+
+                var marker = new google.maps.Marker({
+                  //position: map.getCenter(),
+                  position: new google.maps.LatLng(49, 19),
+                  icon: goldStar,
+                  map: map
+                });
+                */
+
+
+
+            }
+        });
+      }
+
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"> 
+    </script>
+{% endblock %}
