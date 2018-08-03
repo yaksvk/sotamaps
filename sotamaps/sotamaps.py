@@ -15,9 +15,12 @@ def translate(item, fields):
             output[field] = item[field]
     return output
 
-def test():
-    url = 'http://www.sotadata.org.uk/myactivatoruniques.aspx?userid=4268'
-    url = 'http://www.sotadata.org.uk/myactivatoruniques.aspx?userid=4277'
+def test(callsign=None):
+    
+    if callsign is None:
+        callsign='4268'
+
+    url = 'http://www.sotadata.org.uk/myactivatoruniques.aspx?userid=' + str(callsign)
     #url = 'http://www.sotadata.org.uk/myactivatoruniques.aspx?userid=8284'
     r = requests.get(url)
     items = re.findall(r'<td class="gridcell" align="center">\d+</td><td class="gridcell">([^<]+)', r.text, re.DOTALL)

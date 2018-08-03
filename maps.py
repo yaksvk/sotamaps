@@ -7,18 +7,22 @@ from sotamaps import sotamaps
 
 app = Flask(__name__)
 
+@app.route('/<int:callsign>')
 @app.route('/')
-def map():
-    return render_template('map.html')
+def map(callsign=None):
+    return render_template('map.html',callsign=callsign)
 
 # json services
+@app.route('/json/summits/<int:callsign>')
 @app.route('/json/summits')
-def json_summits():
-    response = [
-        {"SummitCode": "SP/BZ-001", "Latitude": "49.5792", "Longitude": "19.5292"}
-    ]
+def json_summits(callsign=None):
+    
+    # only for testing
+    #response = [
+    #    {"SummitCode": "SP/BZ-001", "Latitude": "49.5792", "Longitude": "19.5292"}
+    #]
 
-    response = sotamaps.test()
+    response = sotamaps.test(callsign)
     return jsonify(response) 
 
 @app.route('/test')
