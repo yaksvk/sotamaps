@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route('/<int:callsign>')
 @app.route('/')
 def map(callsign=None):
-    return render_template('map.html',callsign=callsign)
+    return render_template('map_osm.html',callsign=callsign)
 
 # json services
 @app.route('/json/summits/<int:callsign>')

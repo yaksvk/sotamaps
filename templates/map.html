@@ -22,7 +22,7 @@
         };
 
         $.ajax({
-            url: 'json/summits/{{ callsign }}',
+            url: 'json/summits{% if callsign is not none%}/{{callsign}}{%endif%}',
             type: 'GET',
             dataType: "json",
             cache: false,
