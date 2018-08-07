@@ -8,6 +8,11 @@
       $(document).ready(function(){
         var map = L.map('map').setView([48.955, 18.4632], 10);
 
+        var myIcon = L.divIcon({
+            className: 'triangle-container', 
+            html: '<div class="triangle-container"><svg height="20" width="20"><polygon points="10,4 5,16 15,16" class="triangle" /></svg></div>'
+        });
+
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
@@ -21,9 +26,7 @@
             success : function(data){
 
                 for (var i in data) {
-                    console.log([data[i]['Latitude'], data[i]['Longitude']]);
-                    
-                    L.marker([data[i]['Latitude'], data[i]['Longitude']]).addTo(map);
+                    L.marker([data[i]['Latitude'], data[i]['Longitude']], {icon: myIcon}).addTo(map);
                 }
 
 
