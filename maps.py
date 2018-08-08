@@ -22,7 +22,7 @@ def json_summits(callsign=None):
     #    {"SummitCode": "SP/BZ-001", "Latitude": "49.5792", "Longitude": "19.5292"}
     #]
 
-    response = sotamaps.test(callsign)
+    response = sotamaps.summits_for_callsign(callsign)
     return jsonify(response) 
 
 @app.route('/test')
