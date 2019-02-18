@@ -4,6 +4,7 @@ import os
 from flask import Flask, request, redirect, url_for, render_template, jsonify
 from werkzeug.utils import secure_filename
 from .vhf.adif import Adif
+from .vhf.activity import Log
 
 UPLOAD_FOLDER = '/tmp'
 
@@ -24,8 +25,8 @@ def upload():
 
 @app.route('/log/<filename>')
 def uploaded_adif(filename):
-    log = Adif(from_file=os.path.join(app.config['UPLOAD_FOLDER'], filename))
-    log.guess_gridsquares()
+    log = Log('JN88le', os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
     return render_template('vhf_render.html', log=log)
 
 if __name__ == '__main__':

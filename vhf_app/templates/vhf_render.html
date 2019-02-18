@@ -18,10 +18,10 @@
 {% for qso in log.qsos %}
 <tr>
     <td>{{ loop.index }}</td>
-    <td>{{ qso.adif_vars.CALL }}</td>
-    <td>{{ qso.adif_vars.BAND }}</td>
-    <td>{{ qso.adif_vars.MY_GRIDSQUARE }}</td>
-    <td>{{ qso.adif_vars.GRIDSQUARE }}</td>
+    <td>{{ qso.call }}</td>
+    <td>{{ qso.band }}</td>
+    <td>{{ qso.my_gridsquare }}</td>
+    <td>{{ qso.gridsquare }}</td>
     <td>{{ qso.distance }}{% if qso.distance %} km{% endif %}</td>
     <td>{{ qso.point_distance }}</td>
     <td>{{ qso.points }}</td>
