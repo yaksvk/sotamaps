@@ -34,13 +34,13 @@ def uploaded_adif(filename):
     )
     
     # create json data for the map
-    web = [{'call': qso.call, 'from': log.latlng, 'to': qso.latlng} for qso in log.qsos]
+    web = [{'call': qso.call, 'from': log.latlng, 'to': qso.latlng, 'gridsquare': qso.gridsquare} for qso in log.qsos]
 
     return render_template(
         'vhf_render.html', 
         log=log, 
         web=web,
-        map_center=json.dumps(log.latlng)
+        map_center=log.latlng
     )
 
 if __name__ == '__main__':
