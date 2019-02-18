@@ -40,7 +40,8 @@ def uploaded_adif(filename):
         'vhf_render.html', 
         log=log, 
         web=web,
-        me={'map_center': log.latlng, 'gridsquare': log.gridsquare}
+        me={'map_center': log.latlng, 'gridsquare': log.gridsquare},
+        scores=log.scores()
     )
 
 if __name__ == '__main__':

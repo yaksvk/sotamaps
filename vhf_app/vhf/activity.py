@@ -3,7 +3,7 @@ import sys
 import geopy.distance
 
 from .adif import Adif
-from .gridsquare import gridsquare2latlng
+from .gridsquare import gridsquare2latlng, small_square_distance
 
 
 class Qso:
@@ -50,6 +50,44 @@ class Log:
                 
 
             self.qsos.append(qso)
+
+    def scores(self):
+        # return all the scores
+        def points(point_distance):
+            return 2 + point_distance
+
+        orig_qsos = {}
+        orig_gridsquares = {}
+        orig_large_gridsquares = {}
+        
+        # my own gridsquare is a natural multiplier
+        orig_gridsquares[self.gridsquare] = 1
+        
+        for qso in self.qsos:
+            orig_qsos[qso.call] = qso.gridsquare
+            orig_gridsquares[qso.gridsquare] = orig_gridsquares.get(qso.gridsquare, 0) + 1
+            orig_large_gridsquares[qso.gridsquare[0:4]] = orig_large_gridsquares.get(qso.gridsquare[0:4], 0) + 1
+
+        # compute scores
+        score = 0
+        max_dist = 0
+        locator_max = '' 
+
+        for qth in orig_qsos.values():
+            dist = small_square_distance(self.gridsquare, qth)
+            score += points(dist)
+            if dist > max_dist:
+                max_dist = dist
+                locator_max = qth
+
+        scores = {
+            'original_qso_count' : len(orig_qsos.values()),
+            'multiplier_count' : len(orig_large_gridsquares.keys()),
+            'score' : score,
+            'score_multiplied':score*len(orig_large_gridsquares.keys()),
+            'max_gridsquare' : locator_max
+        }
+        return scores
 
         
 if __name__ == '__main__':
