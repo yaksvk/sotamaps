@@ -47,9 +47,10 @@ class Log:
             
             if hasattr(qso, 'gridsquare') and qso.gridsquare:
                 qso.latlng = gridsquare2latlng(qso.gridsquare)
-                
 
             self.qsos.append(qso)
+
+        self.qsos.sort(key = lambda x: (x.qso_date, x.time_on))
 
     def scores(self):
         # return all the scores

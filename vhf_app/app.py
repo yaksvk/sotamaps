@@ -44,5 +44,14 @@ def uploaded_adif(filename):
         scores=log.scores()
     )
 
+# formatters
+@app.template_filter('time_filter')
+def _jinja2_filter_time(time):
+    return ':'.join((time[0:2],time[2:4]))
+
+@app.template_filter('date_filter')
+def _jinja2_filter_date(date):
+    return '-'.join((date[0:4],date[4:6],date[6:8]))
+
 if __name__ == '__main__':
     app.run(debug=True)

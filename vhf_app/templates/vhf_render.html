@@ -82,7 +82,7 @@
 {% for qso in log.qsos %}
 <tr>
     <td>{{ loop.index }}</td>
-    <td>{{ qso.qso_date }} {{ qso.time_on }}</td>
+    <td>{{ qso.qso_date|date_filter }} {{ qso.time_on|time_filter }}</td>
     <td>{{ qso.call }}</td>
     <td>{{ qso.call }}</td>
     <td>{{ qso.band }}</td>
