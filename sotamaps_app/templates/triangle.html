@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>SOTA Activated Summits map</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+  <script type="text/javascript">
+  var svgns = "http://www.w3.org/2000/svg";
+
+    function makeTriangle() {
+    shape = svgDocument.createElementNS(svgns, "polygon");
+    shape.setAttributeNS(null, "points", "5,5 45,45 5,45");
+    shape.setAttributeNS(null, "fill", "none");
+    shape.setAttributeNS(null, "stroke", "green");
+
+    svgDocument.documentElement.appendChild(shape);
+
+}
+    /*
+jQuery("h1").append(" and jQuery!");
+
+var data = [4, 8, 15, 16, 23, 42];
+var $chart = jQuery("#chart");
+jQuery.each(data, function(index, value) {
+    var $bar = $(document.createElementNS("http://www.w3.org/2000/svg", "rect")).attr({
+        x: 0,
+        y: index * 20,
+        width: value * 10,
+        height: 20
+    });
+    $chart.append($bar);
+    
+    $bar.attr({fill: "white", stroke: "black"});
+
+});
+
+jQuery('#reload').click(function() {
+    jQuery('body').html(jQuery('body').html());
+});
+*/
+  </script>
+  </body>
+</html>
