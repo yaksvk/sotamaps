@@ -138,7 +138,7 @@
             marker.on('mouseover', function(e) {
                 var popup = L.popup()
                     .setLatLng(e.latlng) 
-                    .setContent('<b>' + qsos[qso]['call'] + '</b><br>'+ qsos[qso]['gridsquare'] + '<br><b>' + qsos[qso]['distance']+' km</b>')
+                    .setContent('<a target="_blank" href="https://www.qrz.com/db/' + qsos[qso]['call'] + '"><b>' + qsos[qso]['call'] + '</b></a><br>'+ qsos[qso]['gridsquare'] + '<br><b>' + qsos[qso]['distance']+' km</b>')
                     .openOn(map);
             });
         })(qso);
