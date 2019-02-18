@@ -20,12 +20,17 @@ def upload():
             filename = secure_filename(up_file.filename)
             up_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return redirect(url_for('uploaded_adif',
-                                    filename=filename))
+                                    filename=filename, gridsquare=request.values.get('gridsquare', None)))
     return render_template('upload.html')
 
 @app.route('/log/<filename>')
 def uploaded_adif(filename):
-    log = Log('JN88le', os.path.join(app.config['UPLOAD_FOLDER'], filename))
+   
+    # gridsquare will be guessed from ADIF, if possible, but can be overridden
+    log = Log(
+        request.values.get('gridsquare', None), 
+        os.path.join(app.config['UPLOAD_FOLDER'], filename)
+    )
 
     return render_template('vhf_render.html', log=log)
 

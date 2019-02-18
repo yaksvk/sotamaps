@@ -24,7 +24,6 @@ class Log:
 
         # override gridsquare if given in argument instead of looking
         # for it in the adif 
-
         if gridsquare is not None:
             self.gridsquare = gridsquare
 
