@@ -1,0 +1,34 @@
+{% extends "index.html" %}
+{% block body %}
+<h1>Your Log</h1>
+<table>
+<thead>
+<tr>
+    <td>#</td>
+    <td>CALL</td>
+    <td>BAND</td>
+    <td>MY GRID SQUARE</td>
+    <td>THEIR GRID SQUARE</td>
+    <td>DISTANCE</td>
+    <td>SQUARE DISTANCE</td>
+    <td>POINTS</td>
+</tr>
+</thead>
+<tbody>
+{% for qso in log.qsos %}
+<tr>
+    <td>{{ loop.index }}</td>
+    <td>{{ qso.adif_vars.CALL }}</td>
+    <td>{{ qso.adif_vars.BAND }}</td>
+    <td>{{ qso.adif_vars.MY_GRIDSQUARE }}</td>
+    <td>{{ qso.adif_vars.GRIDSQUARE }}</td>
+    <td>{{ qso.distance }}{% if qso.distance %} km{% endif %}</td>
+    <td>{{ qso.point_distance }}</td>
+    <td>{{ qso.points }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+{% endblock %}
