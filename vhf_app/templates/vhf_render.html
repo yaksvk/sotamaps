@@ -77,7 +77,7 @@ var qsos = {{ web|tojson }};
             marker.on('mouseover', function(e) {
                 var popup = L.popup()
                     .setLatLng(e.latlng) 
-                    .setContent('<b>' + qsos[qso]['call'] + '</b><br>'+ qsos[qso]['gridsquare'])
+                    .setContent('<b>' + qsos[qso]['call'] + '</b><br>'+ qsos[qso]['gridsquare'] + '<br><b>' + qsos[qso]['distance']+' km</b>')
                     .openOn(map);
             });
             })(qso);

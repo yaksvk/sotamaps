@@ -1,5 +1,39 @@
 #!/usr/bin/env python3
+
+l1 = 'abcdefghijklmnopqr'
+l2 = '0123456789'
+l3 = 'abcdefghijklmnopqrstuvx'
+l2 = '0123456789'
+
+def small_square_distance(sq1, sq2):
+    # calculate small grid square distance for contest
+    sq1 = sq1.lower() 
+    sq2 = sq2.lower() 
+
+    if len(sq1) < 6 or len(sq2) < 6:
+        return -1
+
+    x1 = (l1.index(sq1[0]) + 1)*10 + int(sq1[2:4])//10 + 1
+    x2 = (l1.index(sq2[0]) + 1)*10 + int(sq2[2:4])//10 + 1
+
+    y1 = (l1.index(sq1[1]) + 1)*10 + int(sq1[2:4]) % 10 + 1
+    y2 = (l1.index(sq2[1]) + 1)*10 + int(sq2[2:4]) % 10 + 1
+
+    x_max = len(l1)*len(l2)
+    y_max = len(l1)*len(l2)
+
+    dist_x_direct = abs(x1 - x2)
+    dist_x_indirect = abs((x_max - x1) - (x_max - x2))
+    dist_x = min(dist_x_direct, dist_x_indirect)
+
+    dist_y_direct = abs(y1 - y2)
+    dist_y_indirect = abs((y_max - y1) - (y_max - y2))
+    dist_y = min(dist_y_direct, dist_y_indirect)
+
+    return max(dist_x, dist_y)
+
 def gridsquare2latlng(gridsquare):
+    # convert gridsquares to lat and long
     from_lat, from_lng, stop_lat, stop_lng = 0,0,0,0
 
     ONE = gridsquare[0:1]

@@ -34,7 +34,7 @@ def uploaded_adif(filename):
     )
     
     # create json data for the map
-    web = [{'call': qso.call, 'from': log.latlng, 'to': qso.latlng, 'gridsquare': qso.gridsquare} for qso in log.qsos]
+    web = [{'call': qso.call, 'from': log.latlng, 'to': qso.latlng, 'gridsquare': qso.gridsquare, 'distance': qso.distance} for qso in log.qsos]
 
     return render_template(
         'vhf_render.html', 

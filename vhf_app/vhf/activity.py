@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 import sys
+import geopy.distance
+
 from .adif import Adif
 from .gridsquare import gridsquare2latlng
+
 
 class Qso:
     def __init__(self, adif_vars):
@@ -30,6 +33,11 @@ class Log:
         
         self.latlng = gridsquare2latlng(self.gridsquare)
 
+        # calculate distances
+        for qso in self.qsos:
+            qso.distance = round(geopy.distance.distance(self.latlng, qso.latlng).km)
+
+
     def init_from_adif(self, adif_file):
         adif = Adif(from_file=adif_file)
         adif.guess_gridsquares()
@@ -39,6 +47,7 @@ class Log:
             
             if hasattr(qso, 'gridsquare') and qso.gridsquare:
                 qso.latlng = gridsquare2latlng(qso.gridsquare)
+                
 
             self.qsos.append(qso)
 
