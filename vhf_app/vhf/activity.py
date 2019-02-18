@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys
 from .adif import Adif
+from .gridsquare import gridsquare2latlng
 
 class Qso:
     def __init__(self, adif_vars):
@@ -26,6 +27,8 @@ class Log:
         # for it in the adif 
         if gridsquare is not None:
             self.gridsquare = gridsquare
+        
+        self.latlng = gridsquare2latlng(self.gridsquare)
 
     def init_from_adif(self, adif_file):
         adif = Adif(from_file=adif_file)
@@ -33,6 +36,10 @@ class Log:
 
         for item in adif.qsos:
             qso = Qso(item['adif_vars'])
+            
+            if hasattr(qso, 'gridsquare') and qso.gridsquare:
+                qso.latlng = gridsquare2latlng(qso.gridsquare)
+
             self.qsos.append(qso)
 
         

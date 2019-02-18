@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-def gridquare2latlng(gridsquare):
+def gridsquare2latlng(gridsquare):
     from_lat, from_lng, stop_lat, stop_lng = 0,0,0,0
 
     ONE = gridsquare[0:1]
@@ -34,4 +34,4 @@ def gridquare2latlng(gridsquare):
     return (center_lat, center_lng)
 
 if __name__ == '__main__':
-    print(gridquare2latlng('JN88oj'))
+    print(gridsquare2latlng('JN88oj'))

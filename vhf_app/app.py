@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import json
  
 from flask import Flask, request, redirect, url_for, render_template, jsonify
 from werkzeug.utils import secure_filename
@@ -31,8 +32,16 @@ def uploaded_adif(filename):
         request.values.get('gridsquare', None), 
         os.path.join(app.config['UPLOAD_FOLDER'], filename)
     )
+    
+    # create json data for the map
+    web = [{'call': qso.call, 'from': log.latlng, 'to': qso.latlng} for qso in log.qsos]
 
-    return render_template('vhf_render.html', log=log)
+    return render_template(
+        'vhf_render.html', 
+        log=log, 
+        web=web,
+        map_center=json.dumps(log.latlng)
+    )
 
 if __name__ == '__main__':
     app.run(debug=True)

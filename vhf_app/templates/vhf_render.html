@@ -1,34 +1,82 @@
-{% extends "index.html" %}
-{% block body %}
-<p>Lokátor: <strong>{{ log.gridsquare }}</strong></p>
-<table>
-<thead>
-<tr>
-    <td>#</td>
-    <td>CALL</td>
-    <td>BAND</td>
-    <td>MY GRID SQUARE</td>
-    <td>THEIR GRID SQUARE</td>
-    <td>DISTANCE</td>
-    <td>SQUARE DISTANCE</td>
-    <td>POINTS</td>
-</tr>
-</thead>
-<tbody>
-{% for qso in log.qsos %}
-<tr>
-    <td>{{ loop.index }}</td>
-    <td>{{ qso.call }}</td>
-    <td>{{ qso.band }}</td>
-    <td>{{ qso.my_gridsquare }}</td>
-    <td>{{ qso.gridsquare }}</td>
-    <td>{{ qso.distance }}{% if qso.distance %} km{% endif %}</td>
-    <td>{{ qso.point_distance }}</td>
-    <td>{{ qso.points }}</td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>VKV Prevádzkový aktív</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+		#map {
+            height: 100%;
+		}
+    .triangle{
+    fill: #00c;
+    stroke: #000;
+    stroke-width: 1;
+
+    .triangle-container{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+	</style>
+
+</head>
+<body>
+
+<div id='map'></div>
+
+<script>
+    $(document).ready(function(){
+        var qsos = {{ web|tojson }};
+
+	    var map = L.map('map').setView({{ map_center }}, 13);
+
+    	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	    	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStr`:tabe .eetMap</a> contributors'
+    	}).addTo(map);
+    
+        for (var qso in qsos) {
+            console.log([qsos[qso]['from'][0], qsos[qso]['from'][1]]);
+            var polyline = L.polyline([
+                qsos[qso]['from'],
+                qsos[qso]['to'],
+                ],
+                {
+                    color: '#000',
+                    weight: 1,
+                    opacity: .5,
+                    lineJoin: 'round'
+                }
+                ).addTo(map);
+
+          circle = L.circle(qsos[qso]['to'], 3, {
+          color: '#000',
+          fillColor: '#000',
+          fillOpacity: 0.2
+            }).addTo(map);
+        }
 
 
-{% endblock %}
+    });
+</script>
+
+
+
+</body>
+</html>
