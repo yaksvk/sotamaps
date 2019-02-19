@@ -16,6 +16,7 @@ class Qso:
 class Log:
     def __init__(self, gridsquare=None, adif_file=None):
         self.qsos = []
+        self.scores = {}
 
         if adif_file is not None:
             self.init_from_adif(adif_file)
@@ -36,6 +37,8 @@ class Log:
         # calculate distances
         for qso in self.qsos:
             qso.distance = round(geopy.distance.distance(self.latlng, qso.latlng).km)
+        
+        self.compute_scores()
 
 
     def init_from_adif(self, adif_file):
@@ -86,7 +89,8 @@ class Log:
             'multiplier_count' : len(orig_large_gridsquares.keys()),
             'score' : score,
             'score_multiplied':score*len(orig_large_gridsquares.keys()),
-            'max_gridsquare' : locator_max
+            'max_gridsquare' : locator_max,
+            'multipliers' : orig_large_gridsquares.keys()
         }
         return self.scores
 
