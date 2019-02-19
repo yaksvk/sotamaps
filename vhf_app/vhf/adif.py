@@ -32,22 +32,6 @@ class Adif:
             if 'CALL' in adif_vars:
                 self.qsos.append({'adif_vars': adif_vars})
 
-    # POSTPROCESSING FUNCTIONS
-    def guess_gridsquares(self):
-        for qso in self.qsos:
-            gridsquare = qso['adif_vars'].get('GRIDSQUARE', '')
-            my_gridsquare = qso['adif_vars'].get('MY_GRIDSQUARE', '')
-
-            if Adif.is_gridsquare(gridsquare):
-                gridsquare = qso['adif_vars'].get('SRX_STRING', '')
-
-            if Adif.is_gridsquare(my_gridsquare):
-                my_gridsquare = qso['adif_vars'].get('STX_STRING', '')
-
-            if Adif.is_gridsquare(gridsquare):
-                qso['adif_vars']['GRIDSQUARE'] = gridsquare
-            if Adif.is_gridsquare(my_gridsquare):
-                qso['adif_vars']['MY_GRIDSQUARE'] = my_gridsquare
 
     @staticmethod
     def is_gridsquare(locator):
@@ -60,7 +44,6 @@ class Adif:
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         adif = Adif(from_file=sys.argv[1])
-        adif.guess_gridsquares()
 
         for qso in adif.qsos:
             print(qso['adif_vars'].get('CALL'))

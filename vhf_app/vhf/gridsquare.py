@@ -1,9 +1,19 @@
 #!/usr/bin/env python3
+"""
+Module that contains functions dealing with Maidenhead grid squares
+"""
+
+import re
 
 l1 = 'abcdefghijklmnopqr'
 l2 = '0123456789'
 l3 = 'abcdefghijklmnopqrstuvx'
 l2 = '0123456789'
+
+def is_gridsquare(text):
+    if re.match('^[A-R]{2}\d{2}[a-x]{2}', text, re.IGNORECASE):
+        return True
+    return False
 
 def small_square_distance(sq1, sq2):
     # calculate small grid square distance for contest

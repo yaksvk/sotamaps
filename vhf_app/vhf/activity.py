@@ -3,7 +3,7 @@ import sys
 import geopy.distance
 
 from .adif import Adif
-from .gridsquare import gridsquare2latlng, small_square_distance
+from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare
 
 
 class Qso:
@@ -11,7 +11,13 @@ class Qso:
         # init qso object from adif_vars (dictionary)
         for key, value in adif_vars.items():
             setattr(self, key.lower(), value)
-            
+
+        if is_gridsquare(adif_vars.get('SRX_STRING', '')):
+            self.gridsquare = adif_vars.get('SRX_STRING', '')
+
+        # process ADIF vars and set gridsquares, etc.
+        if hasattr(self, 'gridsquare') and self.gridsquare:
+            self.latlng = gridsquare2latlng(self.gridsquare)
 
 class Log:
     @staticmethod
@@ -48,14 +54,9 @@ class Log:
 
     def init_from_adif(self, adif_file):
         adif = Adif(from_file=adif_file)
-        adif.guess_gridsquares()
 
         for item in adif.qsos:
             qso = Qso(item['adif_vars'])
-            
-            if hasattr(qso, 'gridsquare') and qso.gridsquare:
-                qso.latlng = gridsquare2latlng(qso.gridsquare)
-
             self.qsos.append(qso)
 
         self.qsos.sort(key = lambda x: (x.qso_date, x.time_on))
