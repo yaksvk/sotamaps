@@ -63,6 +63,8 @@
 <tr><th>Výsledok (body x násobiče)</th><td>{{ scores.score_multiplied }}</td></tr>
 </table>
 
+<h2>Mapa</h2>
+
 <div id='map'></div>
 
 <h2>Spojenia</h2>
@@ -83,7 +85,7 @@
 <tr>
     <td>{{ loop.index }}</td>
     <td>{{ qso.qso_date|date_filter }} {{ qso.time_on|time_filter }}</td>
-    <td>{{ qso.call }}</td>
+    <td><a target="_blank" href="https://www.qrz.com/db/{{ qso.call }}">{{ qso.call }}</a></td>
     <td>{{ qso.band }}</td>
     <td>{{ qso.gridsquare }}</td>
     <td>{{ qso.distance }}{% if qso.distance %} km{% endif %}</td>
