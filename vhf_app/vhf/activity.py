@@ -52,7 +52,7 @@ class Log:
 
         self.qsos.sort(key = lambda x: (x.qso_date, x.time_on))
 
-    def scores(self):
+    def compute_scores(self):
         # return all the scores
         def points(point_distance):
             return 2 + point_distance
@@ -81,14 +81,14 @@ class Log:
                 max_dist = dist
                 locator_max = qth
 
-        scores = {
+        self.scores = {
             'original_qso_count' : len(orig_qsos.values()),
             'multiplier_count' : len(orig_large_gridsquares.keys()),
             'score' : score,
             'score_multiplied':score*len(orig_large_gridsquares.keys()),
             'max_gridsquare' : locator_max
         }
-        return scores
+        return self.scores
 
         
 if __name__ == '__main__':

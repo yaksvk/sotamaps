@@ -41,7 +41,7 @@ def uploaded_adif(filename):
         log=log, 
         web=web,
         me={'map_center': log.latlng, 'gridsquare': log.gridsquare},
-        scores=log.scores()
+        scores=log.scores
     )
 
 # formatters
