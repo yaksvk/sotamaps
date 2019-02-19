@@ -38,10 +38,10 @@ class Adif:
             gridsquare = qso['adif_vars'].get('GRIDSQUARE', '')
             my_gridsquare = qso['adif_vars'].get('MY_GRIDSQUARE', '')
 
-            if not Adif.is_gridsquare(gridsquare):
+            if Adif.is_gridsquare(gridsquare):
                 gridsquare = qso['adif_vars'].get('SRX_STRING', '')
 
-            if not Adif.is_gridsquare(my_gridsquare):
+            if Adif.is_gridsquare(my_gridsquare):
                 my_gridsquare = qso['adif_vars'].get('STX_STRING', '')
 
             if Adif.is_gridsquare(gridsquare):
