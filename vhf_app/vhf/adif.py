@@ -19,8 +19,8 @@ class Adif:
 
     def init_from_string(self, adif_string):
         # ignore header
-        data = re.sub("^.*<EOH>", "", adif_string)
-        items = [ item.strip() for item in data.split("<EOR>") ]
+        data = re.sub("^.*<EOH>", "", adif_string, flags=re.IGNORECASE)
+        items = [ item.strip() for item in re.split("<EOR>", data, flags=re.IGNORECASE) ]
 
         # process QSOs
         for item in items:
@@ -31,14 +31,6 @@ class Adif:
             
             if 'CALL' in adif_vars:
                 self.qsos.append({'adif_vars': adif_vars})
-
-
-    @staticmethod
-    def is_gridsquare(locator):
-        if re.match('^[A-R]{2}\d{2}[a-x]{2}', locator, re.IGNORECASE):
-            return True
-        return False
-
 
 
 if __name__ == '__main__':
