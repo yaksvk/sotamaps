@@ -14,6 +14,10 @@ class Qso:
             
 
 class Log:
+    @staticmethod
+    def points(point_distance):
+        return 2 + point_distance
+
     def __init__(self, gridsquare=None, adif_file=None):
         self.qsos = []
         self.scores = {}
@@ -37,6 +41,7 @@ class Log:
         # calculate distances
         for qso in self.qsos:
             qso.distance = round(geopy.distance.distance(self.latlng, qso.latlng).km)
+            qso.points = self.points(small_square_distance(self.gridsquare, qso.gridsquare))
         
         self.compute_scores()
 
@@ -55,10 +60,9 @@ class Log:
 
         self.qsos.sort(key = lambda x: (x.qso_date, x.time_on))
 
+
     def compute_scores(self):
         # return all the scores
-        def points(point_distance):
-            return 2 + point_distance
 
         orig_qsos = {}
         orig_gridsquares = {}
@@ -79,7 +83,7 @@ class Log:
 
         for qth in orig_qsos.values():
             dist = small_square_distance(self.gridsquare, qth)
-            score += points(dist)
+            score += self.points(dist)
             if dist > max_dist:
                 max_dist = dist
                 locator_max = qth
@@ -88,7 +92,7 @@ class Log:
             'original_qso_count' : len(orig_qsos.values()),
             'multiplier_count' : len(orig_large_gridsquares.keys()),
             'score' : score,
-            'score_multiplied':score*len(orig_large_gridsquares.keys()),
+            'score_multiplied': score*len(orig_large_gridsquares.keys()),
             'max_gridsquare' : locator_max,
             'multipliers' : orig_large_gridsquares.keys()
         }
