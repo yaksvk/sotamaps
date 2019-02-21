@@ -8,6 +8,9 @@ from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare
 
 class Qso:
     def __init__(self, adif_vars):
+        self.distance = 0
+        self.top_distance = False
+
         # init qso object from adif_vars (dictionary)
         for key, value in adif_vars.items():
             setattr(self, key.lower(), value)
@@ -48,6 +51,13 @@ class Log:
         for qso in self.qsos:
             qso.distance = round(geopy.distance.distance(self.latlng, qso.latlng).km)
             qso.points = self.points(small_square_distance(self.gridsquare, qso.gridsquare))
+       
+
+        # pick qsos with max 3 distances
+        top_qsos = sorted(self.qsos,key=lambda x: -x.distance)[:3]
+        for qso in self.qsos:
+            if qso in top_qsos:
+                qso.top_distance = True
         
         self.compute_scores()
 
