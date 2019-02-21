@@ -50,10 +50,22 @@
       text-align: left;
     }
 
+    /* top qsos */
     tr.top > td:first-of-type {
         color: #fff;
         background-color: #ff5800;
     }
+
+    /* map marker fill */
+    .marker circle {
+        fill: #aaa;
+    }
+
+    .marker_top circle {
+        fill: #ff5800;
+    }
+
+
 
   </style>
 
@@ -173,11 +185,11 @@
     /* end fullscreen plugin */
 
     var myIcon = L.divIcon({
-        className: 'triangle-container', 
-        html: '<div class="triangle-container"><svg height="20" width="20"><circle cx="5" cy="5" r="5" stoke-width="1" stroke="black" fill="#aaaaaa" /></svg></div>'
+        className: 'marker', 
+        html: '<div class="triangle-container"><svg height="20" width="20"><circle cx="5" cy="5" r="5" stoke-width="1" stroke="black" /></svg></div>'
     });
     var myIconTop = L.divIcon({
-        className: 'triangle-container', 
+        className: 'marker_top', 
         html: '<div class="triangle-container"><svg height="20" width="20"><circle cx="5" cy="5" r="5" stoke-width="1" stroke="black" fill="#ff5800" /></svg></div>'
     });
 
