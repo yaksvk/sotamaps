@@ -50,6 +50,11 @@
       text-align: left;
     }
 
+    tr.top > td:first-of-type {
+        color: #fff;
+        background-color: #ff5800;
+    }
+
   </style>
 
 </head>
@@ -64,7 +69,7 @@
 </table>
 
 <h2>Mapa</h2>
-
+<p>Prvé 3 spojenia na najväčšiu vzdialenosť sú vyznačené červenou.</p>
 <div id='map'></div>
 
 <h2>Spojenia</h2>
@@ -83,7 +88,7 @@
 </thead>
 <tbody>
 {% for qso in log.qsos %}
-<tr>
+<tr{% if qso.top_distance %} class="top"{% endif %}>
     <td>{{ loop.index }}</td>
     <td>{{ qso.qso_date|date_filter }} {{ qso.time_on|time_filter }}</td>
     <td><a target="_blank" href="https://www.qrz.com/db/{{ qso.call }}">{{ qso.call }}</a></td>
@@ -118,7 +123,11 @@
     $(document).ready(function(){
 
     var qsos = {{ web|tojson }};
-    // highlight longest n
+
+    // Sorting not required any more, max. 3 distances are
+    // determined in the back-end.
+
+    /*
     function compare(a, b) {
         if (a.distance < b.distance) {
             return -1;
@@ -129,6 +138,8 @@
         return 0;
     }
     qsos.sort(compare).reverse();
+    */
+
     // let's determine map size according to max distance
     var zoom = 10;
     
@@ -167,23 +178,18 @@
     });
     var myIconTop = L.divIcon({
         className: 'triangle-container', 
-        html: '<div class="triangle-container"><svg height="20" width="20"><circle cx="5" cy="5" r="5" stoke-width="1" stroke="black" fill="#ff0000" /></svg></div>'
+        html: '<div class="triangle-container"><svg height="20" width="20"><circle cx="5" cy="5" r="5" stoke-width="1" stroke="black" fill="#ff5800" /></svg></div>'
     });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    // qsos are sorted now
-    var n = 0;
     for (var qso in qsos) {
-        n = n + 1;
-
         (function(qso){
 
-            //console.log([qsos[qso]['from'][0], qsos[qso]['from'][1]]);
             var icon = myIcon;
-            if (n <= 3) { icon = myIconTop;}
+            if (qsos[qso]['top']) { icon = myIconTop;}
 
             var polyline = L.polyline(
                 [
