@@ -10,6 +10,7 @@ class Qso:
     def __init__(self, adif_vars):
         self.distance = 0
         self.top_distance = False
+        self.gridsquare = None
 
         # init qso object from adif_vars (dictionary)
         for key, value in adif_vars.items():
@@ -17,6 +18,10 @@ class Qso:
 
         if is_gridsquare(adif_vars.get('SRX_STRING', '')):
             self.gridsquare = adif_vars.get('SRX_STRING', '')
+
+        # if we still don't have the gridsquare, try to guess it from qth
+        if is_gridsquare(self.qth) and not self.gridsquare:
+            self.gridsquare = self.qth
 
         # process ADIF vars and set gridsquares, etc.
         if hasattr(self, 'gridsquare') and self.gridsquare:
