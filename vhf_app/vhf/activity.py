@@ -20,8 +20,9 @@ class Qso:
             self.gridsquare = adif_vars.get('SRX_STRING', '')
 
         # if we still don't have the gridsquare, try to guess it from qth
-        if is_gridsquare(self.qth) and not self.gridsquare:
-            self.gridsquare = self.qth
+        if  not self.gridsquare and hasattr(self, 'qth'):
+            if is_gridsquare(self.qth):
+                self.gridsquare = self.qth
 
         # process ADIF vars and set gridsquares, etc.
         if hasattr(self, 'gridsquare') and self.gridsquare:
