@@ -36,6 +36,8 @@ class Log:
     def __init__(self, gridsquare=None, adif_file=None):
         self.qsos = []
         self.scores = {}
+        self.gridsquare = None
+        self.latlng = None
 
         if adif_file is not None:
             self.init_from_adif(adif_file)
@@ -50,8 +52,9 @@ class Log:
         # for it in the adif 
         if gridsquare is not None:
             self.gridsquare = gridsquare
-        
-        self.latlng = gridsquare2latlng(self.gridsquare)
+       
+        if self.gridsquare:
+            self.latlng = gridsquare2latlng(self.gridsquare)
 
         # calculate distances
         for qso in self.qsos:

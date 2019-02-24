@@ -5,7 +5,11 @@ import unittest
 from vhf.activity import Qso, Log
 
 class TestActivity(unittest.TestCase):
-    pass
+    def test_basic_log(self):
+        a = Log()
+        self.assertIsInstance(a, Log)
+    def test_adif_log(self):
+        pass
 
 
 
