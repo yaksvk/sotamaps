@@ -11,6 +11,7 @@ class TestGridsquare(unittest.TestCase):
         self.assertFalse(is_gridsquare('xxx'))
 
     def test_small_square_distance(self):
+        self.assertEqual(small_square_distance('JN88nc','JN88nc'), 0)
         self.assertEqual(small_square_distance('JN88nc','JN88aa'), 0)
         self.assertEqual(small_square_distance('JO42bm','JO51fl'), 1)
         self.assertEqual(small_square_distance('JN88uu','JO60LJ'), 2)
