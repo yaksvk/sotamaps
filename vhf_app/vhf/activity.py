@@ -3,7 +3,7 @@ import sys
 import geopy.distance
 
 from .adif import Adif
-from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare
+from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare, extract_gridsquare
 
 
 class Qso:
@@ -23,6 +23,14 @@ class Qso:
         if  not self.gridsquare and hasattr(self, 'qth'):
             if is_gridsquare(self.qth):
                 self.gridsquare = self.qth
+
+            # if we still have nothing, try to extract gridsquare from QTH
+            else:
+                guess = extract_gridsquare(self.qth)
+                if guess is not None:
+                    self.gridsquare = guess
+
+        
 
         # process ADIF vars and set gridsquares, etc.
         if hasattr(self, 'gridsquare') and self.gridsquare:

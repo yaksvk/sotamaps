@@ -9,11 +9,20 @@ l1 = 'abcdefghijklmnopqr'
 l2 = '0123456789'
 l3 = 'abcdefghijklmnopqrstuvx'
 l2 = '0123456789'
+gridsquare_reg = '^[A-R]{2}\d{2}[a-x]{2}$'
+gridsquare_subreg = '([A-R]{2}\d{2}[a-x]{2})'
 
 def is_gridsquare(text):
-    if re.match('^[A-R]{2}\d{2}[a-x]{2}', text, re.IGNORECASE):
+    if re.match(gridsquare_reg, text, re.IGNORECASE):
         return True
     return False
+
+def extract_gridsquare(text):
+    # find a gridsquare as a substring of a string
+    match = re.search(gridsquare_subreg, text, re.DOTALL | re.IGNORECASE)
+    if match:
+        return match.groups()[0]
+    return None
 
 def small_square_distance(sq1, sq2):
     # calculate small grid square distance for contest
