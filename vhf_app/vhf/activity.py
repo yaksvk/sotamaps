@@ -3,8 +3,7 @@ import sys
 import geopy.distance
 
 from .adif import Adif
-from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare, extract_gridsquare
-
+from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare, extract_gridsquare, dist_ham
 
 class Qso:
     def __init__(self, adif_vars):
@@ -66,7 +65,7 @@ class Log:
 
         # calculate distances
         for qso in self.qsos:
-            qso.distance = round(geopy.distance.distance(self.latlng, qso.latlng).km)
+            qso.distance = dist_ham(self.latlng, qso.latlng)
             qso.points = self.points(small_square_distance(self.gridsquare, qso.gridsquare))
        
 

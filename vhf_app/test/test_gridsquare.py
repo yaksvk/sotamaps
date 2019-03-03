@@ -2,7 +2,7 @@
 
 import unittest
 
-from vhf.gridsquare import is_gridsquare, small_square_distance, gridsquare2latlng, extract_gridsquare
+from vhf.gridsquare import is_gridsquare, small_square_distance, gridsquare2latlng, extract_gridsquare, dist_haversine, dist_ham
 
 class TestGridsquare(unittest.TestCase):
 
@@ -28,6 +28,39 @@ class TestGridsquare(unittest.TestCase):
 
     def test_gridsquare2latlng(self):
         self.assertEqual(gridsquare2latlng('JN88nc'),(48.10416666666667, 17.125))
+
+    def test_dist_ham_polymorphism(self):
+        # test that the function can work with latlng tuples as good as with gridsquares
+        dist1 = dist_ham((48.354167, 19.708333), (48.104167, 17.125))
+        dist2 = dist_ham('JN98ui','JN88nc')
+        self.assertEqual(dist1, dist2)
+
+    def test_distance_subregional(self):
+        cases = (        
+            ('JN87WV', 'JN97QO', 117),
+            ('JN87WV', 'JN64DJ', 580),
+            ('JN87WV', 'JN66WB', 366),
+            ('JN87WV', 'JN98AH', 48),
+            ('JN87WV', 'JO82CK', 519),
+            ('JN87WV', 'JN45CD', 800),
+            ('JN98UI', 'JN97WM', 94),
+            ('JN98UI', 'JO91QF', 321),
+            ('JN98UI', 'JN98PP', 45),
+            ('JN98UI', 'JN98WD', 27),
+            ('JN88NG', 'JN95GO', 316),
+            ('JN88NG', 'JN96LX', 199),
+            ('JN88NG', 'JN49RI', 575),
+            ('JN88NG', 'KN13OT', 683),
+            ('JN88NG', 'JO61WN', 434)
+        )
+        for vals in cases:
+            with self.subTest(vals):
+                print("ham distance between %s and %s computed: %f vs %f" 
+                    % (vals[0], vals[1], dist_ham(vals[0],vals[1]),vals[2]))
+
+                # TODO This will still fail with some results - I need to figure out why.
+                #
+                #self.assertEqual(dist_ham(vals[0],vals[1]),vals[2])
 
     def test_distance_k7fry(self):
         cases = (        

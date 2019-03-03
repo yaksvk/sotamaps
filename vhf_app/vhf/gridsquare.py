@@ -3,6 +3,7 @@
 Module that contains functions dealing with Maidenhead grid squares
 """
 
+import math
 import re
 
 l1 = 'abcdefghijklmnopqr'
@@ -11,6 +12,7 @@ l3 = 'abcdefghijklmnopqrstuvx'
 l2 = '0123456789'
 gridsquare_reg = '^[A-R]{2}\d{2}[a-x]{2}$'
 gridsquare_subreg = '([A-R]{2}\d{2}[a-x]{2})'
+R = 6371e3 # earth radius
 
 def is_gridsquare(text):
     if re.match(gridsquare_reg, text, re.IGNORECASE):
@@ -85,6 +87,38 @@ def gridsquare2latlng(gridsquare):
     
     #return (from_lat, from_lng, to_lat, to_lng)
     return (center_lat, center_lng)
+
+def dist_haversine(param1, param2):
+    # standard implementation of haversine algorithm, guess operands 
+    # so that we can work with both gridsquares and latlng tuples
+    if type(param1) is tuple:
+        (lat1, lng1) = param1
+    else:
+        (lat1, lng1) = gridsquare2latlng(param1)
+
+    if type(param2) is tuple:
+        (lat2, lng2) = param2
+    else:
+        (lat2, lng2) = gridsquare2latlng(param2)
+
+    (phi1, phi2) = (math.radians(lat1), math.radians(lat2))
+
+    delta_phi = math.radians(lat2-lat1)
+    delta_lambda = math.radians(lng2-lng1)
+
+    a = (math.sin(delta_phi/2))**2 + math.cos(phi1) * math.cos(phi2) * (math.sin(delta_lambda/2))**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
+
+    # distance is in meters so return it in km
+    distance = R * c / 1000;
+
+    return distance
+
+def dist_ham(*args):
+    # just use haversine with some "bulgarian" constants
+
+    distance = dist_haversine(*args)
+    return int(distance) + 1
 
 if __name__ == '__main__':
     print(gridsquare2latlng('JN88oj'))
