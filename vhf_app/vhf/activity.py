@@ -11,6 +11,8 @@ class Qso:
         self.distance = 0
         self.top_distance = False
         self.gridsquare = None
+        self.stx = None
+        self.srx = None
 
         # init qso object from adif_vars (dictionary)
         for key, value in adif_vars.items():
@@ -29,8 +31,6 @@ class Qso:
                 guess = extract_gridsquare(self.qth)
                 if guess is not None:
                     self.gridsquare = guess
-
-        
 
         # process ADIF vars and set gridsquares, etc.
         if hasattr(self, 'gridsquare') and self.gridsquare:
