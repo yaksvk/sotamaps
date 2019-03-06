@@ -3,7 +3,7 @@ import sys
 import geopy.distance
 
 from .adif import Adif
-from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare, extract_gridsquare, dist_ham
+from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare, extract_gridsquare, dist_ham, gridsquare2latlngedges
 
 class Qso:
     def __init__(self, adif_vars):
@@ -121,7 +121,8 @@ class Log:
             'score' : score,
             'score_multiplied': score*len(orig_large_gridsquares.keys()),
             'max_gridsquare' : locator_max,
-            'multipliers' : orig_large_gridsquares.keys()
+            'multipliers' : orig_large_gridsquares.keys(), 
+            'paint_squares' : list(map(lambda x: gridsquare2latlngedges(x), orig_large_gridsquares.keys())) 
         }
         return self.scores
 

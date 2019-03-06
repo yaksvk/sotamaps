@@ -83,7 +83,7 @@
 <h2>Mapa</h2>
 <p>Prvé 3 spojenia na najväčšiu vzdialenosť sú vyznačené červenou.</p>
 <div id='map'></div>
-
+<div><p><label>Násobiče:</label><input type="checkbox" id="switch_multipliers" name="switch_multipliers"</p></div>
 <h2>Spojenia</h2>
 
 <table id="qsos">
@@ -145,7 +145,10 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
 <script>
     $(document).ready(function(){
 
+
+
     var qsos = {{ web|tojson }};
+    var paint_squares = {{ scores.paint_squares|tojson }};
 
     // Sorting not required any more, max. 3 distances are
     // determined in the back-end.
@@ -207,6 +210,28 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+
+    /* draw locators */
+
+    var multipliers = [];
+    for (var square in paint_squares) {
+        multipliers.push(L.rectangle(paint_squares[square], {color: "#f00", weight: 1}));
+    }
+    var multipliers_layer = L.layerGroup(multipliers);
+    
+    window.switchMultipliers = function(onoff) {
+        if (onoff) {
+        } else {
+        }
+    }
+
+    $("#switch_multipliers").change(function() {
+        if(this.checked) {
+            map.addLayer(multipliers_layer);
+        } else {
+            map.removeLayer(multipliers_layer);
+        }
+    });
 
     for (var qso in qsos) {
         (function(qso){
