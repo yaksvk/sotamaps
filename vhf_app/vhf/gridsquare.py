@@ -54,6 +54,14 @@ def small_square_distance(sq1, sq2):
     return max(dist_x, dist_y)
 
 def gridsquare2latlng(gridsquare):
+    # get gridsquare center latlng
+    ((from_lat, from_lng),(to_lat, to_lng)) = gridsquare2latlngedges(gridsquare)
+    center_lng = from_lng + (to_lng - from_lng)/2
+    center_lat = from_lat + (to_lat - from_lat)/2
+
+    return (center_lat, center_lng)
+
+def gridsquare2latlngedges(gridsquare):
     # convert gridsquares to lat and long
     from_lat, from_lng, stop_lat, stop_lng = 0,0,0,0
 
@@ -67,8 +75,14 @@ def gridsquare2latlng(gridsquare):
     # lon
     Field = ((ord(ONE.lower()) - 97.0) * 20.0) 
     Square = int(THREE) * 2
-    SubSquareLow = (ord(FIVE.lower()) - 97.0) * (2.0/24.0)
-    SubSquareHigh = SubSquareLow + (2.0/24.0)
+
+    if FIVE:
+        SubSquareLow = (ord(FIVE.lower()) - 97.0) * (2.0/24.0)
+        SubSquareHigh = SubSquareLow + (2.0/24.0)
+    else:
+        SubSquareLow = 0
+        SubSquareHigh = 2.0
+
 
     from_lng = Field + Square + SubSquareLow - 180
     to_lng = Field + Square + SubSquareHigh - 180
@@ -76,17 +90,18 @@ def gridsquare2latlng(gridsquare):
     # lat
     Field = ((ord(TWO.lower()) - 97.0) * 10.0) 
     Square = int(FOUR)
-    SubSquareLow = (ord(SIX.lower()) - 97) * (1.0/24.0)
-    SubSquareHigh = SubSquareLow + (1.0/24.0)
+
+    if SIX:
+        SubSquareLow = (ord(SIX.lower()) - 97) * (1.0/24.0)
+        SubSquareHigh = SubSquareLow + (1.0/24.0)
+    else:
+        SubSquareLow = 0
+        SubSquareHigh = 1.0
 
     from_lat = Field + Square + SubSquareLow - 90.0
     to_lat = Field + Square + SubSquareHigh - 90.0
-
-    center_lng = from_lng + (to_lng - from_lng)/2
-    center_lat = from_lat + (to_lat - from_lat)/2
     
-    #return (from_lat, from_lng, to_lat, to_lng)
-    return (center_lat, center_lng)
+    return ((from_lat, from_lng), (to_lat, to_lng))
 
 def dist_haversine(param1, param2):
     # standard implementation of haversine algorithm, guess operands 

@@ -2,7 +2,7 @@
 
 import unittest
 
-from vhf.gridsquare import is_gridsquare, small_square_distance, gridsquare2latlng, extract_gridsquare, dist_haversine, dist_ham
+from vhf.gridsquare import is_gridsquare, small_square_distance, gridsquare2latlng, extract_gridsquare, dist_haversine, dist_ham, gridsquare2latlngedges
 
 class TestGridsquare(unittest.TestCase):
 
@@ -35,6 +35,7 @@ class TestGridsquare(unittest.TestCase):
         dist2 = dist_ham('JN98ui','JN88nc')
         self.assertEqual(dist1, dist2)
 
+    # TODO
     def test_distance_subregional(self):
         cases = (        
             ('JN87WV', 'JN97QO', 117),
@@ -62,20 +63,9 @@ class TestGridsquare(unittest.TestCase):
                 #
                 #self.assertEqual(dist_ham(vals[0],vals[1]),vals[2])
 
-    def test_distance_k7fry(self):
-        cases = (        
-            ('JN88le','JN98iv',151.166), 
-            ('JN88le','JN98ai',82.386),
-            ('JN88le','JO80il',255.751),
-            ('JN88le','JN88qw',88.953),
-            ('JN88le','JN84gv',367.811)
-        )
-
-        #for vals in cases:
-        #    with self.subTest(vals):
-        #        self.assertEqual(small_square_distance(vals[0], vals[1]), vals[2])
-            
-
+    def test_gridsquare_edges(self):
+        self.assertEqual(gridsquare2latlngedges('JN88nc'),((48.08333333333334, 17.083333333333343), (48.125, 17.166666666666657)))
+        self.assertEqual(gridsquare2latlngedges('JN88'), ((48.0, 16.0), (49.0, 18.0)))
 
 if __name__ == '__main__':
     unittest.main()
