@@ -215,15 +215,9 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
 
     var multipliers = [];
     for (var square in paint_squares) {
-        multipliers.push(L.rectangle(paint_squares[square], {color: "#f00", weight: 1}));
+        multipliers.push(L.rectangle(paint_squares[square], {color: "#f00", weight: 1, fillOpacity: 0.1, opacity: 0.3}));
     }
     var multipliers_layer = L.layerGroup(multipliers);
-    
-    window.switchMultipliers = function(onoff) {
-        if (onoff) {
-        } else {
-        }
-    }
 
     $("#switch_multipliers").change(function() {
         if(this.checked) {
