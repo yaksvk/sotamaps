@@ -45,6 +45,8 @@ class Log:
         self.scores = {}
         self.gridsquare = None
         self.latlng = None
+        self.latlng_edges = None
+        self.latlng_large_edges = None
 
         if adif_file is not None:
             self.init_from_adif(adif_file)
@@ -62,6 +64,10 @@ class Log:
        
         if self.gridsquare:
             self.latlng = gridsquare2latlng(self.gridsquare)
+            self.latlng_edges = gridsquare2latlngedges(self.gridsquare)
+            self.latlng_large_edges = gridsquare2latlngedges(self.gridsquare[0:4])
+
+
 
         # calculate distances
         for qso in self.qsos:
@@ -122,7 +128,8 @@ class Log:
             'score_multiplied': score*len(orig_large_gridsquares.keys()),
             'max_gridsquare' : locator_max,
             'multipliers' : orig_large_gridsquares.keys(), 
-            'paint_squares' : list(map(lambda x: gridsquare2latlngedges(x), orig_large_gridsquares.keys())) 
+            'paint_squares' : list(map(lambda x: gridsquare2latlngedges(x), orig_large_gridsquares.keys())),
+            'max_dist' : max_dist
         }
         return self.scores
 

@@ -83,7 +83,12 @@
 <h2>Mapa</h2>
 <p>Prvé 3 spojenia na najväčšiu vzdialenosť sú vyznačené červenou.</p>
 <div id='map'></div>
-<div><p><label>Násobiče:</label><input type="checkbox" id="switch_multipliers" name="switch_multipliers"</p></div>
+<div>
+    <p>
+        <label>Násobiče:</label><input type="checkbox" id="switch_multipliers" name="switch_multipliers">
+        <label>Lokátory:</label><input type="checkbox" id="switch_gridsquares" name="switch_gridsquares">
+    </p>
+</div>
 <h2>Spojenia</h2>
 
 <table id="qsos">
@@ -149,6 +154,8 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
 
     var qsos = {{ web|tojson }};
     var paint_squares = {{ scores.paint_squares|tojson }};
+    var my_square = {{ log.latlng_large_edges|tojson }};
+    var max_dist = {{ scores.max_dist }};
 
     // Sorting not required any more, max. 3 distances are
     // determined in the back-end.
@@ -224,6 +231,46 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
             map.addLayer(multipliers_layer);
         } else {
             map.removeLayer(multipliers_layer);
+        }
+    });
+
+    /* potentially draw small grid squares */
+    var gridsquares = [];
+    var colors = [
+        '#ffff00',
+        '#80ff00',
+        '#00ff80',
+        '#00ffbf',
+        '#00ffff',
+        '#00bfff',
+        '#0080ff',
+        '#0040ff',
+        '#4000ff',
+        '#8000ff'
+    ];
+
+    for (var d = 1; d <= max_dist; d++) {
+        for (var i = -d; i <= d; i++) {
+            for (var j = -d; j <= d; j++) {
+                if ((Math.abs(j) == d) || (Math.abs(i) == d)) {
+                    gridsquares.push(L.rectangle(
+                        [
+                            [my_square[0][0] + (j*1.0), my_square[0][1] + (i*2.0)], 
+                            [my_square[1][0] + (j*1.0), my_square[1][1] + (i*2.0)]
+                        ], 
+                        {color: colors[d-1], weight: 1, fillOpacity: 0.2, opacity: 0.3}
+                    ));
+                }
+            }
+        }
+    }
+    var gridsquares_layer = L.layerGroup(gridsquares);
+
+    $("#switch_gridsquares").change(function() {
+        if(this.checked) {
+            map.addLayer(gridsquares_layer);
+        } else {
+            map.removeLayer(gridsquares_layer);
         }
     });
 
