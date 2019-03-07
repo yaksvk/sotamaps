@@ -62,7 +62,6 @@ def gridsquare2latlng(gridsquare):
     return (center_lat, center_lng)
 
 def gridsquare2latlngedges(gridsquare):
-    print("converting gridsquare: %s" % gridsquare)
     # Convert gridsquares to lat and long and returns top/left, bottom/right ((lat,lng),(lat,lng))
     # Works for 4-character squares and 6-character squares
 
