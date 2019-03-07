@@ -8,10 +8,12 @@ from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare,
 class Qso:
     def __init__(self, adif_vars):
         self.distance = 0
+        self.points = 0
         self.top_distance = False
         self.gridsquare = None
         self.stx = None
         self.srx = None
+        self.latlng = None
 
         # init qso object from adif_vars (dictionary)
         for key, value in adif_vars.items():
@@ -30,6 +32,10 @@ class Qso:
                 guess = extract_gridsquare(self.qth)
                 if guess is not None:
                     self.gridsquare = guess
+
+        # final check for invalid squares
+        if not is_gridsquare(self.gridsquare):
+            self.gridsquare = None
 
         # process ADIF vars and set gridsquares, etc.
         if hasattr(self, 'gridsquare') and self.gridsquare:
@@ -67,14 +73,14 @@ class Log:
             self.latlng_edges = gridsquare2latlngedges(self.gridsquare)
             self.latlng_large_edges = gridsquare2latlngedges(self.gridsquare[0:4])
 
-
-
         # calculate distances
         for qso in self.qsos:
-            qso.distance = dist_ham(self.latlng, qso.latlng)
-            qso.points = self.points(small_square_distance(self.gridsquare, qso.gridsquare))
-       
+            if self.latlng and qso.latlng:
+                qso.distance = dist_ham(self.latlng, qso.latlng)
 
+            if self.gridsquare and qso.gridsquare:
+                qso.points = self.points(small_square_distance(self.gridsquare, qso.gridsquare))
+       
         # pick qsos with max 3 distances
         top_qsos = sorted(self.qsos,key=lambda x: -x.distance)[:3]
         for qso in self.qsos:
@@ -105,9 +111,10 @@ class Log:
         orig_gridsquares[self.gridsquare] = 1
         
         for qso in self.qsos:
-            orig_qsos[qso.call + qso.band] = qso.gridsquare
-            orig_gridsquares[qso.gridsquare] = orig_gridsquares.get(qso.gridsquare, 0) + 1
-            orig_large_gridsquares[qso.gridsquare[0:4]] = orig_large_gridsquares.get(qso.gridsquare[0:4], 0) + 1
+            if qso.gridsquare:
+                orig_qsos[qso.call + qso.band] = qso.gridsquare
+                orig_gridsquares[qso.gridsquare] = orig_gridsquares.get(qso.gridsquare, 0) + 1
+                orig_large_gridsquares[qso.gridsquare[0:4]] = orig_large_gridsquares.get(qso.gridsquare[0:4], 0) + 1
 
         # compute scores
         score = 0

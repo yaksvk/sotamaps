@@ -14,8 +14,9 @@ gridsquare_subreg = '([A-R]{2}\d{2}[a-x]{2})'
 R = 6371e3 # earth radius
 
 def is_gridsquare(text):
-    if re.match(gridsquare_reg, text, re.IGNORECASE):
-        return True
+    if isinstance(text, str):
+        if re.match(gridsquare_reg, text, re.IGNORECASE):
+            return True
     return False
 
 def extract_gridsquare(text):
@@ -61,6 +62,7 @@ def gridsquare2latlng(gridsquare):
     return (center_lat, center_lng)
 
 def gridsquare2latlngedges(gridsquare):
+    print("converting gridsquare: %s" % gridsquare)
     # Convert gridsquares to lat and long and returns top/left, bottom/right ((lat,lng),(lat,lng))
     # Works for 4-character squares and 6-character squares
 

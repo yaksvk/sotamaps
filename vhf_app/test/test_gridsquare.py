@@ -9,6 +9,8 @@ class TestGridsquare(unittest.TestCase):
     def test_is_gridsquare(self):
         self.assertTrue(is_gridsquare('JN88nc'))
         self.assertFalse(is_gridsquare('xxx'))
+        self.assertFalse(is_gridsquare(''))
+        self.assertFalse(is_gridsquare(None))
         self.assertFalse(is_gridsquare('xJN88ncx'))
         self.assertTrue(is_gridsquare('KN13'))
 
