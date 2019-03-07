@@ -26,7 +26,7 @@ def extract_gridsquare(text):
     return None
 
 def small_square_distance(sq1, sq2):
-    # calculate small grid square distance for contest
+    # calculate small grid square distance for contest (small square = JN88)
     sq1 = sq1.lower() 
     sq2 = sq2.lower() 
 
@@ -53,7 +53,7 @@ def small_square_distance(sq1, sq2):
     return max(dist_x, dist_y)
 
 def gridsquare2latlng(gridsquare):
-    # get gridsquare center latlng
+    # get gridsquare center latlng (returns one (lat,lng))
     ((from_lat, from_lng),(to_lat, to_lng)) = gridsquare2latlngedges(gridsquare)
     center_lng = from_lng + (to_lng - from_lng)/2
     center_lat = from_lat + (to_lat - from_lat)/2
@@ -61,7 +61,9 @@ def gridsquare2latlng(gridsquare):
     return (center_lat, center_lng)
 
 def gridsquare2latlngedges(gridsquare):
-    # convert gridsquares to lat and long
+    # Convert gridsquares to lat and long and returns top/left, bottom/right ((lat,lng),(lat,lng))
+    # Works for 4-character squares and 6-character squares
+
     from_lat, from_lng, stop_lat, stop_lng = 0,0,0,0
 
     ONE = gridsquare[0:1]
@@ -71,7 +73,7 @@ def gridsquare2latlngedges(gridsquare):
     FIVE = gridsquare[4:5]
     SIX = gridsquare[5:6]
    
-    # lon
+    # longitude
     Field = ((ord(ONE.lower()) - 97.0) * 20.0) 
     Square = int(THREE) * 2
 
@@ -86,7 +88,7 @@ def gridsquare2latlngedges(gridsquare):
     from_lng = Field + Square + SubSquareLow - 180
     to_lng = Field + Square + SubSquareHigh - 180
 
-    # lat
+    # latitute
     Field = ((ord(TWO.lower()) - 97.0) * 10.0) 
     Square = int(FOUR)
 
@@ -103,8 +105,9 @@ def gridsquare2latlngedges(gridsquare):
     return ((from_lat, from_lng), (to_lat, to_lng))
 
 def dist_haversine(param1, param2):
-    # standard implementation of haversine algorithm, guess operands 
-    # so that we can work with both gridsquares and latlng tuples
+    # Standard implementation of haversine algorithm, guess operands 
+    # so that we can work with both gridsquares and latlng tuples.
+
     if type(param1) is tuple:
         (lat1, lng1) = param1
     else:
