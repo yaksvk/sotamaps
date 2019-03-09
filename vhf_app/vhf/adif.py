@@ -25,9 +25,10 @@ class Adif:
         # process QSOs
         for item in items:
             # process QSO variables
-            # this is not according to adif specification, but what the hell (TODO)
+            # ADIF = <variable_name:length>value\s - and substring the value according to
+            # length. This should probably be read sequentially, not as a regexp. (value with < will probably suck)
             variables = re.findall('<(\w+):(\d+)>([^<]+)', item)
-            adif_vars = dict((var[0].upper(), var[2]) for var in variables)
+            adif_vars = dict((var[0].upper(), var[2][:int(var[1])]) for var in variables)
             
             if 'CALL' in adif_vars:
                 self.qsos.append({'adif_vars': adif_vars})

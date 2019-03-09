@@ -30,6 +30,13 @@ class TestActivity(unittest.TestCase):
         self.assertEqual(scores['score'], 88, 'Score')
         self.assertEqual(scores['score_multiplied'], 704, 'Score multiplied')
 
+    def test_distances(self):
+        # test parsing a log without contest exchanges and with 4letter gridsquares
+        log = Log(adif_file=self._get_adif('wsjtx_log.adi'))
+        self.assertEqual(log.qsos[10].gridsquare, 'KO33')
+        self.assertEqual(log.qsos[10].latlng, (53.5, 27.0))
+
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -180,11 +180,13 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
     var max = 0;
 
     for (var qso in qsos) {
-        max = Math.max(
-            Math.abs(qsos[qso]['from'][0] - qsos[qso]['to'][0]),
-            Math.abs(qsos[qso]['from'][1] - qsos[qso]['to'][1]),
-            max
-        );
+        if (qsos[qso]['from'] && qsos[qso]['to']) {
+            max = Math.max(
+                Math.abs(qsos[qso]['from'][0] - qsos[qso]['to'][0]),
+                Math.abs(qsos[qso]['from'][1] - qsos[qso]['to'][1]),
+                max
+            );
+        }
     }
     var map = L.map('map').setView({{ me.map_center|tojson }}, 6); // zoom=6
 
