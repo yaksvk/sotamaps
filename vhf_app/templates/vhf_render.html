@@ -279,30 +279,33 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
     for (var qso in qsos) {
         (function(qso){
 
-            var icon = myIcon;
-            if (qsos[qso]['top']) { icon = myIconTop;}
+            if (qsos[qso]['from'] &&  qsos[qso]['to']) {
+                var icon = myIcon;
+                if (qsos[qso]['top']) { icon = myIconTop;}
+                
+                var polyline = L.polyline(
+                    [
+                        qsos[qso]['from'],
+                        qsos[qso]['to'],
+                    ],
+                    {
+                        color: '#000',
+                        weight: 1,
+                        opacity: .5,
+                        lineJoin: 'round'
+                    }
+                ).addTo(map);
 
-            var polyline = L.polyline(
-                [
-                    qsos[qso]['from'],
-                    qsos[qso]['to'],
-                ],
-                {
-                    color: '#000',
-                    weight: 1,
-                    opacity: .5,
-                    lineJoin: 'round'
-                }
-            ).addTo(map);
+                var marker = L.marker(qsos[qso]['to'], {icon: icon}).addTo(map);
 
-            var marker = L.marker(qsos[qso]['to'], {icon: icon}).addTo(map);
+                marker.on('mouseover', function(e) {
+                    var popup = L.popup()
+                        .setLatLng(e.latlng) 
+                        .setContent('<a target="_blank" href="https://www.qrz.com/db/' + qsos[qso]['call'] + '"><b>' + qsos[qso]['call'] + '</b></a><br>'+ qsos[qso]['gridsquare'] + '<br><b>' + qsos[qso]['distance']+' km</b>')
+                        .openOn(map);
+                });
+            }
 
-            marker.on('mouseover', function(e) {
-                var popup = L.popup()
-                    .setLatLng(e.latlng) 
-                    .setContent('<a target="_blank" href="https://www.qrz.com/db/' + qsos[qso]['call'] + '"><b>' + qsos[qso]['call'] + '</b></a><br>'+ qsos[qso]['gridsquare'] + '<br><b>' + qsos[qso]['distance']+' km</b>')
-                    .openOn(map);
-            });
         })(qso);
                 
     }
