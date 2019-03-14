@@ -64,7 +64,7 @@ class Log:
 
         # override gridsquare if given in argument instead of looking
         # for it in the adif 
-        if gridsquare is not None:
+        if gridsquare is not None and is_gridsquare(gridsquare):
             self.gridsquare = gridsquare
        
         if self.gridsquare:

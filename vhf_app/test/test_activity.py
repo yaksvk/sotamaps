@@ -36,7 +36,12 @@ class TestActivity(unittest.TestCase):
         self.assertEqual(log.qsos[10].gridsquare, 'KO33')
         self.assertEqual(log.qsos[10].latlng, (53.5, 27.0))
 
+    def test_my_gridsquare_guessing(self):
+        log1 = Log(adif_file=self._get_adif('PA OM1AKU.adi'))
+        self.assertEqual(log1.gridsquare.upper(), 'JN88PE')
 
+        log2 = Log(adif_file=self._get_adif('wsjtx_log.adi'))
+        self.assertEqual(log2.gridsquare.upper(), 'JN88QF')
 
 if __name__ == '__main__':
     unittest.main()
