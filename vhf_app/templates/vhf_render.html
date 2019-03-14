@@ -297,17 +297,15 @@ Ak sa vám program páči alebo nepáči, máte pripomienky, <a href="https://ww
                 ).addTo(map);
 
                 var marker = L.marker(qsos[qso]['to'], {icon: icon}).addTo(map);
-
                 marker.on('mouseover', function(e) {
                     var popup = L.popup()
                         .setLatLng(e.latlng) 
-                        .setContent('<a target="_blank" href="https://www.qrz.com/db/' + qsos[qso]['call'] + '"><b>' + qsos[qso]['call'] + '</b></a><br>'+ qsos[qso]['gridsquare'] + '<br><b>' + qsos[qso]['distance']+' km</b>')
+                        .setContent('<a target="_blank" href="https://www.qrz.com/db/' + qsos[qso]['call'] + '"><b>' + 
+                            qsos[qso]['call'] + '</b></a><br>'+ qsos[qso]['gridsquare'] + '<br><b>' + qsos[qso]['distance']+' km</b>')
                         .openOn(map);
                 });
             }
-
         })(qso);
-                
     }
 });
 </script>
