@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sys
-import geopy.distance
 
 from .adif import Adif
 from .gridsquare import gridsquare2latlng, small_square_distance, is_gridsquare, extract_gridsquare, dist_ham, gridsquare2latlngedges
