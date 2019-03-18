@@ -1,0 +1,19 @@
+ADIF Export from RumLogNG by DL2RUM
+For further info visit: http://www.dl2rum.de
+
+<ADIF_VER:5>3.0.9
+<CREATED_TIMESTAMP:15>20190317 134034
+<PROGRAMID:8>RUMlogNG
+<PROGRAMVERSION:3>4.1
+<EOH>
+
+
+<call:5>OM8KD <qso_date:8>20190317 <time_on:6>101915 <time_off:6>101915 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>017 KN08NB <stx_string:10>001 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:5>OM8MM <qso_date:8>20190317 <time_on:6>102033 <time_off:6>102033 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>010 KN08PQ <stx_string:10>002 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:6>OM3KSI <qso_date:8>20190317 <time_on:6>102131 <time_off:6>102131 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>011 KN08PS <stx_string:10>003 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:6>OM3ZAH <qso_date:8>20190317 <time_on:6>102339 <time_off:6>102339 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>008 KN08UO <stx_string:10>004 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:5>UT5DV <qso_date:8>20190317 <time_on:6>102446 <time_off:6>102446 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>288 <cqz:2>16 <ituz:2>29 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>020 KN18DO <stx_string:10>005 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:6>OM8AND <qso_date:8>20190317 <time_on:6>102521 <time_off:6>102521 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>015 KN08OR <stx_string:10>006 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:6>OM0AJA <qso_date:8>20190317 <time_on:6>102701 <time_off:6>102701 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>006 KN09NB <stx_string:10>007 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:6>OM0HGP <qso_date:8>20190317 <time_on:6>102957 <time_off:6>102957 <band:2>2m <freq:10>144.304700  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>008 KN08OX <stx_string:10>008 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>
+<call:5>OM0AB <qso_date:8>20190317 <time_on:6>105553 <time_off:6>105553 <band:2>2m <freq:10>144.301000  <mode:3>SSB <rst_sent:2>59 <rst_rcvd:2>59 <dxcc:3>504 <cqz:2>15 <ituz:2>28 <cont:2>EU <my_gridsquare:6>KN08OR <clublog_qso_upload_status:1>M <contest_id:15>Unknown Contest <srx_string:10>017 KN08WW <stx_string:10>009 KN08OR <operator:5>OM0WT <lotw_qsl_sent:1>M <lotw_qsl_rcvd:1>N <eor>

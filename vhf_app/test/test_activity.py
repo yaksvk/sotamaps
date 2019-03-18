@@ -40,6 +40,7 @@ class TestActivity(unittest.TestCase):
         cases = (        
             { 'log': 'PA OM1AKU.adi', 'grid': 'JN88PE' },
             { 'log': 'wsjtx_log.adi', 'grid': 'JN88QF' },
+            { 'log': 'test2019.adif', 'grid': 'KN08OR' },
             { 'log': 'european vhf simple.ADI', 'grid': 'NONE'},
         )
         for case in cases:
@@ -61,6 +62,7 @@ class TestActivity(unittest.TestCase):
                     (int(first_qso.stx), int(first_qso.srx)),
                     (case['stx'], case['srx'])
                 )
+
 
 if __name__ == '__main__':
     unittest.main()
