@@ -121,11 +121,12 @@ class Log:
         locator_max = '' 
 
         for qth in orig_qsos.values():
-            dist = small_square_distance(self.gridsquare, qth)
-            score += self.points(dist)
-            if dist > max_dist:
-                max_dist = dist
-                locator_max = qth
+            if (self.gridsquare and qth):
+                dist = small_square_distance(self.gridsquare, qth)
+                score += self.points(dist)
+                if dist > max_dist:
+                    max_dist = dist
+                    locator_max = qth
 
         self.scores = {
             'original_qso_count' : len(orig_qsos.values()),

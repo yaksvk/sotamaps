@@ -37,21 +37,25 @@ class TestActivity(unittest.TestCase):
         self.assertEqual(log.qsos[10].latlng, (53.5, 27.0))
 
     def test_my_gridsquare_guessing(self):
-        log1 = Log(adif_file=self._get_adif('PA OM1AKU.adi'))
-        self.assertEqual(log1.gridsquare.upper(), 'JN88PE')
-
-        log2 = Log(adif_file=self._get_adif('wsjtx_log.adi'))
-        self.assertEqual(log2.gridsquare.upper(), 'JN88QF')
+        cases = (        
+            { 'log': 'PA OM1AKU.adi', 'grid': 'JN88PE' },
+            { 'log': 'wsjtx_log.adi', 'grid': 'JN88QF' },
+            { 'log': 'european vhf simple.ADI', 'grid': 'NONE'},
+        )
+        for case in cases:
+            with self.subTest(case):
+                log = Log(adif_file=self._get_adif(case['log']))
+                self.assertEqual(str(log.gridsquare).upper(), case['grid'])
 
     def test_rx_tx(self):
         # pick first qso and test RX, TX
         cases = (        
-            { 'log': 'PA OM1AKU.adi', 'grid': 'JN88pe', 'stx': 1, 'srx': 17 },
-            { 'log': 'european vhf simple.ADI', 'grid': 'JN88nc', 'stx': 1, 'srx': 14 },
+            { 'log': 'PA OM1AKU.adi', 'use_grid': 'JN88pe', 'stx': 1, 'srx': 17 },
+            { 'log': 'european vhf simple.ADI', 'use_grid': 'JN88nc', 'stx': 1, 'srx': 14 },
         )
         for case in cases:
             with self.subTest(case):
-                log = Log(adif_file=self._get_adif(case['log']), gridsquare=case['grid'])
+                log = Log(adif_file=self._get_adif(case['log']), gridsquare=case['use_grid'])
                 first_qso = log.qsos[0]
                 self.assertEqual(
                     (int(first_qso.stx), int(first_qso.srx)),
