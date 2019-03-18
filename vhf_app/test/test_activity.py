@@ -43,5 +43,20 @@ class TestActivity(unittest.TestCase):
         log2 = Log(adif_file=self._get_adif('wsjtx_log.adi'))
         self.assertEqual(log2.gridsquare.upper(), 'JN88QF')
 
+    def test_rx_tx(self):
+        # pick first qso and test RX, TX
+        cases = (        
+            { 'log': 'PA OM1AKU.adi', 'grid': 'JN88pe', 'stx': 1, 'srx': 17 },
+            { 'log': 'european vhf simple.ADI', 'grid': 'JN88nc', 'stx': 1, 'srx': 14 },
+        )
+        for case in cases:
+            with self.subTest(case):
+                log = Log(adif_file=self._get_adif(case['log']), gridsquare=case['grid'])
+                first_qso = log.qsos[0]
+                self.assertEqual(
+                    (int(first_qso.stx), int(first_qso.srx)),
+                    (case['stx'], case['srx'])
+                )
+
 if __name__ == '__main__':
     unittest.main()
