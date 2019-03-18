@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import re
 import sys
 
 from .adif import Adif
@@ -18,27 +19,41 @@ class Qso:
         for key, value in adif_vars.items():
             setattr(self, key.lower(), value)
 
-        if is_gridsquare(adif_vars.get('SRX_STRING', '')):
-            self.gridsquare = adif_vars.get('SRX_STRING', '')
-
-        # if we still don't have the gridsquare, try to guess it from qth
-        if  not self.gridsquare and hasattr(self, 'qth'):
-            if is_gridsquare(self.qth):
-                self.gridsquare = self.qth
-
-            # if we still have nothing, try to extract gridsquare from QTH
-            else:
-                guess = extract_gridsquare(self.qth)
-                if guess is not None:
-                    self.gridsquare = guess
-
-        # final check for invalid squares
-        if not is_gridsquare(self.gridsquare):
-            self.gridsquare = None
+        # try to probe a gridsqure for this QSO with various priorities
+        self.gridsquare = self._probe_gridsquare(adif_vars)
 
         # process ADIF vars and set gridsquares, etc.
         if hasattr(self, 'gridsquare') and self.gridsquare:
             self.latlng = gridsquare2latlng(self.gridsquare)
+
+        # try to extract srx and stx from string
+        if self.stx is None and self.srx is None and hasattr(self, 'stx_string') and hasattr(self, 'srx_string'):
+            self.stx = self.stx_string[:3]
+            self.srx = self.srx_string[:3]
+
+    def _probe_gridsquare(self, adif_vars):
+            gridsquare = self.gridsquare
+            # try to extract gridsquare from the qso
+            srx_grid = extract_gridsquare(adif_vars.get('SRX_STRING', ''))
+            if srx_grid:
+                gridsquare = srx_grid
+
+            # if we still don't have the gridsquare, try to guess it from qth
+            if  not gridsquare and hasattr(self, 'qth'):
+                if is_gridsquare(self.qth):
+                    gridsquare = self.qth
+
+                # if we still have nothing, try to extract gridsquare from QTH
+                else:
+                    guess = extract_gridsquare(self.qth)
+                    if guess is not None:
+                        gridsquare = guess
+
+            # final check
+            if not is_gridsquare(gridsquare):
+                gridsquare = None
+
+            return gridsquare
 
 class Log:
     @staticmethod

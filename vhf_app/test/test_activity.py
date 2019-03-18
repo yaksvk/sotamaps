@@ -53,6 +53,7 @@ class TestActivity(unittest.TestCase):
         cases = (        
             { 'log': 'PA OM1AKU.adi', 'use_grid': 'JN88pe', 'stx': 1, 'srx': 17 },
             { 'log': 'european vhf simple.ADI', 'use_grid': 'JN88nc', 'stx': 1, 'srx': 14 },
+            { 'log': 'test2019.adif', 'use_grid': 'KN08OR', 'stx': 1, 'srx': 17 },
         )
         for case in cases:
             with self.subTest(case):
@@ -62,6 +63,10 @@ class TestActivity(unittest.TestCase):
                     (int(first_qso.stx), int(first_qso.srx)),
                     (case['stx'], case['srx'])
                 )
+    
+    def test_gridsquare_guess(self):
+        # test gridsquare guessing from various logs srx/srx_string/etc.
+        pass
 
 
 if __name__ == '__main__':
