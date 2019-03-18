@@ -98,8 +98,8 @@
     <th>Čas</th>
     <th>Značka</th>
     <th>Pásmo</th>
-    <th>TX</th>
-    <th>RX</th>
+    <th colspan="2">TX</th>
+    <th colspan="2">RX</th>
     <th>Lokátor</th>
     <th>Body</th>
     <th>Vzdialenosť</th>
@@ -112,7 +112,9 @@
     <td>{{ qso.qso_date|date_filter }} {{ qso.time_on|time_filter }}</td>
     <td><a target="_blank" href="https://www.qrz.com/db/{{ qso.call }}">{{ qso.call }}</a></td>
     <td>{{ qso.band }}</td>
+    <td>{{ qso.rst_sent }}</td>
     <td>{{ '%03d' % qso.stx|int }}</td>
+    <td>{{ qso.rst_rcvd }}</td>
     <td>{{ '%03d' % qso.srx|int }}</td>
     <td>{{ qso.gridsquare }}</td>
     <td>{{ qso.points }}</td>

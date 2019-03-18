@@ -11,6 +11,8 @@ class Qso:
         self.points = 0
         self.top_distance = False
         self.gridsquare = None
+        self.rst_rcvd = None
+        self.rst_sent = None
         self.stx = None
         self.srx = None
         self.latlng = None
