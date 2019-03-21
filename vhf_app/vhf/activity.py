@@ -28,11 +28,6 @@ class Qso:
         if hasattr(self, 'gridsquare') and self.gridsquare:
             self.latlng = gridsquare2latlng(self.gridsquare)
 
-        # try to extract srx and stx from string
-        if self.stx is None and self.srx is None and hasattr(self, 'stx_string') and hasattr(self, 'srx_string'):
-            self.stx = self.stx_string[:3]
-            self.srx = self.srx_string[:3]
-
     def _probe_gridsquare(self, adif_vars):
             gridsquare = self.gridsquare
             # try to extract gridsquare from the qso
