@@ -59,6 +59,7 @@ class Log:
 
     def __init__(self, gridsquare=None, adif_file=None):
         self.qsos = []
+        self.comments = {}
         self.scores = {}
         self.gridsquare = None
         self.latlng = None
@@ -73,6 +74,10 @@ class Log:
             if hasattr(qso, 'my_gridsquare'):
                 self.gridsquare = qso.my_gridsquare
                 break
+
+        # try to get gridsquare from comments
+        if not self.gridsquare and 'PWWLO' in self.comments:
+            self.gridsquare = self.comments['PWWLO']
 
         # override gridsquare if given in argument instead of looking
         # for it in the adif 
@@ -109,6 +114,7 @@ class Log:
             self.qsos.append(qso)
 
         self.qsos.sort(key = lambda x: (x.qso_date, x.time_on))
+        self.comments = adif.comments
 
 
     def compute_scores(self):

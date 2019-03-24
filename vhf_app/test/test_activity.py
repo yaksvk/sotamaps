@@ -65,8 +65,9 @@ class TestActivity(unittest.TestCase):
                 )
     
     def test_gridsquare_guess(self):
-        # test gridsquare guessing from various logs srx/srx_string/etc.
-        pass
+        # test gridsquare guessing from log comments
+        log = Log(adif_file=self._get_adif('20190317_OM1WS.adif'))
+        self.assertEqual(log.gridsquare, 'JN88OJ')
 
 
 if __name__ == '__main__':
