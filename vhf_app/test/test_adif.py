@@ -35,6 +35,10 @@ class TestAdif(unittest.TestCase):
         self.assertEqual('PROGRAMID' in adif1.header, True)
         self.assertEqual(adif1.header.get('PROGRAMID'), 'MacLoggerDX')
 
+    def test_adif_comments(self):
+        adif = Adif(from_file=self._get_adif('20190317_OM1WS.adif'))
+        self.assertEqual(adif.comments.get('PWWLO'), 'JN88OJ')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -7,6 +7,7 @@ class Adif:
 
         self.qsos = []
         self.header = {}
+        self.comments = {}
 
         if from_string is not None:
             self.init_from_string(from_string)
@@ -19,12 +20,18 @@ class Adif:
         self.init_from_string(data)
 
     @staticmethod
-    def process_variables(text):
-            # ADIF = <variable_name:length>value\s - and substring the value according to
-            # length. This should probably be read sequentially, not as a regexp. (value with < will probably suck)
-            variables = re.findall('<(\w+):(\d+)>([^<]+)', text)
-            adif_vars = dict((var[0].upper(), var[2][:int(var[1])]) for var in variables)
-            return adif_vars
+    def process_adif_variables(text):
+        # ADIF = <variable_name:length>value\s - and substring the value according to
+        # length. This should probably be read sequentially, not as a regexp. (value with < will probably suck)
+        variables = re.findall('<(\w+):(\d+)>([^<]+)', text)
+        adif_vars = dict((var[0].upper(), var[2][:int(var[1])]) for var in variables)
+        return adif_vars
+
+    @staticmethod
+    def process_header_comments(text):
+        variables = re.findall('((\w+)=(\w+))\n', text)
+        comments = dict((var[1].upper(), var[2]) for var in variables)
+        return comments
 
     def init_from_string(self, adif_string):
         # process header 
@@ -32,7 +39,10 @@ class Adif:
         if res:
             header = res[0]
             # attempt to populate header values using standard adif variable parsing from header
-            self.header = self.process_variables(header)
+            self.header = self.process_adif_variables(header)
+            # try also the var=val method
+            self.comments = self.process_header_comments(header)
+
 
         # ignore header
         data = re.sub("^.*<EOH>", "", adif_string, flags=re.IGNORECASE)
@@ -41,7 +51,7 @@ class Adif:
         # process QSOs
         for item in items:
             # process QSO variables
-            adif_vars = self.process_variables(item)
+            adif_vars = self.process_adif_variables(item)
             
             # variable postprocessing
             # 1. some software puts SRX and STX to _STRING variables. Attempt to extract these.
