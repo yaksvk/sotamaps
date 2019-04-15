@@ -2,30 +2,15 @@
 import sys
 import re
 
-class Adif:
-    def __init__(self, from_file=None, from_string=None):
+from .logfile_processor import LogfileProcessor
 
-        self.qsos = []
-        self.header = {}
-        self.comments = {}
-
-        if from_string is not None:
-            self.init_from_string(from_string)
-        elif from_file is not None:
-            self.init_from_file(from_file)
-
-    def init_from_file(self, adif_file):
-        with open(adif_file) as f:
-            data = f.read()
-        self.init_from_string(data)
-
+class Adif(LogfileProcessor):
     @staticmethod
     def can_process(text):
         # returns true if this can parse a text, false if not, should return true for ADIF file contents
         variables = re.findall('<(\w+):(\d+)>([^<]+)', text)
         eors = re.findall('(<eor>)', text, flags=re.IGNORECASE)
         return len(variables) > 0 and len(eors) > 0
-
 
     @staticmethod
     def process_adif_variables(text):
