@@ -39,6 +39,12 @@ class TestAdif(unittest.TestCase):
         adif = Adif(from_file=self._get_adif('20190317_OM1WS.adif'))
         self.assertEqual(adif.comments.get('PWWLO'), 'JN88OJ')
 
+    def test_adif_guess(self):
+        adif_file = self._get_adif('PA OM1AKU.adi')
+        with open(adif_file) as f:
+            data = f.read()
+            self.assertTrue(Adif.can_process(data))
+
 
 if __name__ == '__main__':
     unittest.main()

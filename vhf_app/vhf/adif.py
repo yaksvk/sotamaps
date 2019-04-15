@@ -20,6 +20,14 @@ class Adif:
         self.init_from_string(data)
 
     @staticmethod
+    def can_process(text):
+        # returns true if this can parse a text, false if not, should return true for ADIF file contents
+        variables = re.findall('<(\w+):(\d+)>([^<]+)', text)
+        eors = re.findall('(<eor>)', text, flags=re.IGNORECASE)
+        return len(variables) > 0 and len(eors) > 0
+
+
+    @staticmethod
     def process_adif_variables(text):
         # ADIF = <variable_name:length>value\s - and substring the value according to
         # length. This should probably be read sequentially, not as a regexp. (value with < will probably suck)
