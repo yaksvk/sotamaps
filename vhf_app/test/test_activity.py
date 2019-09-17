@@ -69,6 +69,54 @@ class TestActivity(unittest.TestCase):
         log = Log(adif_file=self._get_adif('20190317_OM1WS.adif'))
         self.assertEqual(log.gridsquare, 'JN88OJ')
 
+    def test_export_dictionary(self):
+        # test if QSO can be exported as a dictionary (we use this later for saving)
+        log = Log(adif_file=self._get_adif('20190317_OM1WS.adif'))
+        self.assertEqual(log.export_dictionary(),
+            {'comments': {'PCALL': 'OM1WS', 'PSECT': 'Single', 'PWWLO': 'JN88OJ'},
+            'gridsquare': 'JN88OJ',
+            'qsos': [{'adif_ver': '1.00',
+            'band': '2M',
+            'call': 'S57O',
+            'distance': 229,
+            'gridsquare': 'JN86DK',
+            'latlng': (46.4375, 16.29166666666667),
+            'mode': 'SSB',
+            'no_rcvd': '006',
+            'no_sent': '001',
+            'operator': 'OM1WS',
+            'points': 4,
+            'prop_mode': 'TR',
+            'qrb': '228',
+            'qso_date': '20190317',
+            'qtf': '198',
+            'rst_rcvd': '59',
+            'rst_sent': '59',
+            'srx': '006',
+            'stx': '001',
+            'time_on': '0805',
+            'top_distance': True},
+            {'band': '2M',
+            'call': 'SP6KEP',
+            'distance': 239,
+            'gridsquare': 'JO90CK',
+            'latlng': (50.4375, 18.20833333333333),
+            'mode': 'SSB',
+            'no_rcvd': '026',
+            'no_sent': '002',
+            'operator': 'OM1WS',
+            'points': 4,
+            'prop_mode': 'TR',
+            'qrb': '238',
+            'qso_date': '20190317',
+            'qtf': '17',
+            'rst_rcvd': '59',
+            'rst_sent': '59',
+            'srx': '026',
+            'stx': '002',
+            'time_on': '0810',
+            'top_distance': True}]})
+
 
 if __name__ == '__main__':
     unittest.main()

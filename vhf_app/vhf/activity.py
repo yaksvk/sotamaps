@@ -158,6 +158,12 @@ class Log:
         }
         return self.scores
 
+    def export_dictionary(self):
+        return {
+            'comments': self.comments,
+            'gridsquare': self.gridsquare,
+            'qsos': [ dict(vars(qso).items()) for qso in self.qsos ]
+        }
         
 if __name__ == '__main__':
     if len(sys.argv) > 1:
