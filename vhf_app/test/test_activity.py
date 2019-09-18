@@ -117,6 +117,22 @@ class TestActivity(unittest.TestCase):
             'time_on': '0810',
             'top_distance': True}]})
 
+    def test_init_from_dictionary(self):
+        # test log initialization from the dictionary
+        log1 = Log(adif_file=self._get_adif('20190317_OM1WS.adif'))
+        log_dict = log1.export_dictionary()
+        log2 = Log(dictionary=log_dict)
+
+        cases = (
+            (len(log1.qsos), len(log2.qsos), 'number of QSOs match'),
+            (log1.gridsquare, log2.gridsquare, 'gridsquare match'),
+            (log1.scores['score'], log2.scores['score'], 'score match')
+        )
+        
+        for case in cases:
+            with self.subTest(case):
+                self.assertEqual(case[0], case[1], case[2]);
+        
 
 if __name__ == '__main__':
     unittest.main()

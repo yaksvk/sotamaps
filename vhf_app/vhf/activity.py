@@ -57,7 +57,7 @@ class Log:
     def points(point_distance):
         return 2 + point_distance
 
-    def __init__(self, gridsquare=None, adif_file=None):
+    def __init__(self, gridsquare=None, adif_file=None, dictionary=None):
         self.qsos = []
         self.comments = {}
         self.scores = {}
@@ -68,6 +68,9 @@ class Log:
 
         if adif_file is not None:
             self.init_from_adif(adif_file)
+
+        if dictionary is not None:
+            self.init_from_dictionary(dictionary)
         
         # init my gridsquare from self qsos
         for qso in self.qsos:
@@ -116,6 +119,13 @@ class Log:
         self.qsos.sort(key = lambda x: (x.qso_date, x.time_on))
         self.comments = adif.comments
 
+    def init_from_dictionary(self, dictionary):
+        self.comments = dictionary.get('comments', None)
+        self.gridsquare = dictionary.get('gridsquare', None)
+        
+        # qsos
+        for item in dictionary.get('qsos', []):
+            self.qsos.append(Qso(item))
 
     def compute_scores(self):
         # return all the scores
@@ -164,6 +174,7 @@ class Log:
             'gridsquare': self.gridsquare,
             'qsos': [ dict(vars(qso).items()) for qso in self.qsos ]
         }
+
         
 if __name__ == '__main__':
     if len(sys.argv) > 1:
