@@ -71,7 +71,7 @@ class Log:
 
         if dictionary is not None:
             self.init_from_dictionary(dictionary)
-        
+
         # init my gridsquare from self qsos
         for qso in self.qsos:
             if hasattr(qso, 'my_gridsquare'):
@@ -86,7 +86,7 @@ class Log:
         # for it in the adif 
         if gridsquare is not None and is_gridsquare(gridsquare):
             self.gridsquare = gridsquare
-       
+
         if self.gridsquare:
             self.latlng = gridsquare2latlng(self.gridsquare)
             self.latlng_edges = gridsquare2latlngedges(self.gridsquare)
@@ -99,13 +99,13 @@ class Log:
 
             if self.gridsquare and qso.gridsquare:
                 qso.points = self.points(small_square_distance(self.gridsquare, qso.gridsquare))
-       
+
         # pick qsos with max 3 distances
         top_qsos = sorted(self.qsos,key=lambda x: -x.distance)[:3]
         for qso in self.qsos:
             if qso in top_qsos:
                 qso.top_distance = True
-        
+
         self.compute_scores()
 
 
@@ -122,7 +122,7 @@ class Log:
     def init_from_dictionary(self, dictionary):
         self.comments = dictionary.get('comments', None)
         self.gridsquare = dictionary.get('gridsquare', None)
-        
+
         # qsos
         for item in dictionary.get('qsos', []):
             self.qsos.append(Qso(item))
@@ -133,10 +133,10 @@ class Log:
         orig_qsos = {}
         orig_gridsquares = {}
         orig_large_gridsquares = {}
-        
+
         # my own gridsquare is a natural multiplier
         orig_gridsquares[self.gridsquare] = 1
-        
+
         for qso in self.qsos:
             if qso.gridsquare:
                 orig_qsos[qso.call + qso.band] = qso.gridsquare
@@ -146,7 +146,7 @@ class Log:
         # compute scores
         score = 0
         max_dist = 0
-        locator_max = '' 
+        locator_max = ''
 
         for qth in orig_qsos.values():
             if (self.gridsquare and qth):
@@ -162,7 +162,7 @@ class Log:
             'score' : score,
             'score_multiplied': score*len(orig_large_gridsquares.keys()),
             'max_gridsquare' : locator_max,
-            'multipliers' : orig_large_gridsquares.keys(), 
+            'multipliers' : orig_large_gridsquares.keys(),
             'paint_squares' : list(map(lambda x: gridsquare2latlngedges(x), orig_large_gridsquares.keys())),
             'max_dist' : max_dist
         }
@@ -175,7 +175,6 @@ class Log:
             'qsos': [ dict(vars(qso).items()) for qso in self.qsos ]
         }
 
-        
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         log = Log('JN88le', sys.argv[1])

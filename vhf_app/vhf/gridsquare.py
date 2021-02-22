@@ -13,6 +13,11 @@ gridsquare_reg = '^[A-R]{2}\d{2}([a-x]{2})?$'
 gridsquare_subreg = '([A-R]{2}\d{2}[a-x]{2})'
 R = 6371e3 # earth radius
 
+def _norm_gridsquare(gridsquare):
+    # convert gridsquare to a tuple of numbers; letters lowercased and turned
+    # to their ordinal values, integers are kept as they are.
+    return tuple(int(x) if x.isdigit() else ord(x) - 97 for x in gridsquare.lower())
+
 def is_gridsquare(text):
     if isinstance(text, str):
         if re.match(gridsquare_reg, text, re.IGNORECASE):
@@ -28,8 +33,8 @@ def extract_gridsquare(text):
 
 def small_square_distance(sq1, sq2):
     # calculate small grid square distance for contest (small square = JN88)
-    sq1 = sq1.lower() 
-    sq2 = sq2.lower() 
+    sq1 = sq1.lower()
+    sq2 = sq2.lower()
 
     if len(sq1) < 6 or len(sq2) < 6:
         return -1
@@ -62,48 +67,34 @@ def gridsquare2latlng(gridsquare):
     return (center_lat, center_lng)
 
 def gridsquare2latlngedges(gridsquare):
-    # Convert gridsquares to lat and long and returns top/left, bottom/right ((lat,lng),(lat,lng))
-    # Works for 4-character squares and 6-character squares
+    # Convert gridsquares to lat and long and returns top/left, bottom/right 
+    # ((lat,lng),(lat,lng))
+    # Works for any gridsquares, from 2letter ones to theoretically infinite 
+    # ones. The initial steps are 20deg. longitude and 10deg latitude and 
+    # bases alternate between 10 and 24
 
-    from_lat, from_lng, stop_lat, stop_lng = 0,0,0,0
+    # convert gridsquare to decimal values
+    items = _norm_gridsquare(gridsquare)
 
-    ONE = gridsquare[0:1]
-    TWO = gridsquare[1:2]
-    THREE = gridsquare[2:3]
-    FOUR = gridsquare[3:4]
-    FIVE = gridsquare[4:5]
-    SIX = gridsquare[5:6]
-   
-    # longitude
-    Field = ((ord(ONE.lower()) - 97.0) * 20.0) 
-    Square = int(THREE) * 2
+    # initial steps
+    (step_lng, step_lat) = (20, 10)
+    (from_lng, to_lng) = (-180,-180)
+    (from_lat, to_lat) = (-90,-90)
 
-    if FIVE:
-        SubSquareLow = (ord(FIVE.lower()) - 97.0) * (2.0/24.0)
-        SubSquareHigh = SubSquareLow + (2.0/24.0)
-    else:
-        SubSquareLow = 0
-        SubSquareHigh = 2.0
+    # step through the gridsquare one rectangle (2 items) at a time
+    for i in range(0,len(items),2):
+        if i == 0:
+            base = 1
+        else:
+            base = 24 if i % 4 == 0 else 10
 
+        (step_lng, step_lat) = (step_lng/base, step_lat/base)
 
-    from_lng = Field + Square + SubSquareLow - 180
-    to_lng = Field + Square + SubSquareHigh - 180
+        from_lng += step_lng*items[i]
+        from_lat += step_lat*items[i+1]
 
-    # latitute
-    Field = ((ord(TWO.lower()) - 97.0) * 10.0) 
-    Square = int(FOUR)
-
-    if SIX:
-        SubSquareLow = (ord(SIX.lower()) - 97) * (1.0/24.0)
-        SubSquareHigh = SubSquareLow + (1.0/24.0)
-    else:
-        SubSquareLow = 0
-        SubSquareHigh = 1.0
-
-    from_lat = Field + Square + SubSquareLow - 90.0
-    to_lat = Field + Square + SubSquareHigh - 90.0
-    
-    return ((from_lat, from_lng), (to_lat, to_lng))
+    # return the rectangle dimensions using the last step
+    return ((from_lat, from_lng), (from_lat+step_lat, from_lng+step_lng))
 
 def dist_haversine(param1, param2):
     # Standard implementation of haversine algorithm, guess operands 

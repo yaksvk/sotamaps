@@ -9,6 +9,7 @@ from vhf.activity import Qso, Log
 EXAMPLES_DIR = 'examples'
 
 class TestActivity(unittest.TestCase):
+    maxDiff = None
 
     def _get_adif(self, example):
         return os.path.join(os.path.dirname(__file__), EXAMPLES_DIR, example)
@@ -18,7 +19,7 @@ class TestActivity(unittest.TestCase):
 
     def test_adif_log(self):
         self.assertIsInstance(Log(adif_file=self._get_adif('PA OM1AKU.adi')), Log)
-        
+
     def test_points_and_scores_1(self):
         log = Log(adif_file=self._get_adif('PA OM1AKU.adi'))
         self.assertEqual(len(log.qsos), 31, 'Number of qsos')
@@ -37,7 +38,7 @@ class TestActivity(unittest.TestCase):
         self.assertEqual(log.qsos[10].latlng, (53.5, 27.0))
 
     def test_my_gridsquare_guessing(self):
-        cases = (        
+        cases = (
             { 'log': 'PA OM1AKU.adi', 'grid': 'JN88PE' },
             { 'log': 'wsjtx_log.adi', 'grid': 'JN88QF' },
             { 'log': 'test2019.adif', 'grid': 'KN08OR' },
@@ -50,7 +51,7 @@ class TestActivity(unittest.TestCase):
 
     def test_rx_tx(self):
         # pick first qso and test RX, TX
-        cases = (        
+        cases = (
             { 'log': 'PA OM1AKU.adi', 'use_grid': 'JN88pe', 'stx': 1, 'srx': 17 },
             { 'log': 'european vhf simple.ADI', 'use_grid': 'JN88nc', 'stx': 1, 'srx': 14 },
             { 'log': 'test2019.adif', 'use_grid': 'KN08OR', 'stx': 1, 'srx': 17 },
@@ -63,7 +64,7 @@ class TestActivity(unittest.TestCase):
                     (int(first_qso.stx), int(first_qso.srx)),
                     (case['stx'], case['srx'])
                 )
-    
+
     def test_gridsquare_guess(self):
         # test gridsquare guessing from log comments
         log = Log(adif_file=self._get_adif('20190317_OM1WS.adif'))
@@ -80,7 +81,7 @@ class TestActivity(unittest.TestCase):
             'call': 'S57O',
             'distance': 229,
             'gridsquare': 'JN86DK',
-            'latlng': (46.4375, 16.29166666666667),
+            'latlng': (46.4375, 16.291666666666664),
             'mode': 'SSB',
             'no_rcvd': '006',
             'no_sent': '001',
@@ -100,7 +101,7 @@ class TestActivity(unittest.TestCase):
             'call': 'SP6KEP',
             'distance': 239,
             'gridsquare': 'JO90CK',
-            'latlng': (50.4375, 18.20833333333333),
+            'latlng': (50.4375, 18.208333333333336),
             'mode': 'SSB',
             'no_rcvd': '026',
             'no_sent': '002',
@@ -128,11 +129,10 @@ class TestActivity(unittest.TestCase):
             (log1.gridsquare, log2.gridsquare, 'gridsquare match'),
             (log1.scores['score'], log2.scores['score'], 'score match')
         )
-        
+
         for case in cases:
             with self.subTest(case):
                 self.assertEqual(case[0], case[1], case[2]);
-        
 
 if __name__ == '__main__':
     unittest.main()
