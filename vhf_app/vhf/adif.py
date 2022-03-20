@@ -16,8 +16,8 @@ class Adif(LogfileProcessor):
     def process_adif_variables(text):
         # ADIF = <variable_name:length>value\s - and substring the value according to
         # length. This should probably be read sequentially, not as a regexp. (value with < will probably suck)
-        variables = re.findall('<(\w+):(\d+)>([^<]+)', text)
-        adif_vars = dict((var[0].upper(), var[2][:int(var[1])]) for var in variables)
+        variables = re.findall('<(\w+):(\d+)(:\w)?>([^<]+)', text)
+        adif_vars = dict((var[0].upper(), var[3][:int(var[1])]) for var in variables)
         return adif_vars
 
     @staticmethod
