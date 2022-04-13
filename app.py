@@ -11,12 +11,14 @@ from flask import Flask
 
 from sotamaps_app.app import app as sotamaps_application
 from vhf_app.app import app as vhf_application
+from castles_app.app import app as castles_application
 
 app = Flask(__name__)
 
 app.wsgi_app = DispatcherMiddleware(NotFound(), {
     '/sota': sotamaps_application,
-    '/vhf': vhf_application
+    '/vhf': vhf_application,
+    '/hrady': castles_application,
     })
 
 if __name__ == '__main__':
