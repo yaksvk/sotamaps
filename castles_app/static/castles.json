@@ -2,2737 +2,3697 @@
   {
     "ref_wca": "OM-00001",
     "ref_om": "BA-01",
+    "dxcc": "OM",
     "castle": "CEKLISKY HRAD",
+    "location": "BERNOLAKOVO",
     "latlng": [
       "48.1999392",
       "17.2881653"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00002",
     "ref_om": "BA-02",
+    "dxcc": "OM",
     "castle": "HRAD PAJSTUN",
+    "location": "BORINKA",
     "latlng": [
       "48.2754186",
       "17.0828706"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00003",
     "ref_om": "BA-03",
+    "dxcc": "OM",
     "castle": "BRATISLAVSKY HRAD",
+    "location": "BRATISLAVA 1",
     "latlng": [
       "48.1422481",
       "17.0996481"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00004",
     "ref_om": "BA-04",
+    "dxcc": "OM",
     "castle": "DEVINSKY HRAD",
+    "location": "BRATISLAVA 4",
     "latlng": [
       "48.1743067",
       "16.9773047"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00005",
     "ref_om": "BA-05",
+    "dxcc": "OM",
     "castle": "HRAD CERVENY KAMEN",
+    "location": "CASTA",
     "latlng": [
       "48.3917264",
       "17.3354911"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00006",
     "ref_om": "BA-06",
+    "dxcc": "OM",
     "castle": "PEZINSKY ZAMOK",
+    "location": "PEZINOK",
     "latlng": [
       "48.2910031",
       "17.2682750"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00007",
     "ref_om": "BA-07",
+    "dxcc": "OM",
     "castle": "PLAVECKY HRAD",
+    "location": "PLAVECKE PODHRADIE",
     "latlng": [
       "48.4939942",
       "17.2685181"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00008",
     "ref_om": "BA-08",
+    "dxcc": "OM",
     "castle": "HRAD BIELY KAMEN",
+    "location": "SVATY JUR",
     "latlng": [
       "48.2611836",
       "17.1965092"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00009",
     "ref_om": "BA-09",
+    "dxcc": "OM",
     "castle": "RUSOVSKY HRAD",
+    "location": "BRATISLAVA 5",
     "latlng": [
       "48.0523247",
       "17.1506547"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00010",
     "ref_om": "BA-10",
+    "dxcc": "OM",
     "castle": "KUCHYNSKY HRAD",
+    "location": "KUCHYNA",
     "latlng": [
       "48.4212344",
       "17.1973142"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00011",
     "ref_om": "BA-11",
+    "dxcc": "OM",
     "castle": "HRAD YBERHARD",
+    "location": "MALINOVO",
     "latlng": [
       "48.1527961",
       "17.2977178"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00012",
     "ref_om": "BA-12",
+    "dxcc": "OM",
     "castle": "HRADOK V GAJAROCH",
+    "location": "GAJARY",
     "latlng": [
       "48.4684333",
       "16.9261083"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00013",
     "ref_om": "BA-13",
+    "dxcc": "OM",
     "castle": "ZAMCISKO",
+    "location": "PERNEK",
     "latlng": [
       "48.3647892",
       "17.1638511"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00014",
     "ref_om": "BA-14",
+    "dxcc": "OM",
     "castle": "ZAMCISKO",
+    "location": "MODRA",
     "latlng": [
       "48.3623514",
       "17.2903656"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00015",
     "ref_om": "BB-01",
+    "dxcc": "OM",
     "castle": "MESTSKY ZAMOK",
+    "location": "BANSKA BYSTRICA",
     "latlng": [
       "48.4595997",
       "18.8909569"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00016",
     "ref_om": "BB-02",
+    "dxcc": "OM",
     "castle": "STARY ZAMOK",
+    "location": "BANSKA STIAVNICA",
     "latlng": [
       "48.4595817",
       "18.8912133"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00016",
     "ref_om": "BB-02",
+    "dxcc": "OM",
     "castle": "NOVY ZAMOK",
+    "location": "BANSKA STIAVNICA",
     "latlng": [
       "48.4557681",
       "18.8961436"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00017",
     "ref_om": "BB-03",
+    "dxcc": "OM",
     "castle": "BZOVICKY HRAD",
+    "location": "BZOVIK",
     "latlng": [
       "48.3151761",
       "19.0897711"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00018",
     "ref_om": "BB-04",
+    "dxcc": "OM",
     "castle": "HRAD CABRAD",
+    "location": "CABRADSKY VRBOVOK",
     "latlng": [
       "48.2438606",
       "19.1062286"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00019",
     "ref_om": "BB-05",
+    "dxcc": "OM",
     "castle": "DIVINSKY HRAD",
+    "location": "DIVIN",
     "latlng": [
       "48.4483036",
       "19.5329861"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00020",
     "ref_om": "BB-06",
+    "dxcc": "OM",
     "castle": "DRIENCANSKY HRAD",
+    "location": "DRIENCANY",
     "latlng": [
       "48.4852961",
       "20.0685050"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00021",
     "ref_om": "BB-07",
+    "dxcc": "OM",
     "castle": "DUBRAVICKY ZAMOK",
+    "location": "DUBRAVICA",
     "latlng": [
       "48.6770381",
       "19.2727831"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00022",
     "ref_om": "BB-08",
+    "dxcc": "OM",
     "castle": "FILAKOVSKY HRAD",
+    "location": "FILAKOVO",
     "latlng": [
       "48.2715961",
       "19.8247400"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00023",
     "ref_om": "BB-09",
+    "dxcc": "OM",
     "castle": "ZUPNY HRAD",
+    "location": "GEMER",
     "latlng": [
       "48.4546458",
       "20.3147589"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00024",
     "ref_om": "BB-10",
+    "dxcc": "OM",
     "castle": "HAJNACSKY HRAD",
+    "location": "HAJNACKA",
     "latlng": [
       "48.2182811",
       "19.9553553"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00025",
     "ref_om": "BB-11",
+    "dxcc": "OM",
     "castle": "HALICSKY ZAMOK",
+    "location": "HALIC",
     "latlng": [
       "48.3567872",
       "19.5752864"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00026",
     "ref_om": "BB-12",
+    "dxcc": "OM",
     "castle": "HODEJOVSKY HRAD",
+    "location": "HODEJOV",
     "latlng": [
       "48.2989000",
       "19.9829747"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00027",
     "ref_om": "BB-13",
+    "dxcc": "OM",
     "castle": "HRAD STARA HORA",
+    "location": "HORNE STRHARE",
     "latlng": [
       "48.2989683",
       "19.3297100"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00028",
     "ref_om": "BB-14",
+    "dxcc": "OM",
     "castle": "SITNIANSKY HRAD",
+    "location": "ILIJA",
     "latlng": [
       "48.4015169",
       "18.8869692"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00029",
     "ref_om": "BB-15",
+    "dxcc": "OM",
     "castle": "STARY A MESTSKY HRAD",
+    "location": "JELSAVA",
     "latlng": [
       "48.6301781",
       "20.2004894"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00029",
     "ref_om": "BB-15",
+    "dxcc": "OM",
     "castle": "STARY A MESTSKY HRAD",
+    "location": "JELSAVA",
     "latlng": [
       "48.6318344",
       "20.2350558"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00030",
     "ref_om": "BB-16",
+    "dxcc": "OM",
     "castle": "MESTSKY ZAMOK",
+    "location": "KREMNICA",
     "latlng": [
       "48.7062403",
       "18.9176097"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00031",
     "ref_om": "BB-17",
+    "dxcc": "OM",
     "castle": "HRAD MODRY KAMEN",
+    "location": "MODRY KAMEN",
     "latlng": [
       "48.2436544",
       "19.3333594"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00032",
     "ref_om": "BB-18",
+    "dxcc": "OM",
     "castle": "MURANSKY HRAD",
+    "location": "MURAN",
     "latlng": [
       "48.7586100",
       "20.0585969"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00033",
     "ref_om": "BB-19",
+    "dxcc": "OM",
     "castle": "HRAD OZDIN",
+    "location": "OZDIN",
     "latlng": [
       "48.4841053",
       "19.6731300"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00034",
     "ref_om": "BB-20",
+    "dxcc": "OM",
     "castle": "HRAD DOBRA NIVA",
+    "location": "PODZAMCOK",
     "latlng": [
       "48.5031444",
       "19.1036994"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00035",
     "ref_om": "BB-21",
+    "dxcc": "OM",
     "castle": "HRAD RAKOS",
+    "location": "RAKOS (OKR.REVUCA)",
     "latlng": [
       "48.6110492",
       "20.1444008"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00036",
     "ref_om": "BB-22",
+    "dxcc": "OM",
     "castle": "HRAD REVISTE",
+    "location": "REVISTSKE PODZAMCIE",
     "latlng": [
       "48.5215692",
       "18.7226064"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00037",
     "ref_om": "BB-23",
+    "dxcc": "OM",
     "castle": "HRAD DRIENOK",
+    "location": "RYBNIK (OKR.REVUCA)",
     "latlng": [
       "48.5278089",
       "20.0974233"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00038",
     "ref_om": "BB-24",
+    "dxcc": "OM",
     "castle": "PUSTY HRAD ",
+    "location": "SKLENE TEPLICE",
     "latlng": [
       "48.5328747",
       "18.8473800"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00039",
     "ref_om": "BB-25",
+    "dxcc": "OM",
     "castle": "LUPCIANSKY ZAMOK",
+    "location": "SLOVENSKA L'UPCA",
     "latlng": [
       "48.7725703",
       "19.2811481"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00040",
     "ref_om": "BB-26",
+    "dxcc": "OM",
     "castle": "SASOVSKY HRAD",
+    "location": "SASOVSKE PODHRADIE",
     "latlng": [
       "48.5790858",
       "18.9002089"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00041",
     "ref_om": "BB-27",
+    "dxcc": "OM",
     "castle": "SOMOSSKY HRAD",
+    "location": "SIATORSKA BUKOVINKA",
     "latlng": [
       "48.1714653",
       "19.8570003"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00042",
     "ref_om": "BB-28",
+    "dxcc": "OM",
     "castle": "HRAD KAPLA",
+    "location": "SIRKOVCE",
     "latlng": [
       "48.2843825",
       "20.0711789"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00043",
     "ref_om": "BB-29",
+    "dxcc": "OM",
     "castle": "HRAD BREZNICA",
+    "location": "TEKOVSKA BREZNICA",
     "latlng": [
       "48.3783386",
       "18.6278903"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00044",
     "ref_om": "BB-30",
+    "dxcc": "OM",
     "castle": "TISOVECKY HRAD",
+    "location": "TISOVEC",
     "latlng": [
       "48.6817694",
       "19.9245575"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00045",
     "ref_om": "BB-31",
+    "dxcc": "OM",
     "castle": "HRAD BLH",
+    "location": "VELKY BLH",
     "latlng": [
       "48.4744439",
       "20.1269439"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00046",
     "ref_om": "BB-32",
+    "dxcc": "OM",
     "castle": "VIGLASSKY ZAMOK",
+    "location": "VIGLAS",
     "latlng": [
       "48.5555300",
       "19.2997297"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00047",
     "ref_om": "BB-33",
+    "dxcc": "OM",
     "castle": "ZVOLENSKY ZAMOK",
+    "location": "ZVOLEN",
     "latlng": [
       "48.5729594",
       "19.1273553"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00047",
     "ref_om": "BB-33",
+    "dxcc": "OM",
     "castle": "PUSTY HRAD",
+    "location": "ZVOLEN",
     "latlng": [
       "48.5566294",
       "19.1089633"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00048",
     "ref_om": "BB-34",
+    "dxcc": "OM",
     "castle": "ZARNOVICKY ZAMOK",
+    "location": "ZARNOVICA",
     "latlng": [
       "48.4837194",
       "18.7189531"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00049",
     "ref_om": "BB-35",
+    "dxcc": "OM",
     "castle": "BENEDIKTINSKA PEVNOST",
+    "location": "HRONSKY BENADIK",
     "latlng": [
       "48.3449303",
       "18.5579358"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00050",
     "ref_om": "BB-36",
+    "dxcc": "OM",
     "castle": "MAGINHRAD",
+    "location": "NIZNY SKALNIK",
     "latlng": [
       "48.4483578",
       "19.9843717"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00051",
     "ref_om": "BB-37",
+    "dxcc": "OM",
     "castle": "ZIBRITOVSKA PEVNOST",
+    "location": "ZIBRITOV",
     "latlng": [
       "48.3917603",
       "18.9807972"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00052",
     "ref_om": "BB-38",
+    "dxcc": "OM",
     "castle": "HRACHOVSKY HRAD",
+    "location": "HRACHOVO",
     "latlng": [
       "48.467488",
       "19.948685"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00053",
     "ref_om": "BB-39",
+    "dxcc": "OM",
     "castle": "KRUPINSKA VARTOVKA",
+    "location": "KRUPINA",
     "latlng": [
       "48.3491631",
       "19.0791664"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00054",
     "ref_om": "BB-40",
+    "dxcc": "OM",
     "castle": "ZAKYLSKY PUSTY HRAD",
+    "location": "PODHORIE (OKR.B.STIAVNICA)",
     "latlng": [
       "48.5085575",
       "18.9351094"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00055",
     "ref_om": "BB-41",
+    "dxcc": "OM",
     "castle": "HRAD VISELNA",
+    "location": "PRIBOJ (OKR.RIM.SOBOTA)",
     "latlng": [
       "48.4980383",
       "19.9415539"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00056",
     "ref_om": "BB-42",
+    "dxcc": "OM",
     "castle": "PEVNOST V HRONSEKU",
+    "location": "HRONSEK",
     "latlng": [
       "48.64821818263",
       "19.157527747393"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00057",
     "ref_om": "BB-43",
+    "dxcc": "OM",
     "castle": "RUDNIANSKY HRADOK",
+    "location": "RUDNO NAD HRONOM",
     "latlng": [
       "48.4218881",
       "18.6953461"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00058",
     "ref_om": "BB-44",
+    "dxcc": "OM",
     "castle": "HRAD SVATY ANTON",
+    "location": "SVATY ANTON",
     "latlng": [
       "48.4213894",
       "18.9427886"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00059",
     "ref_om": "BB-45",
+    "dxcc": "OM",
     "castle": "HRADOK V DOLNEJ MICINEJ",
+    "location": "DOLNA MICINA",
     "latlng": [
       "48.6722114",
       "19.2237419"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00060",
     "ref_om": "BB-46",
+    "dxcc": "OM",
     "castle": "NOVOBANSKA PEVNOST",
+    "location": "NOVA BANA",
     "latlng": [
       "48.4240761",
       "18.6397844"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00061",
     "ref_om": "BB-47",
+    "dxcc": "OM",
     "castle": "HRAD OZDANY",
+    "location": "OZDANY",
     "latlng": [
       "48.3793272",
       "19.8961297"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00062",
     "ref_om": "BB-48",
+    "dxcc": "OM",
     "castle": "HLASKA STRANA",
+    "location": "JELSAVSKA TEPLICA",
     "latlng": [
       "48.6013331",
       "20.2736875"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00063",
     "ref_om": "BB-49",
+    "dxcc": "OM",
     "castle": "HRADOK V RADZOVCIACH",
+    "location": "RADZOVCE",
     "latlng": [
       "48.2199947",
       "19.8280222"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00064",
     "ref_om": "BB-50",
+    "dxcc": "OM",
     "castle": "PEVNOST SOBOTKA",
+    "location": "RIMAVSKA SOBOTA",
     "latlng": [
       "48.3943667",
       "19.9913267"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00065",
     "ref_om": "BB-51",
+    "dxcc": "OM",
     "castle": "HRADOK MURIK",
+    "location": "SIVETICE",
     "latlng": [
       "48.5940994",
       "20.2710117"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00066",
     "ref_om": "BB-52",
+    "dxcc": "OM",
     "castle": "PROTITURECKA PEVNOST",
+    "location": "ZVOLENSKA SLATINA",
     "latlng": [
       "48.5607267",
       "19.2606808"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00067",
     "ref_om": "BB-53",
+    "dxcc": "OM",
     "castle": "MESTSKE HRADBY",
+    "location": "BREZNO",
     "latlng": [
       "48.8082339",
       "19.6411661"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00068",
     "ref_om": "BB-54",
+    "dxcc": "OM",
     "castle": "PROTITURECKA PEVNOST",
+    "location": "STIAVNICKE BANE",
     "latlng": [
       "48.4411689",
       "18.8749983"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00069",
     "ref_om": "BB-55",
+    "dxcc": "OM",
     "castle": "HRAD LITAVA",
+    "location": "CEROVO",
     "latlng": [
       "48.2306075",
       "19.1327647"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00070",
     "ref_om": "BB-56",
+    "dxcc": "OM",
     "castle": "ZELENY HRAD",
+    "location": "CEBOVCE",
     "latlng": [
       "48.2036458",
       "19.2300983"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00071",
     "ref_om": "BB-57",
+    "dxcc": "OM",
     "castle": "HRAD V CESKOM BREZOVE",
+    "location": "CESKE BREZOVO",
     "latlng": [
       "48.5040586",
       "19.8165497"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00072",
     "ref_om": "BB-58",
+    "dxcc": "OM",
     "castle": "HRAD V MALYCH ZLIEVCACH",
+    "location": "MALE ZLIEVCE",
     "latlng": [
       "48.17112933584",
       "19.46774934603"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00073",
     "ref_om": "BB-59",
+    "dxcc": "OM",
     "castle": "NIZINNY HRAD V RIM. SECI",
+    "location": "RIMAVSKA SEC",
     "latlng": [
       "48.3039164",
       "20.2405083"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00074",
     "ref_om": "BB-60",
+    "dxcc": "OM",
     "castle": "SOVI HRAD",
+    "location": "SURICE",
     "latlng": [
       "48.2264722",
       "19.9131997"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00075",
     "ref_om": "KE-01",
+    "dxcc": "OM",
     "castle": "HRAD BRZOTIN",
+    "location": "BRZOTIN",
     "latlng": [
       "48.6087714",
       "20.4890917"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00076",
     "ref_om": "KE-02",
+    "dxcc": "OM",
     "castle": "CEJKOVSKY HRAD",
+    "location": "CEJKOV",
     "latlng": [
       "48.465600",
       "21.766700"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00077",
     "ref_om": "KE-03",
+    "dxcc": "OM",
     "castle": "GELNICKY HRAD",
+    "location": "GELNICA",
     "latlng": [
       "48.8501250",
       "20.9309756"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00078",
     "ref_om": "KE-04",
+    "dxcc": "OM",
     "castle": "MARCELOV HRAD",
+    "location": "HRABUSICE",
     "latlng": [
       "48.9591733",
       "20.4069803"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00079",
     "ref_om": "KE-05",
+    "dxcc": "OM",
     "castle": "JASOVSKY HRAD",
+    "location": "JASOV",
     "latlng": [
       "48.6777456",
       "20.9745514"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00080",
     "ref_om": "KE-06",
+    "dxcc": "OM",
     "castle": "HRAD KAZIMIR",
+    "location": "KAZIMIR",
     "latlng": [
       "48.5250975",
       "21.5826736"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00081",
     "ref_om": "KE-07",
+    "dxcc": "OM",
     "castle": "LIPOVECKY HRAD",
+    "location": "KECEROVSKY LIPOVEC",
     "latlng": [
       "48.83723",
       "21.46252"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00082",
     "ref_om": "KE-08",
+    "dxcc": "OM",
     "castle": "KOSICKY HRAD",
+    "location": "KOSICE 1",
     "latlng": [
       "48.7619342",
       "21.2365317"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00083",
     "ref_om": "KE-09",
+    "dxcc": "OM",
     "castle": "MESTSKY HRAD",
+    "location": "KRALOVSKY CHLMEC",
     "latlng": [
       "48.4240228",
       "21.9747008"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00084",
     "ref_om": "KE-10",
+    "dxcc": "OM",
     "castle": "HRAD KRASNA HORKA",
+    "location": "KRASNOHORSKE PODHRADIE",
     "latlng": [
       "48.6583486",
       "20.6004731"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00085",
     "ref_om": "KE-11",
+    "dxcc": "OM",
     "castle": "KYSACKY HRAD",
+    "location": "KYSAK",
     "latlng": [
       "48.8591586",
       "21.2062975"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00086",
     "ref_om": "KE-12",
+    "dxcc": "OM",
     "castle": "MARKUSOVSKY ZAMOK",
+    "location": "MARKUSOVCE",
     "latlng": [
       "48.9157003",
       "20.6202067"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00087",
     "ref_om": "KE-13",
+    "dxcc": "OM",
     "castle": "OBISOVSKY HRAD",
+    "location": "OBISOVCE",
     "latlng": [
       "48.8720753",
       "21.2269306"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00088",
     "ref_om": "KE-14",
+    "dxcc": "OM",
     "castle": "HRAD PLESIVEC",
+    "location": "PLESIVEC",
     "latlng": [
       "48.5472042",
       "20.4018533"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00089",
     "ref_om": "KE-15",
+    "dxcc": "OM",
     "castle": "PODHORODSKY HRAD",
+    "location": "PODHOROD",
     "latlng": [
       "48.8217511",
       "22.3037028"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00090",
     "ref_om": "KE-16",
+    "dxcc": "OM",
     "castle": "HRAD RICHNAVA",
+    "location": "RICHNAVA",
     "latlng": [
       "48.9253094",
       "20.9255433"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00091",
     "ref_om": "KE-17",
+    "dxcc": "OM",
     "castle": "SLANSKY HRAD",
+    "location": "SLANEC (OKR.KOSICE-OKOLIE)",
     "latlng": [
       "48.6372481",
       "21.4709667"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00092",
     "ref_om": "KE-18",
+    "dxcc": "OM",
     "castle": "HRAD SOKOL",
+    "location": "SOKOL",
     "latlng": [
       "48.8270433",
       "21.1660864"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00093",
     "ref_om": "KE-19",
+    "dxcc": "OM",
     "castle": "STITNICKY HRAD",
+    "location": "STITNIK",
     "latlng": [
       "48.6565922",
       "20.3654750"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00094",
     "ref_om": "KE-20",
+    "dxcc": "OM",
     "castle": "HRAD PARIC",
+    "location": "TREBISOV",
     "latlng": [
       "48.6213364",
       "21.7274947"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00095",
     "ref_om": "KE-21",
+    "dxcc": "OM",
     "castle": "TURNIANSKY HRAD ",
+    "location": "TURNA NAD BODVOU",
     "latlng": [
       "48.6109444",
       "20.8746228"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00096",
     "ref_om": "KE-22",
+    "dxcc": "OM",
     "castle": "HRAD KAMENEC",
+    "location": "VELKY KAMENEC",
     "latlng": [
       "48.3587358",
       "21.8080544"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00097",
     "ref_om": "KE-23",
+    "dxcc": "OM",
     "castle": "VINIANSKY HRAD",
+    "location": "VINNE",
     "latlng": [
       "48.8199903",
       "21.9501403"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00098",
     "ref_om": "KE-24",
+    "dxcc": "OM",
     "castle": "SPISSKY HRAD",
+    "location": "ZEHRA - HODKOVCE",
     "latlng": [
       "48.9992817",
       "20.7674928"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00099",
     "ref_om": "KE-25",
+    "dxcc": "OM",
     "castle": "MURANCOK",
+    "location": "NIZNA SLANA",
     "latlng": [
       "48.721874",
       "20.400942"
-    ]
+    ],
+    "debug": 0
+  },
+  {
+    "ref_wca": "OM-00100",
+    "ref_om": "KE-26",
+    "dxcc": "OM",
+    "castle": "VODNY HRAD",
+    "location": "VELKA IDA",
+    "latlng": [
+      "48.598273",
+      "21.166860"
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00101",
     "ref_om": "KE-27",
+    "dxcc": "OM",
     "castle": "BRANICEVSKY HRAD",
+    "location": "BACKOV",
     "latlng": [
       "48.7821536",
       "21.5629378"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00102",
     "ref_om": "KE-28",
+    "dxcc": "OM",
     "castle": "ZAMOK SANS-SOUCI",
+    "location": "ILIASOVCE",
     "latlng": [
       "48.9773611",
       "20.5466817"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00103",
     "ref_om": "KE-29",
+    "dxcc": "OM",
     "castle": "JISKROVA PEVNOST",
+    "location": "ROZNAVA",
     "latlng": [
       "48.6621122",
       "20.5327942"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00104",
     "ref_om": "KE-30",
+    "dxcc": "OM",
     "castle": "SVINICKY HRAD",
+    "location": "SVINICA",
     "latlng": [
       "48.7287481",
       "21.4842044"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00105",
     "ref_om": "KE-31",
+    "dxcc": "OM",
     "castle": "VAJKOVSKA PEVNOST",
+    "location": "VAJKOVCE",
     "latlng": [
       "48.7828556",
       "21.3218550"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00106",
     "ref_om": "KE-32",
+    "dxcc": "OM",
     "castle": "MICHALOVSKY HRAD",
+    "location": "MICHALOVCE",
     "latlng": [
       "48.7578225",
       "21.9246017"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00107",
     "ref_om": "KE-33",
+    "dxcc": "OM",
     "castle": "PREMONSTRANSKY KLASTOR",
+    "location": "LELES",
     "latlng": [
       "48.4644228",
       "22.0243089"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00108",
     "ref_om": "KE-34",
+    "dxcc": "OM",
     "castle": "HRAD SOKOLI KAMEN",
+    "location": "SILICKA JABLONICA",
     "latlng": [
       "48.5458536",
       "20.5659597"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00109",
     "ref_om": "KE-35",
+    "dxcc": "OM",
     "castle": "ZATINSKY HRAD",
+    "location": "ZATIN",
     "latlng": [
       "48.4771006",
       "21.9050828"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00110",
     "ref_om": "KE-36",
+    "dxcc": "OM",
     "castle": "ZEMPLINSKY ZUPNY HRAD",
+    "location": "ZEMPLIN",
     "latlng": [
       "48.4413003",
       "21.8136314"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00111",
     "ref_om": "KE-37",
+    "dxcc": "OM",
     "castle": "HRAD BREHOV",
+    "location": "BREHOV",
     "latlng": [
       "48.4896236",
       "21.8181489"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00112",
     "ref_om": "KE-38",
+    "dxcc": "OM",
     "castle": "HRADOK BUDIMIR",
+    "location": "BUDIMIR",
     "latlng": [
       "48.7979447",
       "21.3085406"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00113",
     "ref_om": "KE-39",
+    "dxcc": "OM",
     "castle": "CHONKOVSKY HRAD",
+    "location": "CHONKOVCE",
     "latlng": [
       "48.7961617",
       "22.2681544"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00114",
     "ref_om": "KE-40",
+    "dxcc": "OM",
     "castle": "OCHTINSKA PEVNOST",
+    "location": "OCHTINA",
     "latlng": [
       "48.6835822",
       "20.3278439"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00115",
     "ref_om": "KE-41",
+    "dxcc": "OM",
     "castle": "ZEMPLINSKY HRADOK",
+    "location": "ZEMPLINSKA TEPLICA",
     "latlng": [
       "48.6541461",
       "21.5487553"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00116",
     "ref_om": "KE-42",
+    "dxcc": "OM",
     "castle": "HRADOK BETLIAR",
+    "location": "BETLIAR",
     "latlng": [
       "48.7062861",
       "20.5103878"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00117",
     "ref_om": "KE-43",
+    "dxcc": "OM",
     "castle": "VODNY HRAD V BORSI",
+    "location": "BORSA",
     "latlng": [
       "48.3891681",
       "21.7054464"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00118",
     "ref_om": "KE-44",
+    "dxcc": "OM",
     "castle": "KLASTORISKO",
+    "location": "LETANOVCE",
     "latlng": [
       "48.9446517",
       "20.4215906"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00119",
     "ref_om": "KE-45",
+    "dxcc": "OM",
     "castle": "HRAD MYSLA",
+    "location": "NIZNA MYSLA",
     "latlng": [
       "48.6192664",
       "21.3666250"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00120",
     "ref_om": "KE-46",
+    "dxcc": "OM",
     "castle": "POZDISOVSKY HRAD",
+    "location": "POZDISOVCE",
     "latlng": [
       "48.7248897",
       "21.8539242"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00121",
     "ref_om": "KE-47",
+    "dxcc": "OM",
     "castle": "HRAD SKAROS",
+    "location": "SKAROS",
     "latlng": [
       "48.5824583",
       "21.4015450"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00122",
     "ref_om": "KE-48",
+    "dxcc": "OM",
     "castle": "PAULINSKY KLASTOR",
+    "location": "SLAVEC - GOMBASEK",
     "latlng": [
       "48.5679300",
       "20.4657167"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00123",
     "ref_om": "KE-49",
+    "dxcc": "OM",
     "castle": "HRAD VO VELKYCH TRAKANOCH",
+    "location": "VELKE TRAKANY",
     "latlng": [
       "48.3911942",
       "22.0963161"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00124",
     "ref_om": "KE-50",
+    "dxcc": "OM",
     "castle": "HORNY A DOLNY HRADOK",
+    "location": "BUDKOVCE",
     "latlng": [
       "48.6343075",
       "21.9286717"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00125",
     "ref_om": "KE-51",
+    "dxcc": "OM",
     "castle": "HRADOK ZAMCISKO",
+    "location": "BUKOVEC (KEO)",
     "latlng": [
       "48.7153817",
       "21.1283781"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00126",
     "ref_om": "KE-52",
+    "dxcc": "OM",
     "castle": "HRADOK V HERLANOCH",
+    "location": "HERLANY",
     "latlng": [
       "48.7984581",
       "21.5049222"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00127",
     "ref_om": "KE-53",
+    "dxcc": "OM",
     "castle": "HUSITSKA PEVNOST",
+    "location": "LUCKA (ROZ)",
     "latlng": [
       "48.6394686",
       "20.7254242"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00128",
     "ref_om": "KE-54",
+    "dxcc": "OM",
     "castle": "HRADOK V MALCICIACH",
+    "location": "MALCICE",
     "latlng": [
       "48.5822228",
       "21.8477392"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00129",
     "ref_om": "KE-55",
+    "dxcc": "OM",
     "castle": "PAVLOVSKY HRAD",
+    "location": "PAVLOVCE NAD UHOM",
     "latlng": [
       "48.6129331",
       "22.0665597"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00130",
     "ref_om": "KE-56",
+    "dxcc": "OM",
     "castle": "HRABKOV HRADOK",
+    "location": "SPISSKA NOVA VES",
     "latlng": [
       "48.9435375",
       "20.5626544"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00131",
     "ref_om": "NR-01",
+    "dxcc": "OM",
     "castle": "HRUSOVSKY HRAD",
+    "location": "HOSTIE",
     "latlng": [
       "48.4786617",
       "18.4260522"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00132",
     "ref_om": "NR-02",
+    "dxcc": "OM",
     "castle": "HRAD GYMES",
+    "location": "JELENEC",
     "latlng": [
       "48.4114353",
       "18.2223558"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00133",
     "ref_om": "NR-03",
+    "dxcc": "OM",
     "castle": "LEVICKY HRAD",
+    "location": "LEVICE",
     "latlng": [
       "48.2219050",
       "18.6013619"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00134",
     "ref_om": "NR-04",
+    "dxcc": "OM",
     "castle": "NITRIANSKY HRAD",
+    "location": "NITRA",
     "latlng": [
       "48.3181381",
       "18.0867575"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00135",
     "ref_om": "NR-05",
+    "dxcc": "OM",
     "castle": "OPONICKY HRAD",
+    "location": "OPONICE",
     "latlng": [
       "48.4482794",
       "18.1564386"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00136",
     "ref_om": "NR-06",
+    "dxcc": "OM",
     "castle": "TOPOLCIANSKY HRAD",
+    "location": "PODHRADIE (OKR.TOPOLCANY)",
     "latlng": [
       "48.6580208",
       "18.0489178"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00137",
     "ref_om": "NR-07",
+    "dxcc": "OM",
     "castle": "SURIANSKY HRAD",
+    "location": "SURANY",
     "latlng": [
       "48.0851792",
       "18.1915931"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00138",
     "ref_om": "NR-08",
+    "dxcc": "OM",
     "castle": "VODNY HRAD",
+    "location": "VYSKOVCE NA IPLOM",
     "latlng": [
       "48.0500603",
       "18.8655264"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00139",
     "ref_om": "NR-09",
+    "dxcc": "OM",
     "castle": "CIERNY HRAD",
+    "location": "ZLATNO (OKR.ZLATE MORAVCE)",
     "latlng": [
       "48.4736333",
       "18.2925122"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00140",
     "ref_om": "NR-10",
+    "dxcc": "OM",
     "castle": "KOLAROVSKA PEVNOST",
+    "location": "KOLAROVO",
     "latlng": [
       "47.9269706",
       "17.9985587"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00141",
     "ref_om": "NR-11",
+    "dxcc": "OM",
     "castle": "KOMARNANSKA PEVNOST",
+    "location": "KOMARNO",
     "latlng": [
       "47.7546769",
       "18.1365131"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00142",
     "ref_om": "NR-12",
+    "dxcc": "OM",
     "castle": "NOVOZAMOCKA PEVNOST",
+    "location": "NOVE ZAMKY",
     "latlng": [
       "47.9858456",
       "18.1637581"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00143",
     "ref_om": "NR-13",
+    "dxcc": "OM",
     "castle": "TEKOVSKY ZUPNY HRAD",
+    "location": "STARY TEKOV",
     "latlng": [
       "48.2452989",
       "18.5350678"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00144",
     "ref_om": "NR-14",
+    "dxcc": "OM",
     "castle": "VRABLIANSKA PEVNOST",
+    "location": "VRABLE",
     "latlng": [
       "48.2444275",
       "18.3054047"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00145",
     "ref_om": "NR-15",
+    "dxcc": "OM",
     "castle": "ZIVANSKA VEZA",
+    "location": "JEDLOVE KOSTOLANY",
     "latlng": [
       "48.4647400",
       "18.5184725"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00146",
     "ref_om": "NR-16",
+    "dxcc": "OM",
     "castle": "NESVADSKA PEVNOST",
+    "location": "NESVADY",
     "latlng": [
       "47.9279828",
       "18.1288472"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00147",
     "ref_om": "NR-17",
+    "dxcc": "OM",
     "castle": "SALIANSKY HRAD",
+    "location": "SALA",
     "latlng": [
       "48.1522969",
       "17.8770989"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00148",
     "ref_om": "NR-18",
+    "dxcc": "OM",
     "castle": "HRAD V TOPOLCIANKACH",
+    "location": "TOPOLCIANKY",
     "latlng": [
       "48.4216028",
       "18.4130147"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00149",
     "ref_om": "NR-19",
+    "dxcc": "OM",
     "castle": "HRADOK BRANC",
+    "location": "BRANC",
     "latlng": [
       "48.2153436",
       "18.1190714"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00150",
     "ref_om": "NR-20",
+    "dxcc": "OM",
     "castle": "SKYCOVSKY ZAMOK",
+    "location": "SKYCOV",
     "latlng": [
       "48.5029467",
       "18.4204928"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00151",
     "ref_om": "NR-21",
+    "dxcc": "OM",
     "castle": "PEVNOST BINA",
+    "location": "BINA",
     "latlng": [
       "47.9210125",
       "18.6429392"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00152",
     "ref_om": "NR-22",
+    "dxcc": "OM",
     "castle": "NITRIANSKY HRADOK",
+    "location": "NITRIANSKY HRADOK",
     "latlng": [
       "48.0675517",
       "18.2098806"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00153",
     "ref_om": "NR-23",
+    "dxcc": "OM",
     "castle": "KLASTOR NA MARIANSKEJ CELADI",
+    "location": "PODHAJSKA",
     "latlng": [
       "48.0770567",
       "18.3700844"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00154",
     "ref_om": "NR-24",
+    "dxcc": "OM",
     "castle": "PUKANSKY ZAMOK",
+    "location": "PUKANEC",
     "latlng": [
       "48.3524864",
       "18.7221708"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00155",
     "ref_om": "NR-25",
+    "dxcc": "OM",
     "castle": "DZIGERDELEN PARKANI",
+    "location": "STUROVO",
     "latlng": [
       "47.7999814",
       "18.7236428"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00156",
     "ref_om": "NR-26",
+    "dxcc": "OM",
     "castle": "HRADOK TRHOVISTE",
+    "location": "BOJNA",
     "latlng": [
       "48.6114269",
       "17.9956900"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00157",
     "ref_om": "NR-27",
+    "dxcc": "OM",
     "castle": "LEFANTOVSKY HRAD",
+    "location": "HORNE LEFANTOVCE",
     "latlng": [
       "48.4242361",
       "18.1662028"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00158",
     "ref_om": "NR-28",
+    "dxcc": "OM",
     "castle": "HRADOK VARHED",
+    "location": "KAMENIN",
     "latlng": [
       "47.8938139",
       "18.6508228"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00159",
     "ref_om": "NR-29",
+    "dxcc": "OM",
     "castle": "HRADOK V KRNCI",
+    "location": "KRNCA",
     "latlng": [
       "48.5316308",
       "18.2571314"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00160",
     "ref_om": "NR-30",
+    "dxcc": "OM",
     "castle": "HRADOK V MALYCH KOSIHACH",
+    "location": "MALE KOSIHY (NZA)",
     "latlng": [
       "47.9153033",
       "18.7586603"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00161",
     "ref_om": "NR-31",
+    "dxcc": "OM",
     "castle": "HRADOK V OBYCIACH",
+    "location": "OBYCE",
     "latlng": [
       "48.4300067",
       "18.4544669"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00162",
     "ref_om": "NR-32",
+    "dxcc": "OM",
     "castle": "HRADOK VO VELCICIACH",
+    "location": "VELCICE (NIT)",
     "latlng": [
       "48.4506292",
       "18.2820789"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00163",
     "ref_om": "NR-33",
+    "dxcc": "OM",
     "castle": "HRADISKO KRIVIN",
+    "location": "RYBNIK (LVC)",
     "latlng": [
       "48.3265656",
       "18.5585883"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00164",
     "ref_om": "NR-34",
+    "dxcc": "OM",
     "castle": "VODNY HRAD V KOMJATICIACH",
+    "location": "KOMJATICE",
     "latlng": [
       "48.1605289",
       "18.1673647"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00165",
     "ref_om": "NR-35",
+    "dxcc": "OM",
     "castle": "VODNY HRAD V LUDANICIACH",
+    "location": "LUDANICE",
     "latlng": [
       "48.5002536",
       "18.1245311"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00166",
     "ref_om": "NR-36",
+    "dxcc": "OM",
     "castle": "VODNY HRAD V NITR. STREDE",
+    "location": "NITRIANSKA STREDA",
     "latlng": [
       "48.5232069",
       "18.1699172"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00167",
     "ref_om": "PO-01",
+    "dxcc": "OM",
     "castle": "BREKOVSKY HRAD",
+    "location": "BREKOV",
     "latlng": [
       "48.9024953",
       "21.8324492"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00168",
     "ref_om": "PO-02",
+    "dxcc": "OM",
     "castle": "HANIGOVSKY HRAD",
+    "location": "HANIGOVCE",
     "latlng": [
       "49.1900139",
       "21.0394347"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00169",
     "ref_om": "PO-03",
+    "dxcc": "OM",
     "castle": "HOLUMNICKY ZAMOK",
+    "location": "HOLUMNICA",
     "latlng": [
       "49.2331181",
       "20.5269964"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00170",
     "ref_om": "PO-04",
+    "dxcc": "OM",
     "castle": "JASENOVSKY HRAD",
+    "location": "JASENOV (OKR.HUMENNE)",
     "latlng": [
       "48.8909506",
       "21.9107611"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00171",
     "ref_om": "PO-05",
+    "dxcc": "OM",
     "castle": "KAMENICKY HRAD",
+    "location": "KAMENICA (OKR.SABINOV)",
     "latlng": [
       "49.1959264",
       "20.9700864"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00172",
     "ref_om": "PO-06",
+    "dxcc": "OM",
     "castle": "KAPUSIANSKY HRAD",
+    "location": "KAPUSANY",
     "latlng": [
       "49.0549361",
       "21.3203478"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00173",
     "ref_om": "PO-07",
+    "dxcc": "OM",
     "castle": "KEZMARSKY ZAMOK",
+    "location": "KEZMAROK",
     "latlng": [
       "49.1398103",
       "20.4332353"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00174",
     "ref_om": "PO-08",
+    "dxcc": "OM",
     "castle": "HRAD LIPOVEC",
+    "location": "LIPOVCE",
     "latlng": [
       "49.0572917",
       "20.9354206"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00175",
     "ref_om": "PO-09",
+    "dxcc": "OM",
     "castle": "MEDZIANSKY HRAD",
+    "location": "MEDZIANKY",
     "latlng": [
       "49.0394461",
       "21.4849878"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00176",
     "ref_om": "PO-10",
+    "dxcc": "OM",
     "castle": "HRAD PLAVEC",
+    "location": "PLAVEC",
     "latlng": [
       "49.2553739",
       "20.8477364"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00177",
     "ref_om": "PO-11",
+    "dxcc": "OM",
     "castle": "HRAD SEBES",
+    "location": "PODHRADIK",
     "latlng": [
       "49.0016139",
       "21.3562619"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00178",
     "ref_om": "PO-12",
+    "dxcc": "OM",
     "castle": "SOLNOHRAD",
+    "location": "PRESOV",
     "latlng": [
       "48.9750450",
       "21.2676339"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00179",
     "ref_om": "PO-13",
-    "castle": "HRAD CICAVA",
+    "dxcc": "OM",
+    "castle": "HRAD CICVA",
+    "location": "SEDLISKA - PODCICVA",
     "latlng": [
       "48.9143867",
       "21.7383800"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00180",
     "ref_om": "PO-14",
+    "dxcc": "OM",
     "castle": "LUBOVNIANSKY ZAMOK",
+    "location": "STARA LUBOVNA",
     "latlng": [
       "49.3153228",
       "20.6994847"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00181",
     "ref_om": "PO-15",
+    "dxcc": "OM",
     "castle": "STROPKOVSKY HRAD",
+    "location": "STROPKOV",
     "latlng": [
       "49.2017525",
       "21.6536867"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00182",
     "ref_om": "PO-16",
+    "dxcc": "OM",
     "castle": "SARISSKY HRAD",
+    "location": "VELKY SARIS",
     "latlng": [
       "49.0523300",
       "21.1761494"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00183",
     "ref_om": "PO-17",
+    "dxcc": "OM",
     "castle": "MAKOVICKY HRAD ",
+    "location": "ZBOROV",
     "latlng": [
       "49.3532453",
       "21.2985428"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00184",
     "ref_om": "PO-18",
+    "dxcc": "OM",
     "castle": "BREZOVICKY HRAD",
+    "location": "BREZOVICA (OKR.SABINOV)",
     "latlng": [
       "49.1473022",
       "20.8496892"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00185",
     "ref_om": "PO-19",
+    "dxcc": "OM",
     "castle": "HRAD DRIENOV",
+    "location": "DRIENOV",
     "latlng": [
       "48.8745825",
       "21.2718206"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00186",
     "ref_om": "PO-20",
+    "dxcc": "OM",
     "castle": "RANOFEUDALNY HRAD",
+    "location": "HRADISKO",
     "latlng": [
       "49.1388083",
       "21.2256681"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00187",
     "ref_om": "PO-21",
+    "dxcc": "OM",
     "castle": "ZBOJNICKY HRAD",
+    "location": "RUSKA NOVA VES",
     "latlng": [
       "48.9747333",
       "21.3463417"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00188",
     "ref_om": "PO-22",
+    "dxcc": "OM",
     "castle": "BRESTOVSKY HRAD",
+    "location": "BRESTOV (OKR.PRESOV)",
     "latlng": [
       "48.8776853",
       "21.3644142"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00189",
     "ref_om": "PO-23",
+    "dxcc": "OM",
     "castle": "HRAD V BREZOVICKE",
+    "location": "BREZOVICKA",
     "latlng": [
       "49.1223722",
       "20.8381549"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00190",
     "ref_om": "PO-24",
+    "dxcc": "OM",
     "castle": "PEVNOST OSTRA HURA",
+    "location": "NIZNY TVAROZEC",
     "latlng": [
       "49.3749672",
       "21.1701344"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00191",
     "ref_om": "PO-25",
+    "dxcc": "OM",
     "castle": "HUMENSKY HRAD",
+    "location": "HUMENNE",
     "latlng": [
       "48.9387981",
       "21.9073083"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00192",
     "ref_om": "PO-26",
+    "dxcc": "OM",
     "castle": "PECOVSKY HRAD",
+    "location": "PECOVSKA NOVA VES",
     "latlng": [
       "49.1280408",
       "21.0418306"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00193",
     "ref_om": "PO-27",
+    "dxcc": "OM",
     "castle": "PEVNOST ZADNA HURA",
+    "location": "CHMELOV",
     "latlng": [
       "49.0673100",
       "21.4575472"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00194",
     "ref_om": "PO-28",
+    "dxcc": "OM",
     "castle": "RADVANOVSKY HRAD",
+    "location": "RADVANOVCE",
     "latlng": [
       "49.065782",
       "21.464109"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00195",
     "ref_om": "PO-29",
+    "dxcc": "OM",
     "castle": "HRAD BODON",
+    "location": "ZLATA BANA",
     "latlng": [
       "48.9369331",
       "21.4002564"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00196",
     "ref_om": "PO-30",
+    "dxcc": "OM",
     "castle": "CERVENY KLASTOR",
+    "location": "CERVENY KLASTOR",
     "latlng": [
       "49.3989836",
       "20.4165333"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00197",
     "ref_om": "PO-31",
+    "dxcc": "OM",
     "castle": "KUNIGUNDIN HRAD",
+    "location": "PODOLINEC",
     "latlng": [
       "49.2574200",
       "20.5344986"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00198",
     "ref_om": "PO-32",
+    "dxcc": "OM",
     "castle": "HRAD SKRABSKE",
+    "location": "SKRABSKE",
     "latlng": [
       "49.0071186",
       "21.5758192"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00199",
     "ref_om": "PO-33",
+    "dxcc": "OM",
     "castle": "HRAD STRAZKY",
+    "location": "STRAZKY",
     "latlng": [
       "49.1719914",
       "20.4539328"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00200",
     "ref_om": "PO-34",
+    "dxcc": "OM",
     "castle": "VRANOVSKY HRAD",
+    "location": "VRANOV NAD TOPLOU",
     "latlng": [
       "48.8894903",
       "21.6862744"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00201",
     "ref_om": "PO-35",
+    "dxcc": "OM",
     "castle": "PEVNOST AKSAMITKA",
+    "location": "HALIGOVCE",
     "latlng": [
       "49.3833772",
       "20.4492656"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00202",
     "ref_om": "PO-36",
+    "dxcc": "OM",
     "castle": "HRADOK VARHED",
+    "location": "JAROVNICE",
     "latlng": [
       "49.0868486",
       "21.0522769"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00203",
     "ref_om": "PO-37",
+    "dxcc": "OM",
     "castle": "KLASTOR MINORITOV",
+    "location": "LEVOCA",
     "latlng": [
       "49.0270911",
       "20.5928597"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00204",
     "ref_om": "PO-38",
+    "dxcc": "OM",
     "castle": "HRADOK KASTEL",
+    "location": "MODRA NAD CIROCHOU",
     "latlng": [
       "48.9450761",
       "22.0434619"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00205",
     "ref_om": "PO-39",
+    "dxcc": "OM",
     "castle": "BRATRICKA PEVNOST",
+    "location": "MRAZOVCE",
     "latlng": [
       "49.1129608",
       "21.6563119"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00206",
     "ref_om": "PO-40",
+    "dxcc": "OM",
     "castle": "HUSITSKA PEVNOST V KVETNICI",
+    "location": "POPRAD",
     "latlng": [
       "49.0115594",
       "20.2896706"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00207",
     "ref_om": "PO-41",
+    "dxcc": "OM",
     "castle": "CISTERIANSKE OPATSTVO",
+    "location": "SPISSKY STIAVNIK",
     "latlng": [
       "48.9888392",
       "20.3806772"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00208",
     "ref_om": "PO-42",
+    "dxcc": "OM",
     "castle": "SVIDNICKY HRAD",
+    "location": "SVIDNIK",
     "latlng": [
       "49.2828900",
       "21.5874433"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00209",
     "ref_om": "PO-43",
+    "dxcc": "OM",
     "castle": "HRAD BARDEJOV",
+    "location": "BARDEJOV",
     "latlng": [
       "49.2924336",
       "21.2756886"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00210",
     "ref_om": "PO-44",
+    "dxcc": "OM",
     "castle": "HLASKA HRADZISKO",
+    "location": "HRABKOV",
     "latlng": [
       "48.9588992",
       "21.0206336"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00211",
     "ref_om": "PO-45",
+    "dxcc": "OM",
     "castle": "HRAD SVINIA",
+    "location": "SVINIA",
     "latlng": [
       "49.0111869",
       "21.1242094"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00212",
     "ref_om": "TN-01",
+    "dxcc": "OM",
     "castle": "BECKOVSKY HRAD",
+    "location": "BECKOV",
     "latlng": [
       "48.7906492",
       "17.8983067"
-    ]
+    ],
+    "debug": 0
+  },
+  {
+    "ref_wca": "OM-00213",
+    "ref_om": "TN-02",
+    "dxcc": "OM",
+    "castle": "BOJNICKY ZAMOK",
+    "location": "BOJNICE",
+    "latlng": [
+      "48.7799192",
+      "18.5777844"
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00214",
     "ref_om": "TN-03",
+    "dxcc": "OM",
     "castle": "CACHTICKY HRAD",
+    "location": "CACHTICE",
     "latlng": [
       "48.7248933",
       "17.7610850"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00215",
     "ref_om": "TN-04",
+    "dxcc": "OM",
     "castle": "TEMATINSKY HRAD",
+    "location": "HRADOK (OKR.N.MESTO N/V)",
     "latlng": [
       "48.6772492",
       "17.9291403"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00216",
     "ref_om": "TN-05",
+    "dxcc": "OM",
     "castle": "LEDNICKY HRAD",
+    "location": "LEDNICA",
     "latlng": [
       "49.1104494",
       "18.2111558"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00217",
     "ref_om": "TN-06",
+    "dxcc": "OM",
     "castle": "HRAD SIVY KAMEN",
+    "location": "PODHRADIE (OKR.PRIEVIDZA)",
     "latlng": [
       "48.6856619",
       "18.6388556"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00218",
     "ref_om": "TN-07",
+    "dxcc": "OM",
     "castle": "POVAZSKY HRAD",
+    "location": "POVAZSKE PODHRADIE",
     "latlng": [
       "49.1455342",
       "18.4584817"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00219",
     "ref_om": "TN-08",
+    "dxcc": "OM",
     "castle": "TRENCIANSKY HRAD",
+    "location": "TRENCIN",
     "latlng": [
       "48.8945661",
       "18.0448294"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00220",
     "ref_om": "TN-09",
+    "dxcc": "OM",
     "castle": "UHROVSKY HRAD",
+    "location": "UHROVSKE PODHRADIE",
     "latlng": [
       "48.7543069",
       "18.3913981"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00221",
     "ref_om": "TN-10",
+    "dxcc": "OM",
     "castle": "KOSECKY HRAD",
+    "location": "VELKE KOSECKE PODHRADIE",
     "latlng": [
       "48.9760072",
       "18.3074244"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00222",
     "ref_om": "TN-11",
+    "dxcc": "OM",
     "castle": "HRAD VRSATEC",
+    "location": "VRSATECKE PODHRADIE",
     "latlng": [
       "49.0659122",
       "18.1508936"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00223",
     "ref_om": "TN-12",
+    "dxcc": "OM",
     "castle": "ILAVSKA PEVNOST",
+    "location": "ILAVA",
     "latlng": [
       "48.9985778",
       "18.2317814"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00224",
     "ref_om": "TN-13",
+    "dxcc": "OM",
     "castle": "HRAD SUCA",
+    "location": "DOLNA SUCA",
     "latlng": [
       "48.9607075",
       "18.0153239"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00225",
     "ref_om": "TN-14",
+    "dxcc": "OM",
     "castle": "KLASTOR NA VELKEJ SKALE",
+    "location": "SKALKA NAD VAHOM",
     "latlng": [
       "48.9143256",
       "18.0736033"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00226",
     "ref_om": "TN-15",
+    "dxcc": "OM",
     "castle": "HR.MICHALOV A UHERECKA PEV.",
+    "location": "VELKE UHERCE",
     "latlng": [
       "48.6115592",
       "18.4443994"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00227",
     "ref_om": "TN-16",
+    "dxcc": "OM",
     "castle": "HRADOK V ZABOKREKOCH",
+    "location": "ZABOKREKY NAD NITROU",
     "latlng": [
       "48.6221242",
       "18.3037639"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00228",
     "ref_om": "TN-17",
+    "dxcc": "OM",
     "castle": "BOSANSKY HRADOK",
+    "location": "BOSANY",
     "latlng": [
       "48.5808133",
       "18.2482253"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00229",
     "ref_om": "TN-18",
+    "dxcc": "OM",
     "castle": "LEHOTSKY HRADOK",
+    "location": "CIERNA LEHOTA (OKR. BAN)",
     "latlng": [
       "48.8771081",
       "18.3278247"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00230",
     "ref_om": "TN-19",
+    "dxcc": "OM",
     "castle": "DIVIACKY HRADOK",
+    "location": "DIVIACKA NOVA VES",
     "latlng": [
       "48.7479281",
       "18.4903461"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00231",
     "ref_om": "TN-20",
+    "dxcc": "OM",
     "castle": "HRADOK V CERENANOCH",
+    "location": "CERENANY",
     "latlng": [
       "48.6420011",
       "18.4848183"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00232",
     "ref_om": "TN-21",
+    "dxcc": "OM",
     "castle": "HRADOK V DIVIAKOCH NAD NITR.",
+    "location": "DIVIAKY NAD NITRICOU",
     "latlng": [
       "48.7655722",
       "18.4945206"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00233",
     "ref_om": "TN-22",
+    "dxcc": "OM",
     "castle": "HRADOK V DLZINE",
+    "location": "DLZIN",
     "latlng": [
       "48.8134744",
       "18.5239294"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00234",
     "ref_om": "TN-23",
+    "dxcc": "OM",
     "castle": "MENSI HRADOK",
+    "location": "DOLNA MARIKOVA",
     "latlng": [
       "49.2058111",
       "18.3282547"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00235",
     "ref_om": "TN-24",
+    "dxcc": "OM",
     "castle": "HRADOK DUBODIEL",
+    "location": "DUBODIEL",
     "latlng": [
       "48.7670103",
       "18.0982708"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00236",
     "ref_om": "TN-25",
+    "dxcc": "OM",
     "castle": "HALUZICKY HRAD",
+    "location": "HALUZICE",
     "latlng": [
       "48.8211500",
       "17.8699697"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00237",
     "ref_om": "TN-26",
+    "dxcc": "OM",
     "castle": "HRADOK V HRADCI",
+    "location": "HRADEC",
     "latlng": [
       "48.7592381",
       "18.6834522"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00238",
     "ref_om": "TN-27",
+    "dxcc": "OM",
     "castle": "HRADOK V HRADISTI",
+    "location": "HRADISTE (PAR)",
     "latlng": [
       "48.6861350",
       "18.3772475"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00239",
     "ref_om": "TN-28",
+    "dxcc": "OM",
     "castle": "HRADOK V JESKOVEJ VSI",
+    "location": "JESKOVA VES NAD NITRICOU",
     "latlng": [
       "48.7779378",
       "18.4898811"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00240",
     "ref_om": "TN-29",
+    "dxcc": "OM",
     "castle": "HRADOK V KOSTOLNEJ VSI",
+    "location": "KOSTOLNA VES",
     "latlng": [
       "48.8068278",
       "18.4906992"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00241",
     "ref_om": "TN-30",
+    "dxcc": "OM",
     "castle": "VODNY HRAD V SIMONOVANOCH",
+    "location": "PARTIZANSKE",
     "latlng": [
       "48.6311014",
       "18.3909881"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00242",
     "ref_om": "TN-31",
+    "dxcc": "OM",
     "castle": "HRADOK V RACICIACH",
+    "location": "RACICE",
     "latlng": [
       "48.7062950",
       "18.4554978"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00243",
     "ref_om": "TN-32",
+    "dxcc": "OM",
     "castle": "HRADOK V RUSKOVCIACH",
+    "location": "RUSKOVCE (BAN)",
     "latlng": [
       "48.7440569",
       "18.1974739"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00244",
     "ref_om": "TN-33",
+    "dxcc": "OM",
     "castle": "HRADOK V SIPKOVE",
+    "location": "SIPKOV",
     "latlng": [
       "48.8534635",
       "18.2979860"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00245",
     "ref_om": "TN-34",
+    "dxcc": "OM",
     "castle": "HRAD PODHRADISKO",
+    "location": "TRENCIANSKE TEPLICE",
     "latlng": [
       "48.9094050",
       "18.1702997"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00246",
     "ref_om": "TN-35",
+    "dxcc": "OM",
     "castle": "HRADOK MARTAKOVA SKALA",
+    "location": "ZEMIANSKE PODHRADIE",
     "latlng": [
       "48.8472975",
       "17.8147181"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00247",
     "ref_om": "TN-36",
+    "dxcc": "OM",
     "castle": "VODNY HRAD V BRODZANOCH",
+    "location": "BRODZANY",
     "latlng": [
       "48.6104786",
       "18.3422167"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00248",
     "ref_om": "TN-37",
+    "dxcc": "OM",
     "castle": "HRAD NA SKALKE",
+    "location": "DOMANIZA",
     "latlng": [
       "49.0439464",
       "18.5490861"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00249",
     "ref_om": "TT-01",
+    "dxcc": "OM",
     "castle": "HRAD OSTRY KAMEN",
+    "location": "BUKOVA (OKR.TRNAVA)",
     "latlng": [
       "48.5222406",
       "17.3724544"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00250",
     "ref_om": "TT-02",
+    "dxcc": "OM",
     "castle": "HRAD DOBRA VODA",
+    "location": "DOBRA VODA (OKR.TRNAVA)",
     "latlng": [
       "48.6093200",
       "17.5286750"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00251",
     "ref_om": "TT-03",
+    "dxcc": "OM",
     "castle": "HLOHOVECKY ZAMOK",
+    "location": "HLOHOVEC",
     "latlng": [
       "48.4193781",
       "17.7876344"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00252",
     "ref_om": "TT-04",
+    "dxcc": "OM",
     "castle": "HRAD BRANC",
+    "location": "PODBRANC",
     "latlng": [
       "48.7332639",
       "17.4671586"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00253",
     "ref_om": "TT-05",
+    "dxcc": "OM",
     "castle": "KORLATSKY HRAD",
+    "location": "ROZBEHY ",
     "latlng": [
       "48.5752322",
       "17.3860889"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00254",
     "ref_om": "TT-06",
+    "dxcc": "OM",
     "castle": "SMOLENICKY ZAMOK",
+    "location": "SMOLENICE",
     "latlng": [
       "48.5135486",
       "17.4324164"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00255",
     "ref_om": "TT-07",
+    "dxcc": "OM",
     "castle": "HOLICSKY ZAMOK",
+    "location": "HOLIC",
     "latlng": [
       "48.8086786",
       "17.1565644"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00256",
     "ref_om": "TT-08",
+    "dxcc": "OM",
     "castle": "LEOPOLDOVSKA PEVNOST",
+    "location": "LEOPOLDOV",
     "latlng": [
       "48.4444114",
       "17.7780614"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00257",
     "ref_om": "TT-09",
+    "dxcc": "OM",
     "castle": "PEVNOST POSADKA",
+    "location": "POSADKA",
     "latlng": [
       "48.3660272",
       "17.7659778"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00258",
     "ref_om": "TT-10",
+    "dxcc": "OM",
     "castle": "SINTAVSKY HRAD",
+    "location": "SINTAVA",
     "latlng": [
       "48.2867936",
       "17.7442522"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00259",
     "ref_om": "TT-11",
+    "dxcc": "OM",
     "castle": "KLASTOR KATARINKA",
+    "location": "NAHAC",
     "latlng": [
       "48.5546828",
       "17.5360078"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00260",
     "ref_om": "TT-12",
+    "dxcc": "OM",
     "castle": "SKALICKY HRAD",
+    "location": "SKALICA",
     "latlng": [
       "48.8491200",
       "17.2247267"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00261",
     "ref_om": "TT-13",
+    "dxcc": "OM",
     "castle": "HRADOK V HUBINE",
+    "location": "HUBINA",
     "latlng": [
       "48.6167814",
       "17.8856750"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00262",
     "ref_om": "TT-14",
+    "dxcc": "OM",
     "castle": "HRADOK V CHTELNICI",
+    "location": "CHTELNICA",
     "latlng": [
       "48.5691917",
       "17.6238594"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00263",
     "ref_om": "TT-15",
+    "dxcc": "OM",
     "castle": "HRADOK VARDOMB",
+    "location": "MALA MACA",
     "latlng": [
       "48.2242375",
       "17.6388033"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00264",
     "ref_om": "TT-16",
+    "dxcc": "OM",
     "castle": "HRADISKO",
+    "location": "TRAKOVICE",
     "latlng": [
       "48.4390372",
       "17.7098844"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00265",
     "ref_om": "TT-17",
+    "dxcc": "OM",
     "castle": "VESELSKY HRADOK",
+    "location": "VESELE",
     "latlng": [
       "48.5356772",
       "17.7341606"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00266",
     "ref_om": "TT-18",
+    "dxcc": "OM",
     "castle": "KOSTOLEC",
+    "location": "DUCOVE",
     "latlng": [
       "48.6224083",
       "17.8728017"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00267",
     "ref_om": "TT-19",
+    "dxcc": "OM",
     "castle": "MESTSKE HRADBY",
+    "location": "TRNAVA",
     "latlng": [
       "48.3776833",
       "17.5879961"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00268",
     "ref_om": "TT-20",
+    "dxcc": "OM",
     "castle": "SASTINSKY ZAMOK",
+    "location": "SASTIN - STRAZE",
     "latlng": [
       "48.6411089",
       "17.1440781"
-    ]
+    ],
+    "debug": 0
+  },
+  {
+    "ref_wca": "OM-00269",
+    "ref_om": "ZA-01",
+    "dxcc": "OM",
+    "castle": "BLATNICKY HRAD",
+    "location": "BLATNICA",
+    "latlng": [
+      "48.9471731",
+      "18.9470325"
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00270",
     "ref_om": "ZA-02",
+    "dxcc": "OM",
     "castle": "HRICOVSKY HRAD",
+    "location": "HRICOVSKE PODHRADIE",
     "latlng": [
       "49.2116881",
       "18.6199561"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00271",
     "ref_om": "ZA-03",
+    "dxcc": "OM",
     "castle": "ZNIEVSKY HRAD",
+    "location": "KLASTOR POD ZNIEVOM",
     "latlng": [
       "48.9683586",
       "18.7728289"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00272",
     "ref_om": "ZA-04",
+    "dxcc": "OM",
     "castle": "LIETAVSKY HRAD",
+    "location": "LIETAVA",
     "latlng": [
       "49.1607156",
       "18.6849083"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00273",
     "ref_om": "ZA-05",
+    "dxcc": "OM",
     "castle": "LIKAVSKY HRAD",
+    "location": "LIKAVKA",
     "latlng": [
       "49.1051422",
       "19.3121986"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00274",
     "ref_om": "ZA-06",
+    "dxcc": "OM",
     "castle": "VELKY HRAD LIPTOVSKY",
+    "location": "KALAMENY",
     "latlng": [
       "49.1477428",
       "19.4302853"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00275",
     "ref_om": "ZA-07",
+    "dxcc": "OM",
     "castle": "LIPTOVSKY HRADOK",
+    "location": "LIPTOVSKY HRADOK",
     "latlng": [
       "49.0458286",
       "19.7328764"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00276",
     "ref_om": "ZA-08",
+    "dxcc": "OM",
     "castle": "ORAVSKY ZAMOK",
+    "location": "ORAVSKY PODZAMOK",
     "latlng": [
       "49.2621250",
       "19.3589331"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00277",
     "ref_om": "ZA-09",
+    "dxcc": "OM",
     "castle": "SKLABINSKY HRAD",
+    "location": "SKLABINSKY PODZAMOK",
     "latlng": [
       "49.0545064",
       "19.0189769"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00278",
     "ref_om": "ZA-10",
+    "dxcc": "OM",
     "castle": "STRECNIANSKY HRAD",
+    "location": "STRECNO",
     "latlng": [
       "49.1745533",
       "18.8622797"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00279",
     "ref_om": "ZA-11",
+    "dxcc": "OM",
     "castle": "SULOVSKY HRAD",
+    "location": "SULOV - HRADNA",
     "latlng": [
       "49.1747011",
       "18.5835117"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00280",
     "ref_om": "ZA-12",
+    "dxcc": "OM",
     "castle": "STARY HRAD",
+    "location": "VARIN",
     "latlng": [
       "49.1779536",
       "18.8908317"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00281",
     "ref_om": "ZA-13",
+    "dxcc": "OM",
     "castle": "BUDATINSKY ZAMOK",
+    "location": "ZILINA",
     "latlng": [
       "49.2362811",
       "18.7346442"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00282",
     "ref_om": "ZA-14",
+    "dxcc": "OM",
     "castle": "BYTCIANSKY ZAMOK",
+    "location": "BYTCA",
     "latlng": [
       "49.2202892",
       "18.5592997"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00283",
     "ref_om": "ZA-15",
+    "dxcc": "OM",
     "castle": "VYSEHRAD",
+    "location": "JASENOVO",
     "latlng": [
       "48.8758397",
       "18.6998203"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00284",
     "ref_om": "ZA-16",
+    "dxcc": "OM",
     "castle": "PEVNOST V PODHRADI",
+    "location": "PODHRADIE (OKR.MARTIN)",
     "latlng": [
       "49.0724242",
       "19.0682056"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00285",
     "ref_om": "ZA-17",
+    "dxcc": "OM",
     "castle": "HRAD RAJEC",
+    "location": "RAJEC",
     "latlng": [
       "49.1091844",
       "18.6213783"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00286",
     "ref_om": "ZA-18",
+    "dxcc": "OM",
     "castle": "KUNERADSKY ZAMOK",
+    "location": "KUNERAD",
     "latlng": [
       "49.0848756",
       "18.7392686"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00287",
     "ref_om": "ZA-19",
+    "dxcc": "OM",
     "castle": "MALATINSKY HRADOK",
+    "location": "MALATINA",
     "latlng": [
       "49.1851906",
       "19.4319653"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00288",
     "ref_om": "ZA-20",
+    "dxcc": "OM",
     "castle": "HRAD BIEL",
+    "location": "PODBIEL",
     "latlng": [
       "49.2953706",
       "19.4937611"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00289",
     "ref_om": "ZA-21",
+    "dxcc": "OM",
     "castle": "HRAD PRAVNO",
+    "location": "SLOVENSKE PRAVNO",
     "latlng": [
       "48.9175542",
       "18.7635850"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00290",
     "ref_om": "ZA-22",
+    "dxcc": "OM",
     "castle": "HRAD SUCANY",
+    "location": "SUCANY",
     "latlng": [
       "49.0990417",
       "18.9934019"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00291",
     "ref_om": "ZA-23",
+    "dxcc": "OM",
     "castle": "HRAD ROHACKA",
+    "location": "PLOSTIN",
     "latlng": [
       "49.0471797",
       "19.6051119"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00292",
     "ref_om": "ZA-24",
+    "dxcc": "OM",
     "castle": "HRADOK V BYSTRICKE",
+    "location": "BYSTRICKA (MAR)",
     "latlng": [
       "49.0504778",
       "18.8812950"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00293",
     "ref_om": "ZA-25",
+    "dxcc": "OM",
     "castle": "HRADOK V HORNOM JASENE",
+    "location": "HORNE JASENO",
     "latlng": [
       "49.0241047",
       "18.9937822"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00294",
     "ref_om": "ZA-26",
+    "dxcc": "OM",
     "castle": "HRADOK HAVRANOK",
+    "location": "LIPTOVSKA SIELNICA",
     "latlng": [
       "49.1033142",
       "19.4795119"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00295",
     "ref_om": "ZA-27",
+    "dxcc": "OM",
     "castle": "HRADOK VO VALENTOVEJ",
+    "location": "VALENTOVA (MAR)",
     "latlng": [
       "48.9647606",
       "18.8813178"
-    ]
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00296",
     "ref_om": "ZA-28",
+    "dxcc": "OM",
     "castle": "HRADOK POHANOVO",
+    "location": "KRPELANY",
     "latlng": [
       "49.123434825983",
       "19.10014148650"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00297",
     "ref_om": "ZA-29",
+    "dxcc": "OM",
     "castle": "HRADOK V\u00a0LIPTOVSKOM JANE",
+    "location": "LIPTOVSKY JAN",
     "latlng": [
       "49.0422542",
       "19.6598192"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00298",
     "ref_om": "ZA-30",
+    "dxcc": "OM",
     "castle": "HRADOK V\u00a0KOSUTOCH",
+    "location": "MARTIN",
     "latlng": [
       "49.0886919",
       "18.9398725"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00299",
     "ref_om": "ZA-31",
+    "dxcc": "OM",
     "castle": "HRADOK V\u00a0NEZBUDSK. LUCKE",
+    "location": "NEZBUDSKA LUCKA",
     "latlng": [
       "49.1796914",
       "18.8673186"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00300",
     "ref_om": "ZA-32",
+    "dxcc": "OM",
     "castle": "PEVNOST VELINOK",
+    "location": "PODTUREN",
     "latlng": [
       "49.0564108",
       "19.6990553"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00301",
     "ref_om": "ZA-33",
+    "dxcc": "OM",
     "castle": "HRADOK STRAZA",
+    "location": "SOCOVCE",
     "latlng": [
       "48.9480694",
       "18.8600433"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00302",
     "ref_om": "ZA-34",
+    "dxcc": "OM",
     "castle": "HRADOK V\u00a0SUTOVE",
+    "location": "SUTOVO",
     "latlng": [
       "49.1418464",
       "19.0871142"
-    ]
+    ],
+    "debug": 0
+  },
+  {
+    "ref_wca": "OM-00303",
+    "ref_om": "ZA-35",
+    "dxcc": "OM",
+    "castle": "HRADOK V\u00a0TURC. KLACANOCH",
+    "location": "TURCIANSKE KLACANY",
+    "latlng": [
+      "49.1164431",
+      "18.9502619"
+    ],
+    "debug": 1
   },
   {
     "ref_wca": "OM-00304",
     "ref_om": "ZA-36",
+    "dxcc": "OM",
     "castle": "HRAD TURIK",
+    "location": "TURIK",
     "latlng": [
       "49.1080336",
       "19.3803550"
-    ]
+    ],
+    "debug": 0
   },
   {
     "ref_wca": "OM-00305",
     "ref_om": "ZA-37",
+    "dxcc": "OM",
     "castle": "HRADISTE",
+    "location": "VRUTKY",
     "latlng": [
       "49.1089311",
       "18.9240167"
-    ]
+    ],
+    "debug": 1
   }
 ]
