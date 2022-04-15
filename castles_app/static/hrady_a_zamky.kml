@@ -1,0 +1,2778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Hrady a zamky Slovenska</name>
+        <Placemark id="3">
+            <name>CEKLISKY HRAD</name>
+            <description>&lt;strong&gt;OM-00001 / BA-01&lt;/strong&gt;&lt;br&gt;
+        BERNOLAKOVO
+        </description>
+            <Point id="2">
+                <coordinates>17.2881653,48.1999392,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>HRAD PAJSTUN</name>
+            <description>&lt;strong&gt;OM-00002 / BA-02&lt;/strong&gt;&lt;br&gt;
+        BORINKA
+        </description>
+            <Point id="4">
+                <coordinates>17.0828706,48.2754186,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>BRATISLAVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00003 / BA-03&lt;/strong&gt;&lt;br&gt;
+        BRATISLAVA 1
+        </description>
+            <Point id="6">
+                <coordinates>17.0996481,48.1422481,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>DEVINSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00004 / BA-04&lt;/strong&gt;&lt;br&gt;
+        BRATISLAVA 4
+        </description>
+            <Point id="8">
+                <coordinates>16.9773047,48.1743067,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>HRAD CERVENY KAMEN</name>
+            <description>&lt;strong&gt;OM-00005 / BA-05&lt;/strong&gt;&lt;br&gt;
+        CASTA
+        </description>
+            <Point id="10">
+                <coordinates>17.3354911,48.3917264,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>PEZINSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00006 / BA-06&lt;/strong&gt;&lt;br&gt;
+        PEZINOK
+        </description>
+            <Point id="12">
+                <coordinates>17.2682750,48.2910031,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>PLAVECKY HRAD</name>
+            <description>&lt;strong&gt;OM-00007 / BA-07&lt;/strong&gt;&lt;br&gt;
+        PLAVECKE PODHRADIE
+        </description>
+            <Point id="14">
+                <coordinates>17.2685181,48.4939942,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="17">
+            <name>HRAD BIELY KAMEN</name>
+            <description>&lt;strong&gt;OM-00008 / BA-08&lt;/strong&gt;&lt;br&gt;
+        SVATY JUR
+        </description>
+            <Point id="16">
+                <coordinates>17.1965092,48.2611836,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>RUSOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00009 / BA-09&lt;/strong&gt;&lt;br&gt;
+        BRATISLAVA 5
+        </description>
+            <Point id="18">
+                <coordinates>17.1506547,48.0523247,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21">
+            <name>KUCHYNSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00010 / BA-10&lt;/strong&gt;&lt;br&gt;
+        KUCHYNA
+        </description>
+            <Point id="20">
+                <coordinates>17.1973142,48.4212344,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="23">
+            <name>HRAD YBERHARD</name>
+            <description>&lt;strong&gt;OM-00011 / BA-11&lt;/strong&gt;&lt;br&gt;
+        MALINOVO
+        </description>
+            <Point id="22">
+                <coordinates>17.2977178,48.1527961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="25">
+            <name>HRADOK V GAJAROCH</name>
+            <description>&lt;strong&gt;OM-00012 / BA-12&lt;/strong&gt;&lt;br&gt;
+        GAJARY
+        </description>
+            <Point id="24">
+                <coordinates>16.9261083,48.4684333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="27">
+            <name>ZAMCISKO</name>
+            <description>&lt;strong&gt;OM-00013 / BA-13&lt;/strong&gt;&lt;br&gt;
+        PERNEK
+        </description>
+            <Point id="26">
+                <coordinates>17.1638511,48.3647892,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="29">
+            <name>ZAMCISKO</name>
+            <description>&lt;strong&gt;OM-00014 / BA-14&lt;/strong&gt;&lt;br&gt;
+        MODRA
+        </description>
+            <Point id="28">
+                <coordinates>17.2903656,48.3623514,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="31">
+            <name>MESTSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00015 / BB-01&lt;/strong&gt;&lt;br&gt;
+        BANSKA BYSTRICA
+        </description>
+            <Point id="30">
+                <coordinates>18.8909569,48.4595997,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="33">
+            <name>STARY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00016 / BB-02&lt;/strong&gt;&lt;br&gt;
+        BANSKA STIAVNICA
+        </description>
+            <Point id="32">
+                <coordinates>18.8912133,48.4595817,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="35">
+            <name>NOVY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00016 / BB-02&lt;/strong&gt;&lt;br&gt;
+        BANSKA STIAVNICA
+        </description>
+            <Point id="34">
+                <coordinates>18.8961436,48.4557681,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="37">
+            <name>BZOVICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00017 / BB-03&lt;/strong&gt;&lt;br&gt;
+        BZOVIK
+        </description>
+            <Point id="36">
+                <coordinates>19.0897711,48.3151761,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="39">
+            <name>HRAD CABRAD</name>
+            <description>&lt;strong&gt;OM-00018 / BB-04&lt;/strong&gt;&lt;br&gt;
+        CABRADSKY VRBOVOK
+        </description>
+            <Point id="38">
+                <coordinates>19.1062286,48.2438606,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="41">
+            <name>DIVINSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00019 / BB-05&lt;/strong&gt;&lt;br&gt;
+        DIVIN
+        </description>
+            <Point id="40">
+                <coordinates>19.5329861,48.4483036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="43">
+            <name>DRIENCANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00020 / BB-06&lt;/strong&gt;&lt;br&gt;
+        DRIENCANY
+        </description>
+            <Point id="42">
+                <coordinates>20.0685050,48.4852961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="45">
+            <name>DUBRAVICKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00021 / BB-07&lt;/strong&gt;&lt;br&gt;
+        DUBRAVICA
+        </description>
+            <Point id="44">
+                <coordinates>19.2727831,48.6770381,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="47">
+            <name>FILAKOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00022 / BB-08&lt;/strong&gt;&lt;br&gt;
+        FILAKOVO
+        </description>
+            <Point id="46">
+                <coordinates>19.8247400,48.2715961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="49">
+            <name>ZUPNY HRAD</name>
+            <description>&lt;strong&gt;OM-00023 / BB-09&lt;/strong&gt;&lt;br&gt;
+        GEMER
+        </description>
+            <Point id="48">
+                <coordinates>20.3147589,48.4546458,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="51">
+            <name>HAJNACSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00024 / BB-10&lt;/strong&gt;&lt;br&gt;
+        HAJNACKA
+        </description>
+            <Point id="50">
+                <coordinates>19.9553553,48.2182811,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="53">
+            <name>HALICSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00025 / BB-11&lt;/strong&gt;&lt;br&gt;
+        HALIC
+        </description>
+            <Point id="52">
+                <coordinates>19.5752864,48.3567872,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="55">
+            <name>HODEJOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00026 / BB-12&lt;/strong&gt;&lt;br&gt;
+        HODEJOV
+        </description>
+            <Point id="54">
+                <coordinates>19.9829747,48.2989000,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="57">
+            <name>HRAD STARA HORA</name>
+            <description>&lt;strong&gt;OM-00027 / BB-13&lt;/strong&gt;&lt;br&gt;
+        HORNE STRHARE
+        </description>
+            <Point id="56">
+                <coordinates>19.3297100,48.2989683,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="59">
+            <name>SITNIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00028 / BB-14&lt;/strong&gt;&lt;br&gt;
+        ILIJA
+        </description>
+            <Point id="58">
+                <coordinates>18.8869692,48.4015169,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="61">
+            <name>STARY A MESTSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00029 / BB-15&lt;/strong&gt;&lt;br&gt;
+        JELSAVA
+        </description>
+            <Point id="60">
+                <coordinates>20.2004894,48.6301781,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="63">
+            <name>STARY A MESTSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00029 / BB-15&lt;/strong&gt;&lt;br&gt;
+        JELSAVA
+        </description>
+            <Point id="62">
+                <coordinates>20.2350558,48.6318344,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="65">
+            <name>MESTSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00030 / BB-16&lt;/strong&gt;&lt;br&gt;
+        KREMNICA
+        </description>
+            <Point id="64">
+                <coordinates>18.9176097,48.7062403,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="67">
+            <name>HRAD MODRY KAMEN</name>
+            <description>&lt;strong&gt;OM-00031 / BB-17&lt;/strong&gt;&lt;br&gt;
+        MODRY KAMEN
+        </description>
+            <Point id="66">
+                <coordinates>19.3333594,48.2436544,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="69">
+            <name>MURANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00032 / BB-18&lt;/strong&gt;&lt;br&gt;
+        MURAN
+        </description>
+            <Point id="68">
+                <coordinates>20.0585969,48.7586100,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="71">
+            <name>HRAD OZDIN</name>
+            <description>&lt;strong&gt;OM-00033 / BB-19&lt;/strong&gt;&lt;br&gt;
+        OZDIN
+        </description>
+            <Point id="70">
+                <coordinates>19.6731300,48.4841053,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="73">
+            <name>HRAD DOBRA NIVA</name>
+            <description>&lt;strong&gt;OM-00034 / BB-20&lt;/strong&gt;&lt;br&gt;
+        PODZAMCOK
+        </description>
+            <Point id="72">
+                <coordinates>19.1036994,48.5031444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="75">
+            <name>HRAD RAKOS</name>
+            <description>&lt;strong&gt;OM-00035 / BB-21&lt;/strong&gt;&lt;br&gt;
+        RAKOS (OKR.REVUCA)
+        </description>
+            <Point id="74">
+                <coordinates>20.1444008,48.6110492,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="77">
+            <name>HRAD REVISTE</name>
+            <description>&lt;strong&gt;OM-00036 / BB-22&lt;/strong&gt;&lt;br&gt;
+        REVISTSKE PODZAMCIE
+        </description>
+            <Point id="76">
+                <coordinates>18.7226064,48.5215692,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="79">
+            <name>HRAD DRIENOK</name>
+            <description>&lt;strong&gt;OM-00037 / BB-23&lt;/strong&gt;&lt;br&gt;
+        RYBNIK (OKR.REVUCA)
+        </description>
+            <Point id="78">
+                <coordinates>20.0974233,48.5278089,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="81">
+            <name>PUSTY HRAD </name>
+            <description>&lt;strong&gt;OM-00038 / BB-24&lt;/strong&gt;&lt;br&gt;
+        SKLENE TEPLICE
+        </description>
+            <Point id="80">
+                <coordinates>18.8473800,48.5328747,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="83">
+            <name>LUPCIANSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00039 / BB-25&lt;/strong&gt;&lt;br&gt;
+        SLOVENSKA L'UPCA
+        </description>
+            <Point id="82">
+                <coordinates>19.2811481,48.7725703,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="85">
+            <name>SASOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00040 / BB-26&lt;/strong&gt;&lt;br&gt;
+        SASOVSKE PODHRADIE
+        </description>
+            <Point id="84">
+                <coordinates>18.9002089,48.5790858,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="87">
+            <name>SOMOSSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00041 / BB-27&lt;/strong&gt;&lt;br&gt;
+        SIATORSKA BUKOVINKA
+        </description>
+            <Point id="86">
+                <coordinates>19.8570003,48.1714653,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="89">
+            <name>HRAD KAPLA</name>
+            <description>&lt;strong&gt;OM-00042 / BB-28&lt;/strong&gt;&lt;br&gt;
+        SIRKOVCE
+        </description>
+            <Point id="88">
+                <coordinates>20.0711789,48.2843825,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="91">
+            <name>HRAD BREZNICA</name>
+            <description>&lt;strong&gt;OM-00043 / BB-29&lt;/strong&gt;&lt;br&gt;
+        TEKOVSKA BREZNICA
+        </description>
+            <Point id="90">
+                <coordinates>18.6278903,48.3783386,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="93">
+            <name>TISOVECKY HRAD</name>
+            <description>&lt;strong&gt;OM-00044 / BB-30&lt;/strong&gt;&lt;br&gt;
+        TISOVEC
+        </description>
+            <Point id="92">
+                <coordinates>19.9245575,48.6817694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="95">
+            <name>HRAD BLH</name>
+            <description>&lt;strong&gt;OM-00045 / BB-31&lt;/strong&gt;&lt;br&gt;
+        VELKY BLH
+        </description>
+            <Point id="94">
+                <coordinates>20.1269439,48.4744439,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="97">
+            <name>VIGLASSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00046 / BB-32&lt;/strong&gt;&lt;br&gt;
+        VIGLAS
+        </description>
+            <Point id="96">
+                <coordinates>19.2997297,48.5555300,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="99">
+            <name>ZVOLENSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00047 / BB-33&lt;/strong&gt;&lt;br&gt;
+        ZVOLEN
+        </description>
+            <Point id="98">
+                <coordinates>19.1273553,48.5729594,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="101">
+            <name>PUSTY HRAD</name>
+            <description>&lt;strong&gt;OM-00047 / BB-33&lt;/strong&gt;&lt;br&gt;
+        ZVOLEN
+        </description>
+            <Point id="100">
+                <coordinates>19.1089633,48.5566294,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="103">
+            <name>ZARNOVICKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00048 / BB-34&lt;/strong&gt;&lt;br&gt;
+        ZARNOVICA
+        </description>
+            <Point id="102">
+                <coordinates>18.7189531,48.4837194,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="105">
+            <name>BENEDIKTINSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00049 / BB-35&lt;/strong&gt;&lt;br&gt;
+        HRONSKY BENADIK
+        </description>
+            <Point id="104">
+                <coordinates>18.5579358,48.3449303,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="107">
+            <name>MAGINHRAD</name>
+            <description>&lt;strong&gt;OM-00050 / BB-36&lt;/strong&gt;&lt;br&gt;
+        NIZNY SKALNIK
+        </description>
+            <Point id="106">
+                <coordinates>19.9843717,48.4483578,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="109">
+            <name>ZIBRITOVSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00051 / BB-37&lt;/strong&gt;&lt;br&gt;
+        ZIBRITOV
+        </description>
+            <Point id="108">
+                <coordinates>18.9807972,48.3917603,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="111">
+            <name>HRACHOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00052 / BB-38&lt;/strong&gt;&lt;br&gt;
+        HRACHOVO
+        </description>
+            <Point id="110">
+                <coordinates>19.948685,48.467488,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="113">
+            <name>KRUPINSKA VARTOVKA</name>
+            <description>&lt;strong&gt;OM-00053 / BB-39&lt;/strong&gt;&lt;br&gt;
+        KRUPINA
+        </description>
+            <Point id="112">
+                <coordinates>19.0791664,48.3491631,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="115">
+            <name>ZAKYLSKY PUSTY HRAD</name>
+            <description>&lt;strong&gt;OM-00054 / BB-40&lt;/strong&gt;&lt;br&gt;
+        PODHORIE (OKR.B.STIAVNICA)
+        </description>
+            <Point id="114">
+                <coordinates>18.9351094,48.5085575,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="117">
+            <name>HRAD VISELNA</name>
+            <description>&lt;strong&gt;OM-00055 / BB-41&lt;/strong&gt;&lt;br&gt;
+        PRIBOJ (OKR.RIM.SOBOTA)
+        </description>
+            <Point id="116">
+                <coordinates>19.9415539,48.4980383,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="119">
+            <name>PEVNOST V HRONSEKU</name>
+            <description>&lt;strong&gt;OM-00056 / BB-42&lt;/strong&gt;&lt;br&gt;
+        HRONSEK
+        </description>
+            <Point id="118">
+                <coordinates>19.157527747393,48.64821818263,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="121">
+            <name>RUDNIANSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00057 / BB-43&lt;/strong&gt;&lt;br&gt;
+        RUDNO NAD HRONOM
+        </description>
+            <Point id="120">
+                <coordinates>18.6953461,48.4218881,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="123">
+            <name>HRAD SVATY ANTON</name>
+            <description>&lt;strong&gt;OM-00058 / BB-44&lt;/strong&gt;&lt;br&gt;
+        SVATY ANTON
+        </description>
+            <Point id="122">
+                <coordinates>18.9427886,48.4213894,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="125">
+            <name>HRADOK V DOLNEJ MICINEJ</name>
+            <description>&lt;strong&gt;OM-00059 / BB-45&lt;/strong&gt;&lt;br&gt;
+        DOLNA MICINA
+        </description>
+            <Point id="124">
+                <coordinates>19.2237419,48.6722114,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="127">
+            <name>NOVOBANSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00060 / BB-46&lt;/strong&gt;&lt;br&gt;
+        NOVA BANA
+        </description>
+            <Point id="126">
+                <coordinates>18.6397844,48.4240761,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="129">
+            <name>HRAD OZDANY</name>
+            <description>&lt;strong&gt;OM-00061 / BB-47&lt;/strong&gt;&lt;br&gt;
+        OZDANY
+        </description>
+            <Point id="128">
+                <coordinates>19.8961297,48.3793272,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="131">
+            <name>HLASKA STRANA</name>
+            <description>&lt;strong&gt;OM-00062 / BB-48&lt;/strong&gt;&lt;br&gt;
+        JELSAVSKA TEPLICA
+        </description>
+            <Point id="130">
+                <coordinates>20.2736875,48.6013331,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="133">
+            <name>HRADOK V RADZOVCIACH</name>
+            <description>&lt;strong&gt;OM-00063 / BB-49&lt;/strong&gt;&lt;br&gt;
+        RADZOVCE
+        </description>
+            <Point id="132">
+                <coordinates>19.8280222,48.2199947,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="135">
+            <name>PEVNOST SOBOTKA</name>
+            <description>&lt;strong&gt;OM-00064 / BB-50&lt;/strong&gt;&lt;br&gt;
+        RIMAVSKA SOBOTA
+        </description>
+            <Point id="134">
+                <coordinates>19.9913267,48.3943667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="137">
+            <name>HRADOK MURIK</name>
+            <description>&lt;strong&gt;OM-00065 / BB-51&lt;/strong&gt;&lt;br&gt;
+        SIVETICE
+        </description>
+            <Point id="136">
+                <coordinates>20.2710117,48.5940994,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="139">
+            <name>PROTITURECKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00066 / BB-52&lt;/strong&gt;&lt;br&gt;
+        ZVOLENSKA SLATINA
+        </description>
+            <Point id="138">
+                <coordinates>19.2606808,48.5607267,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="141">
+            <name>MESTSKE HRADBY</name>
+            <description>&lt;strong&gt;OM-00067 / BB-53&lt;/strong&gt;&lt;br&gt;
+        BREZNO
+        </description>
+            <Point id="140">
+                <coordinates>19.6411661,48.8082339,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="143">
+            <name>PROTITURECKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00068 / BB-54&lt;/strong&gt;&lt;br&gt;
+        STIAVNICKE BANE
+        </description>
+            <Point id="142">
+                <coordinates>18.8749983,48.4411689,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="145">
+            <name>HRAD LITAVA</name>
+            <description>&lt;strong&gt;OM-00069 / BB-55&lt;/strong&gt;&lt;br&gt;
+        CEROVO
+        </description>
+            <Point id="144">
+                <coordinates>19.1327647,48.2306075,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="147">
+            <name>ZELENY HRAD</name>
+            <description>&lt;strong&gt;OM-00070 / BB-56&lt;/strong&gt;&lt;br&gt;
+        CEBOVCE
+        </description>
+            <Point id="146">
+                <coordinates>19.2300983,48.2036458,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="149">
+            <name>HRAD V CESKOM BREZOVE</name>
+            <description>&lt;strong&gt;OM-00071 / BB-57&lt;/strong&gt;&lt;br&gt;
+        CESKE BREZOVO
+        </description>
+            <Point id="148">
+                <coordinates>19.8165497,48.5040586,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="151">
+            <name>HRAD V MALYCH ZLIEVCACH</name>
+            <description>&lt;strong&gt;OM-00072 / BB-58&lt;/strong&gt;&lt;br&gt;
+        MALE ZLIEVCE
+        </description>
+            <Point id="150">
+                <coordinates>19.46774934603,48.17112933584,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="153">
+            <name>NIZINNY HRAD V RIM. SECI</name>
+            <description>&lt;strong&gt;OM-00073 / BB-59&lt;/strong&gt;&lt;br&gt;
+        RIMAVSKA SEC
+        </description>
+            <Point id="152">
+                <coordinates>20.2405083,48.3039164,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="155">
+            <name>SOVI HRAD</name>
+            <description>&lt;strong&gt;OM-00074 / BB-60&lt;/strong&gt;&lt;br&gt;
+        SURICE
+        </description>
+            <Point id="154">
+                <coordinates>19.9131997,48.2264722,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="157">
+            <name>HRAD BRZOTIN</name>
+            <description>&lt;strong&gt;OM-00075 / KE-01&lt;/strong&gt;&lt;br&gt;
+        BRZOTIN
+        </description>
+            <Point id="156">
+                <coordinates>20.4890917,48.6087714,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="159">
+            <name>CEJKOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00076 / KE-02&lt;/strong&gt;&lt;br&gt;
+        CEJKOV
+        </description>
+            <Point id="158">
+                <coordinates>21.766700,48.465600,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="161">
+            <name>GELNICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00077 / KE-03&lt;/strong&gt;&lt;br&gt;
+        GELNICA
+        </description>
+            <Point id="160">
+                <coordinates>20.9309756,48.8501250,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="163">
+            <name>MARCELOV HRAD</name>
+            <description>&lt;strong&gt;OM-00078 / KE-04&lt;/strong&gt;&lt;br&gt;
+        HRABUSICE
+        </description>
+            <Point id="162">
+                <coordinates>20.4069803,48.9591733,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="165">
+            <name>JASOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00079 / KE-05&lt;/strong&gt;&lt;br&gt;
+        JASOV
+        </description>
+            <Point id="164">
+                <coordinates>20.9745514,48.6777456,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="167">
+            <name>HRAD KAZIMIR</name>
+            <description>&lt;strong&gt;OM-00080 / KE-06&lt;/strong&gt;&lt;br&gt;
+        KAZIMIR
+        </description>
+            <Point id="166">
+                <coordinates>21.5826736,48.5250975,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="169">
+            <name>LIPOVECKY HRAD</name>
+            <description>&lt;strong&gt;OM-00081 / KE-07&lt;/strong&gt;&lt;br&gt;
+        KECEROVSKY LIPOVEC
+        </description>
+            <Point id="168">
+                <coordinates>21.46252,48.83723,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="171">
+            <name>KOSICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00082 / KE-08&lt;/strong&gt;&lt;br&gt;
+        KOSICE 1
+        </description>
+            <Point id="170">
+                <coordinates>21.2365317,48.7619342,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="173">
+            <name>MESTSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00083 / KE-09&lt;/strong&gt;&lt;br&gt;
+        KRALOVSKY CHLMEC
+        </description>
+            <Point id="172">
+                <coordinates>21.9747008,48.4240228,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="175">
+            <name>HRAD KRASNA HORKA</name>
+            <description>&lt;strong&gt;OM-00084 / KE-10&lt;/strong&gt;&lt;br&gt;
+        KRASNOHORSKE PODHRADIE
+        </description>
+            <Point id="174">
+                <coordinates>20.6004731,48.6583486,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="177">
+            <name>KYSACKY HRAD</name>
+            <description>&lt;strong&gt;OM-00085 / KE-11&lt;/strong&gt;&lt;br&gt;
+        KYSAK
+        </description>
+            <Point id="176">
+                <coordinates>21.2062975,48.8591586,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="179">
+            <name>MARKUSOVSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00086 / KE-12&lt;/strong&gt;&lt;br&gt;
+        MARKUSOVCE
+        </description>
+            <Point id="178">
+                <coordinates>20.6202067,48.9157003,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="181">
+            <name>OBISOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00087 / KE-13&lt;/strong&gt;&lt;br&gt;
+        OBISOVCE
+        </description>
+            <Point id="180">
+                <coordinates>21.2269306,48.8720753,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="183">
+            <name>HRAD PLESIVEC</name>
+            <description>&lt;strong&gt;OM-00088 / KE-14&lt;/strong&gt;&lt;br&gt;
+        PLESIVEC
+        </description>
+            <Point id="182">
+                <coordinates>20.4018533,48.5472042,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="185">
+            <name>PODHORODSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00089 / KE-15&lt;/strong&gt;&lt;br&gt;
+        PODHOROD
+        </description>
+            <Point id="184">
+                <coordinates>22.3037028,48.8217511,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="187">
+            <name>HRAD RICHNAVA</name>
+            <description>&lt;strong&gt;OM-00090 / KE-16&lt;/strong&gt;&lt;br&gt;
+        RICHNAVA
+        </description>
+            <Point id="186">
+                <coordinates>20.9255433,48.9253094,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="189">
+            <name>SLANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00091 / KE-17&lt;/strong&gt;&lt;br&gt;
+        SLANEC (OKR.KOSICE-OKOLIE)
+        </description>
+            <Point id="188">
+                <coordinates>21.4709667,48.6372481,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="191">
+            <name>HRAD SOKOL</name>
+            <description>&lt;strong&gt;OM-00092 / KE-18&lt;/strong&gt;&lt;br&gt;
+        SOKOL
+        </description>
+            <Point id="190">
+                <coordinates>21.1660864,48.8270433,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="193">
+            <name>STITNICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00093 / KE-19&lt;/strong&gt;&lt;br&gt;
+        STITNIK
+        </description>
+            <Point id="192">
+                <coordinates>20.3654750,48.6565922,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="195">
+            <name>HRAD PARIC</name>
+            <description>&lt;strong&gt;OM-00094 / KE-20&lt;/strong&gt;&lt;br&gt;
+        TREBISOV
+        </description>
+            <Point id="194">
+                <coordinates>21.7274947,48.6213364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="197">
+            <name>TURNIANSKY HRAD </name>
+            <description>&lt;strong&gt;OM-00095 / KE-21&lt;/strong&gt;&lt;br&gt;
+        TURNA NAD BODVOU
+        </description>
+            <Point id="196">
+                <coordinates>20.8746228,48.6109444,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="199">
+            <name>HRAD KAMENEC</name>
+            <description>&lt;strong&gt;OM-00096 / KE-22&lt;/strong&gt;&lt;br&gt;
+        VELKY KAMENEC
+        </description>
+            <Point id="198">
+                <coordinates>21.8080544,48.3587358,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="201">
+            <name>VINIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00097 / KE-23&lt;/strong&gt;&lt;br&gt;
+        VINNE
+        </description>
+            <Point id="200">
+                <coordinates>21.9501403,48.8199903,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="203">
+            <name>SPISSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00098 / KE-24&lt;/strong&gt;&lt;br&gt;
+        ZEHRA - HODKOVCE
+        </description>
+            <Point id="202">
+                <coordinates>20.7674928,48.9992817,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="205">
+            <name>MURANCOK</name>
+            <description>&lt;strong&gt;OM-00099 / KE-25&lt;/strong&gt;&lt;br&gt;
+        NIZNA SLANA
+        </description>
+            <Point id="204">
+                <coordinates>20.400942,48.721874,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="207">
+            <name>VODNY HRAD</name>
+            <description>&lt;strong&gt;OM-00100 / KE-26&lt;/strong&gt;&lt;br&gt;
+        VELKA IDA
+        </description>
+            <Point id="206">
+                <coordinates>21.166860,48.598273,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="209">
+            <name>BRANICEVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00101 / KE-27&lt;/strong&gt;&lt;br&gt;
+        BACKOV
+        </description>
+            <Point id="208">
+                <coordinates>21.5629378,48.7821536,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="211">
+            <name>ZAMOK SANS-SOUCI</name>
+            <description>&lt;strong&gt;OM-00102 / KE-28&lt;/strong&gt;&lt;br&gt;
+        ILIASOVCE
+        </description>
+            <Point id="210">
+                <coordinates>20.5466817,48.9773611,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="213">
+            <name>JISKROVA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00103 / KE-29&lt;/strong&gt;&lt;br&gt;
+        ROZNAVA
+        </description>
+            <Point id="212">
+                <coordinates>20.5327942,48.6621122,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="215">
+            <name>SVINICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00104 / KE-30&lt;/strong&gt;&lt;br&gt;
+        SVINICA
+        </description>
+            <Point id="214">
+                <coordinates>21.4842044,48.7287481,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="217">
+            <name>VAJKOVSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00105 / KE-31&lt;/strong&gt;&lt;br&gt;
+        VAJKOVCE
+        </description>
+            <Point id="216">
+                <coordinates>21.3218550,48.7828556,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="219">
+            <name>MICHALOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00106 / KE-32&lt;/strong&gt;&lt;br&gt;
+        MICHALOVCE
+        </description>
+            <Point id="218">
+                <coordinates>21.9246017,48.7578225,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="221">
+            <name>PREMONSTRANSKY KLASTOR</name>
+            <description>&lt;strong&gt;OM-00107 / KE-33&lt;/strong&gt;&lt;br&gt;
+        LELES
+        </description>
+            <Point id="220">
+                <coordinates>22.0243089,48.4644228,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="223">
+            <name>HRAD SOKOLI KAMEN</name>
+            <description>&lt;strong&gt;OM-00108 / KE-34&lt;/strong&gt;&lt;br&gt;
+        SILICKA JABLONICA
+        </description>
+            <Point id="222">
+                <coordinates>20.5659597,48.5458536,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="225">
+            <name>ZATINSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00109 / KE-35&lt;/strong&gt;&lt;br&gt;
+        ZATIN
+        </description>
+            <Point id="224">
+                <coordinates>21.9050828,48.4771006,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="227">
+            <name>ZEMPLINSKY ZUPNY HRAD</name>
+            <description>&lt;strong&gt;OM-00110 / KE-36&lt;/strong&gt;&lt;br&gt;
+        ZEMPLIN
+        </description>
+            <Point id="226">
+                <coordinates>21.8136314,48.4413003,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="229">
+            <name>HRAD BREHOV</name>
+            <description>&lt;strong&gt;OM-00111 / KE-37&lt;/strong&gt;&lt;br&gt;
+        BREHOV
+        </description>
+            <Point id="228">
+                <coordinates>21.8181489,48.4896236,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="231">
+            <name>HRADOK BUDIMIR</name>
+            <description>&lt;strong&gt;OM-00112 / KE-38&lt;/strong&gt;&lt;br&gt;
+        BUDIMIR
+        </description>
+            <Point id="230">
+                <coordinates>21.3085406,48.7979447,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="233">
+            <name>CHONKOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00113 / KE-39&lt;/strong&gt;&lt;br&gt;
+        CHONKOVCE
+        </description>
+            <Point id="232">
+                <coordinates>22.2681544,48.7961617,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="235">
+            <name>OCHTINSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00114 / KE-40&lt;/strong&gt;&lt;br&gt;
+        OCHTINA
+        </description>
+            <Point id="234">
+                <coordinates>20.3278439,48.6835822,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="237">
+            <name>ZEMPLINSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00115 / KE-41&lt;/strong&gt;&lt;br&gt;
+        ZEMPLINSKA TEPLICA
+        </description>
+            <Point id="236">
+                <coordinates>21.5487553,48.6541461,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="239">
+            <name>HRADOK BETLIAR</name>
+            <description>&lt;strong&gt;OM-00116 / KE-42&lt;/strong&gt;&lt;br&gt;
+        BETLIAR
+        </description>
+            <Point id="238">
+                <coordinates>20.5103878,48.7062861,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="241">
+            <name>VODNY HRAD V BORSI</name>
+            <description>&lt;strong&gt;OM-00117 / KE-43&lt;/strong&gt;&lt;br&gt;
+        BORSA
+        </description>
+            <Point id="240">
+                <coordinates>21.7054464,48.3891681,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="243">
+            <name>KLASTORISKO</name>
+            <description>&lt;strong&gt;OM-00118 / KE-44&lt;/strong&gt;&lt;br&gt;
+        LETANOVCE
+        </description>
+            <Point id="242">
+                <coordinates>20.4215906,48.9446517,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="245">
+            <name>HRAD MYSLA</name>
+            <description>&lt;strong&gt;OM-00119 / KE-45&lt;/strong&gt;&lt;br&gt;
+        NIZNA MYSLA
+        </description>
+            <Point id="244">
+                <coordinates>21.3666250,48.6192664,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="247">
+            <name>POZDISOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00120 / KE-46&lt;/strong&gt;&lt;br&gt;
+        POZDISOVCE
+        </description>
+            <Point id="246">
+                <coordinates>21.8539242,48.7248897,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="249">
+            <name>HRAD SKAROS</name>
+            <description>&lt;strong&gt;OM-00121 / KE-47&lt;/strong&gt;&lt;br&gt;
+        SKAROS
+        </description>
+            <Point id="248">
+                <coordinates>21.4015450,48.5824583,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="251">
+            <name>PAULINSKY KLASTOR</name>
+            <description>&lt;strong&gt;OM-00122 / KE-48&lt;/strong&gt;&lt;br&gt;
+        SLAVEC - GOMBASEK
+        </description>
+            <Point id="250">
+                <coordinates>20.4657167,48.5679300,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="253">
+            <name>HRAD VO VELKYCH TRAKANOCH</name>
+            <description>&lt;strong&gt;OM-00123 / KE-49&lt;/strong&gt;&lt;br&gt;
+        VELKE TRAKANY
+        </description>
+            <Point id="252">
+                <coordinates>22.0963161,48.3911942,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="255">
+            <name>HORNY A DOLNY HRADOK</name>
+            <description>&lt;strong&gt;OM-00124 / KE-50&lt;/strong&gt;&lt;br&gt;
+        BUDKOVCE
+        </description>
+            <Point id="254">
+                <coordinates>21.9286717,48.6343075,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="257">
+            <name>HRADOK ZAMCISKO</name>
+            <description>&lt;strong&gt;OM-00125 / KE-51&lt;/strong&gt;&lt;br&gt;
+        BUKOVEC (KEO)
+        </description>
+            <Point id="256">
+                <coordinates>21.1283781,48.7153817,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="259">
+            <name>HRADOK V HERLANOCH</name>
+            <description>&lt;strong&gt;OM-00126 / KE-52&lt;/strong&gt;&lt;br&gt;
+        HERLANY
+        </description>
+            <Point id="258">
+                <coordinates>21.5049222,48.7984581,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="261">
+            <name>HUSITSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00127 / KE-53&lt;/strong&gt;&lt;br&gt;
+        LUCKA (ROZ)
+        </description>
+            <Point id="260">
+                <coordinates>20.7254242,48.6394686,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="263">
+            <name>HRADOK V MALCICIACH</name>
+            <description>&lt;strong&gt;OM-00128 / KE-54&lt;/strong&gt;&lt;br&gt;
+        MALCICE
+        </description>
+            <Point id="262">
+                <coordinates>21.8477392,48.5822228,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="265">
+            <name>PAVLOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00129 / KE-55&lt;/strong&gt;&lt;br&gt;
+        PAVLOVCE NAD UHOM
+        </description>
+            <Point id="264">
+                <coordinates>22.0665597,48.6129331,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="267">
+            <name>HRABKOV HRADOK</name>
+            <description>&lt;strong&gt;OM-00130 / KE-56&lt;/strong&gt;&lt;br&gt;
+        SPISSKA NOVA VES
+        </description>
+            <Point id="266">
+                <coordinates>20.5626544,48.9435375,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="269">
+            <name>HRUSOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00131 / NR-01&lt;/strong&gt;&lt;br&gt;
+        HOSTIE
+        </description>
+            <Point id="268">
+                <coordinates>18.4260522,48.4786617,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="271">
+            <name>HRAD GYMES</name>
+            <description>&lt;strong&gt;OM-00132 / NR-02&lt;/strong&gt;&lt;br&gt;
+        JELENEC
+        </description>
+            <Point id="270">
+                <coordinates>18.2223558,48.4114353,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="273">
+            <name>LEVICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00133 / NR-03&lt;/strong&gt;&lt;br&gt;
+        LEVICE
+        </description>
+            <Point id="272">
+                <coordinates>18.6013619,48.2219050,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="275">
+            <name>NITRIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00134 / NR-04&lt;/strong&gt;&lt;br&gt;
+        NITRA
+        </description>
+            <Point id="274">
+                <coordinates>18.0867575,48.3181381,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="277">
+            <name>OPONICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00135 / NR-05&lt;/strong&gt;&lt;br&gt;
+        OPONICE
+        </description>
+            <Point id="276">
+                <coordinates>18.1564386,48.4482794,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="279">
+            <name>TOPOLCIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00136 / NR-06&lt;/strong&gt;&lt;br&gt;
+        PODHRADIE (OKR.TOPOLCANY)
+        </description>
+            <Point id="278">
+                <coordinates>18.0489178,48.6580208,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="281">
+            <name>SURIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00137 / NR-07&lt;/strong&gt;&lt;br&gt;
+        SURANY
+        </description>
+            <Point id="280">
+                <coordinates>18.1915931,48.0851792,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="283">
+            <name>VODNY HRAD</name>
+            <description>&lt;strong&gt;OM-00138 / NR-08&lt;/strong&gt;&lt;br&gt;
+        VYSKOVCE NA IPLOM
+        </description>
+            <Point id="282">
+                <coordinates>18.8655264,48.0500603,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="285">
+            <name>CIERNY HRAD</name>
+            <description>&lt;strong&gt;OM-00139 / NR-09&lt;/strong&gt;&lt;br&gt;
+        ZLATNO (OKR.ZLATE MORAVCE)
+        </description>
+            <Point id="284">
+                <coordinates>18.2925122,48.4736333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="287">
+            <name>KOLAROVSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00140 / NR-10&lt;/strong&gt;&lt;br&gt;
+        KOLAROVO
+        </description>
+            <Point id="286">
+                <coordinates>17.9985587,47.9269706,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="289">
+            <name>KOMARNANSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00141 / NR-11&lt;/strong&gt;&lt;br&gt;
+        KOMARNO
+        </description>
+            <Point id="288">
+                <coordinates>18.1365131,47.7546769,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="291">
+            <name>NOVOZAMOCKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00142 / NR-12&lt;/strong&gt;&lt;br&gt;
+        NOVE ZAMKY
+        </description>
+            <Point id="290">
+                <coordinates>18.1637581,47.9858456,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="293">
+            <name>TEKOVSKY ZUPNY HRAD</name>
+            <description>&lt;strong&gt;OM-00143 / NR-13&lt;/strong&gt;&lt;br&gt;
+        STARY TEKOV
+        </description>
+            <Point id="292">
+                <coordinates>18.5350678,48.2452989,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="295">
+            <name>VRABLIANSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00144 / NR-14&lt;/strong&gt;&lt;br&gt;
+        VRABLE
+        </description>
+            <Point id="294">
+                <coordinates>18.3054047,48.2444275,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="297">
+            <name>ZIVANSKA VEZA</name>
+            <description>&lt;strong&gt;OM-00145 / NR-15&lt;/strong&gt;&lt;br&gt;
+        JEDLOVE KOSTOLANY
+        </description>
+            <Point id="296">
+                <coordinates>18.5184725,48.4647400,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="299">
+            <name>NESVADSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00146 / NR-16&lt;/strong&gt;&lt;br&gt;
+        NESVADY
+        </description>
+            <Point id="298">
+                <coordinates>18.1288472,47.9279828,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="301">
+            <name>SALIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00147 / NR-17&lt;/strong&gt;&lt;br&gt;
+        SALA
+        </description>
+            <Point id="300">
+                <coordinates>17.8770989,48.1522969,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="303">
+            <name>HRAD V TOPOLCIANKACH</name>
+            <description>&lt;strong&gt;OM-00148 / NR-18&lt;/strong&gt;&lt;br&gt;
+        TOPOLCIANKY
+        </description>
+            <Point id="302">
+                <coordinates>18.4130147,48.4216028,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="305">
+            <name>HRADOK BRANC</name>
+            <description>&lt;strong&gt;OM-00149 / NR-19&lt;/strong&gt;&lt;br&gt;
+        BRANC
+        </description>
+            <Point id="304">
+                <coordinates>18.1190714,48.2153436,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="307">
+            <name>SKYCOVSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00150 / NR-20&lt;/strong&gt;&lt;br&gt;
+        SKYCOV
+        </description>
+            <Point id="306">
+                <coordinates>18.4204928,48.5029467,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="309">
+            <name>PEVNOST BINA</name>
+            <description>&lt;strong&gt;OM-00151 / NR-21&lt;/strong&gt;&lt;br&gt;
+        BINA
+        </description>
+            <Point id="308">
+                <coordinates>18.6429392,47.9210125,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="311">
+            <name>NITRIANSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00152 / NR-22&lt;/strong&gt;&lt;br&gt;
+        NITRIANSKY HRADOK
+        </description>
+            <Point id="310">
+                <coordinates>18.2098806,48.0675517,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="313">
+            <name>KLASTOR NA MARIANSKEJ CELADI</name>
+            <description>&lt;strong&gt;OM-00153 / NR-23&lt;/strong&gt;&lt;br&gt;
+        PODHAJSKA
+        </description>
+            <Point id="312">
+                <coordinates>18.3700844,48.0770567,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="315">
+            <name>PUKANSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00154 / NR-24&lt;/strong&gt;&lt;br&gt;
+        PUKANEC
+        </description>
+            <Point id="314">
+                <coordinates>18.7221708,48.3524864,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="317">
+            <name>DZIGERDELEN PARKANI</name>
+            <description>&lt;strong&gt;OM-00155 / NR-25&lt;/strong&gt;&lt;br&gt;
+        STUROVO
+        </description>
+            <Point id="316">
+                <coordinates>18.7236428,47.7999814,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="319">
+            <name>HRADOK TRHOVISTE</name>
+            <description>&lt;strong&gt;OM-00156 / NR-26&lt;/strong&gt;&lt;br&gt;
+        BOJNA
+        </description>
+            <Point id="318">
+                <coordinates>17.9956900,48.6114269,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="321">
+            <name>LEFANTOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00157 / NR-27&lt;/strong&gt;&lt;br&gt;
+        HORNE LEFANTOVCE
+        </description>
+            <Point id="320">
+                <coordinates>18.1662028,48.4242361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="323">
+            <name>HRADOK VARHED</name>
+            <description>&lt;strong&gt;OM-00158 / NR-28&lt;/strong&gt;&lt;br&gt;
+        KAMENIN
+        </description>
+            <Point id="322">
+                <coordinates>18.6508228,47.8938139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="325">
+            <name>HRADOK V KRNCI</name>
+            <description>&lt;strong&gt;OM-00159 / NR-29&lt;/strong&gt;&lt;br&gt;
+        KRNCA
+        </description>
+            <Point id="324">
+                <coordinates>18.2571314,48.5316308,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="327">
+            <name>HRADOK V MALYCH KOSIHACH</name>
+            <description>&lt;strong&gt;OM-00160 / NR-30&lt;/strong&gt;&lt;br&gt;
+        MALE KOSIHY (NZA)
+        </description>
+            <Point id="326">
+                <coordinates>18.7586603,47.9153033,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="329">
+            <name>HRADOK V OBYCIACH</name>
+            <description>&lt;strong&gt;OM-00161 / NR-31&lt;/strong&gt;&lt;br&gt;
+        OBYCE
+        </description>
+            <Point id="328">
+                <coordinates>18.4544669,48.4300067,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="331">
+            <name>HRADOK VO VELCICIACH</name>
+            <description>&lt;strong&gt;OM-00162 / NR-32&lt;/strong&gt;&lt;br&gt;
+        VELCICE (NIT)
+        </description>
+            <Point id="330">
+                <coordinates>18.2820789,48.4506292,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="333">
+            <name>HRADISKO KRIVIN</name>
+            <description>&lt;strong&gt;OM-00163 / NR-33&lt;/strong&gt;&lt;br&gt;
+        RYBNIK (LVC)
+        </description>
+            <Point id="332">
+                <coordinates>18.5585883,48.3265656,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="335">
+            <name>VODNY HRAD V KOMJATICIACH</name>
+            <description>&lt;strong&gt;OM-00164 / NR-34&lt;/strong&gt;&lt;br&gt;
+        KOMJATICE
+        </description>
+            <Point id="334">
+                <coordinates>18.1673647,48.1605289,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="337">
+            <name>VODNY HRAD V LUDANICIACH</name>
+            <description>&lt;strong&gt;OM-00165 / NR-35&lt;/strong&gt;&lt;br&gt;
+        LUDANICE
+        </description>
+            <Point id="336">
+                <coordinates>18.1245311,48.5002536,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="339">
+            <name>VODNY HRAD V NITR. STREDE</name>
+            <description>&lt;strong&gt;OM-00166 / NR-36&lt;/strong&gt;&lt;br&gt;
+        NITRIANSKA STREDA
+        </description>
+            <Point id="338">
+                <coordinates>18.1699172,48.5232069,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="341">
+            <name>BREKOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00167 / PO-01&lt;/strong&gt;&lt;br&gt;
+        BREKOV
+        </description>
+            <Point id="340">
+                <coordinates>21.8324492,48.9024953,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="343">
+            <name>HANIGOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00168 / PO-02&lt;/strong&gt;&lt;br&gt;
+        HANIGOVCE
+        </description>
+            <Point id="342">
+                <coordinates>21.0394347,49.1900139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="345">
+            <name>HOLUMNICKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00169 / PO-03&lt;/strong&gt;&lt;br&gt;
+        HOLUMNICA
+        </description>
+            <Point id="344">
+                <coordinates>20.5269964,49.2331181,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="347">
+            <name>JASENOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00170 / PO-04&lt;/strong&gt;&lt;br&gt;
+        JASENOV (OKR.HUMENNE)
+        </description>
+            <Point id="346">
+                <coordinates>21.9107611,48.8909506,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="349">
+            <name>KAMENICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00171 / PO-05&lt;/strong&gt;&lt;br&gt;
+        KAMENICA (OKR.SABINOV)
+        </description>
+            <Point id="348">
+                <coordinates>20.9700864,49.1959264,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="351">
+            <name>KAPUSIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00172 / PO-06&lt;/strong&gt;&lt;br&gt;
+        KAPUSANY
+        </description>
+            <Point id="350">
+                <coordinates>21.3203478,49.0549361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="353">
+            <name>KEZMARSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00173 / PO-07&lt;/strong&gt;&lt;br&gt;
+        KEZMAROK
+        </description>
+            <Point id="352">
+                <coordinates>20.4332353,49.1398103,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="355">
+            <name>HRAD LIPOVEC</name>
+            <description>&lt;strong&gt;OM-00174 / PO-08&lt;/strong&gt;&lt;br&gt;
+        LIPOVCE
+        </description>
+            <Point id="354">
+                <coordinates>20.9354206,49.0572917,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="357">
+            <name>MEDZIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00175 / PO-09&lt;/strong&gt;&lt;br&gt;
+        MEDZIANKY
+        </description>
+            <Point id="356">
+                <coordinates>21.4849878,49.0394461,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="359">
+            <name>HRAD PLAVEC</name>
+            <description>&lt;strong&gt;OM-00176 / PO-10&lt;/strong&gt;&lt;br&gt;
+        PLAVEC
+        </description>
+            <Point id="358">
+                <coordinates>20.8477364,49.2553739,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="361">
+            <name>HRAD SEBES</name>
+            <description>&lt;strong&gt;OM-00177 / PO-11&lt;/strong&gt;&lt;br&gt;
+        PODHRADIK
+        </description>
+            <Point id="360">
+                <coordinates>21.3562619,49.0016139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="363">
+            <name>SOLNOHRAD</name>
+            <description>&lt;strong&gt;OM-00178 / PO-12&lt;/strong&gt;&lt;br&gt;
+        PRESOV
+        </description>
+            <Point id="362">
+                <coordinates>21.2676339,48.9750450,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="365">
+            <name>HRAD CICVA</name>
+            <description>&lt;strong&gt;OM-00179 / PO-13&lt;/strong&gt;&lt;br&gt;
+        SEDLISKA - PODCICVA
+        </description>
+            <Point id="364">
+                <coordinates>21.7383800,48.9143867,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="367">
+            <name>LUBOVNIANSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00180 / PO-14&lt;/strong&gt;&lt;br&gt;
+        STARA LUBOVNA
+        </description>
+            <Point id="366">
+                <coordinates>20.6994847,49.3153228,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="369">
+            <name>STROPKOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00181 / PO-15&lt;/strong&gt;&lt;br&gt;
+        STROPKOV
+        </description>
+            <Point id="368">
+                <coordinates>21.6536867,49.2017525,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="371">
+            <name>SARISSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00182 / PO-16&lt;/strong&gt;&lt;br&gt;
+        VELKY SARIS
+        </description>
+            <Point id="370">
+                <coordinates>21.1761494,49.0523300,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="373">
+            <name>MAKOVICKY HRAD </name>
+            <description>&lt;strong&gt;OM-00183 / PO-17&lt;/strong&gt;&lt;br&gt;
+        ZBOROV
+        </description>
+            <Point id="372">
+                <coordinates>21.2985428,49.3532453,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="375">
+            <name>BREZOVICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00184 / PO-18&lt;/strong&gt;&lt;br&gt;
+        BREZOVICA (OKR.SABINOV)
+        </description>
+            <Point id="374">
+                <coordinates>20.8496892,49.1473022,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="377">
+            <name>HRAD DRIENOV</name>
+            <description>&lt;strong&gt;OM-00185 / PO-19&lt;/strong&gt;&lt;br&gt;
+        DRIENOV
+        </description>
+            <Point id="376">
+                <coordinates>21.2718206,48.8745825,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="379">
+            <name>RANOFEUDALNY HRAD</name>
+            <description>&lt;strong&gt;OM-00186 / PO-20&lt;/strong&gt;&lt;br&gt;
+        HRADISKO
+        </description>
+            <Point id="378">
+                <coordinates>21.2256681,49.1388083,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="381">
+            <name>ZBOJNICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00187 / PO-21&lt;/strong&gt;&lt;br&gt;
+        RUSKA NOVA VES
+        </description>
+            <Point id="380">
+                <coordinates>21.3463417,48.9747333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="383">
+            <name>BRESTOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00188 / PO-22&lt;/strong&gt;&lt;br&gt;
+        BRESTOV (OKR.PRESOV)
+        </description>
+            <Point id="382">
+                <coordinates>21.3644142,48.8776853,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="385">
+            <name>HRAD V BREZOVICKE</name>
+            <description>&lt;strong&gt;OM-00189 / PO-23&lt;/strong&gt;&lt;br&gt;
+        BREZOVICKA
+        </description>
+            <Point id="384">
+                <coordinates>20.8381549,49.1223722,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="387">
+            <name>PEVNOST OSTRA HURA</name>
+            <description>&lt;strong&gt;OM-00190 / PO-24&lt;/strong&gt;&lt;br&gt;
+        NIZNY TVAROZEC
+        </description>
+            <Point id="386">
+                <coordinates>21.1701344,49.3749672,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="389">
+            <name>HUMENSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00191 / PO-25&lt;/strong&gt;&lt;br&gt;
+        HUMENNE
+        </description>
+            <Point id="388">
+                <coordinates>21.9073083,48.9387981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="391">
+            <name>PECOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00192 / PO-26&lt;/strong&gt;&lt;br&gt;
+        PECOVSKA NOVA VES
+        </description>
+            <Point id="390">
+                <coordinates>21.0418306,49.1280408,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="393">
+            <name>PEVNOST ZADNA HURA</name>
+            <description>&lt;strong&gt;OM-00193 / PO-27&lt;/strong&gt;&lt;br&gt;
+        CHMELOV
+        </description>
+            <Point id="392">
+                <coordinates>21.4575472,49.0673100,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="395">
+            <name>RADVANOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00194 / PO-28&lt;/strong&gt;&lt;br&gt;
+        RADVANOVCE
+        </description>
+            <Point id="394">
+                <coordinates>21.464109,49.065782,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="397">
+            <name>HRAD BODON</name>
+            <description>&lt;strong&gt;OM-00195 / PO-29&lt;/strong&gt;&lt;br&gt;
+        ZLATA BANA
+        </description>
+            <Point id="396">
+                <coordinates>21.4002564,48.9369331,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="399">
+            <name>CERVENY KLASTOR</name>
+            <description>&lt;strong&gt;OM-00196 / PO-30&lt;/strong&gt;&lt;br&gt;
+        CERVENY KLASTOR
+        </description>
+            <Point id="398">
+                <coordinates>20.4165333,49.3989836,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="401">
+            <name>KUNIGUNDIN HRAD</name>
+            <description>&lt;strong&gt;OM-00197 / PO-31&lt;/strong&gt;&lt;br&gt;
+        PODOLINEC
+        </description>
+            <Point id="400">
+                <coordinates>20.5344986,49.2574200,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="403">
+            <name>HRAD SKRABSKE</name>
+            <description>&lt;strong&gt;OM-00198 / PO-32&lt;/strong&gt;&lt;br&gt;
+        SKRABSKE
+        </description>
+            <Point id="402">
+                <coordinates>21.5758192,49.0071186,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="405">
+            <name>HRAD STRAZKY</name>
+            <description>&lt;strong&gt;OM-00199 / PO-33&lt;/strong&gt;&lt;br&gt;
+        STRAZKY
+        </description>
+            <Point id="404">
+                <coordinates>20.4539328,49.1719914,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="407">
+            <name>VRANOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00200 / PO-34&lt;/strong&gt;&lt;br&gt;
+        VRANOV NAD TOPLOU
+        </description>
+            <Point id="406">
+                <coordinates>21.6862744,48.8894903,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="409">
+            <name>PEVNOST AKSAMITKA</name>
+            <description>&lt;strong&gt;OM-00201 / PO-35&lt;/strong&gt;&lt;br&gt;
+        HALIGOVCE
+        </description>
+            <Point id="408">
+                <coordinates>20.4492656,49.3833772,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="411">
+            <name>HRADOK VARHED</name>
+            <description>&lt;strong&gt;OM-00202 / PO-36&lt;/strong&gt;&lt;br&gt;
+        JAROVNICE
+        </description>
+            <Point id="410">
+                <coordinates>21.0522769,49.0868486,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="413">
+            <name>KLASTOR MINORITOV</name>
+            <description>&lt;strong&gt;OM-00203 / PO-37&lt;/strong&gt;&lt;br&gt;
+        LEVOCA
+        </description>
+            <Point id="412">
+                <coordinates>20.5928597,49.0270911,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="415">
+            <name>HRADOK KASTEL</name>
+            <description>&lt;strong&gt;OM-00204 / PO-38&lt;/strong&gt;&lt;br&gt;
+        MODRA NAD CIROCHOU
+        </description>
+            <Point id="414">
+                <coordinates>22.0434619,48.9450761,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="417">
+            <name>BRATRICKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00205 / PO-39&lt;/strong&gt;&lt;br&gt;
+        MRAZOVCE
+        </description>
+            <Point id="416">
+                <coordinates>21.6563119,49.1129608,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="419">
+            <name>HUSITSKA PEVNOST V KVETNICI</name>
+            <description>&lt;strong&gt;OM-00206 / PO-40&lt;/strong&gt;&lt;br&gt;
+        POPRAD
+        </description>
+            <Point id="418">
+                <coordinates>20.2896706,49.0115594,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="421">
+            <name>CISTERIANSKE OPATSTVO</name>
+            <description>&lt;strong&gt;OM-00207 / PO-41&lt;/strong&gt;&lt;br&gt;
+        SPISSKY STIAVNIK
+        </description>
+            <Point id="420">
+                <coordinates>20.3806772,48.9888392,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423">
+            <name>SVIDNICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00208 / PO-42&lt;/strong&gt;&lt;br&gt;
+        SVIDNIK
+        </description>
+            <Point id="422">
+                <coordinates>21.5874433,49.2828900,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="425">
+            <name>HRAD BARDEJOV</name>
+            <description>&lt;strong&gt;OM-00209 / PO-43&lt;/strong&gt;&lt;br&gt;
+        BARDEJOV
+        </description>
+            <Point id="424">
+                <coordinates>21.2756886,49.2924336,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="427">
+            <name>HLASKA HRADZISKO</name>
+            <description>&lt;strong&gt;OM-00210 / PO-44&lt;/strong&gt;&lt;br&gt;
+        HRABKOV
+        </description>
+            <Point id="426">
+                <coordinates>21.0206336,48.9588992,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="429">
+            <name>HRAD SVINIA</name>
+            <description>&lt;strong&gt;OM-00211 / PO-45&lt;/strong&gt;&lt;br&gt;
+        SVINIA
+        </description>
+            <Point id="428">
+                <coordinates>21.1242094,49.0111869,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="431">
+            <name>BECKOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00212 / TN-01&lt;/strong&gt;&lt;br&gt;
+        BECKOV
+        </description>
+            <Point id="430">
+                <coordinates>17.8983067,48.7906492,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="433">
+            <name>BOJNICKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00213 / TN-02&lt;/strong&gt;&lt;br&gt;
+        BOJNICE
+        </description>
+            <Point id="432">
+                <coordinates>18.5777844,48.7799192,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="435">
+            <name>CACHTICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00214 / TN-03&lt;/strong&gt;&lt;br&gt;
+        CACHTICE
+        </description>
+            <Point id="434">
+                <coordinates>17.7610850,48.7248933,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="437">
+            <name>TEMATINSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00215 / TN-04&lt;/strong&gt;&lt;br&gt;
+        HRADOK (OKR.N.MESTO N/V)
+        </description>
+            <Point id="436">
+                <coordinates>17.9291403,48.6772492,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="439">
+            <name>LEDNICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00216 / TN-05&lt;/strong&gt;&lt;br&gt;
+        LEDNICA
+        </description>
+            <Point id="438">
+                <coordinates>18.2111558,49.1104494,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="441">
+            <name>HRAD SIVY KAMEN</name>
+            <description>&lt;strong&gt;OM-00217 / TN-06&lt;/strong&gt;&lt;br&gt;
+        PODHRADIE (OKR.PRIEVIDZA)
+        </description>
+            <Point id="440">
+                <coordinates>18.6388556,48.6856619,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="443">
+            <name>POVAZSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00218 / TN-07&lt;/strong&gt;&lt;br&gt;
+        POVAZSKE PODHRADIE
+        </description>
+            <Point id="442">
+                <coordinates>18.4584817,49.1455342,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="445">
+            <name>TRENCIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00219 / TN-08&lt;/strong&gt;&lt;br&gt;
+        TRENCIN
+        </description>
+            <Point id="444">
+                <coordinates>18.0448294,48.8945661,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="447">
+            <name>UHROVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00220 / TN-09&lt;/strong&gt;&lt;br&gt;
+        UHROVSKE PODHRADIE
+        </description>
+            <Point id="446">
+                <coordinates>18.3913981,48.7543069,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="449">
+            <name>KOSECKY HRAD</name>
+            <description>&lt;strong&gt;OM-00221 / TN-10&lt;/strong&gt;&lt;br&gt;
+        VELKE KOSECKE PODHRADIE
+        </description>
+            <Point id="448">
+                <coordinates>18.3074244,48.9760072,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="451">
+            <name>HRAD VRSATEC</name>
+            <description>&lt;strong&gt;OM-00222 / TN-11&lt;/strong&gt;&lt;br&gt;
+        VRSATECKE PODHRADIE
+        </description>
+            <Point id="450">
+                <coordinates>18.1508936,49.0659122,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="453">
+            <name>ILAVSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00223 / TN-12&lt;/strong&gt;&lt;br&gt;
+        ILAVA
+        </description>
+            <Point id="452">
+                <coordinates>18.2317814,48.9985778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="455">
+            <name>HRAD SUCA</name>
+            <description>&lt;strong&gt;OM-00224 / TN-13&lt;/strong&gt;&lt;br&gt;
+        DOLNA SUCA
+        </description>
+            <Point id="454">
+                <coordinates>18.0153239,48.9607075,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="457">
+            <name>KLASTOR NA VELKEJ SKALE</name>
+            <description>&lt;strong&gt;OM-00225 / TN-14&lt;/strong&gt;&lt;br&gt;
+        SKALKA NAD VAHOM
+        </description>
+            <Point id="456">
+                <coordinates>18.0736033,48.9143256,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459">
+            <name>HR.MICHALOV A UHERECKA PEV.</name>
+            <description>&lt;strong&gt;OM-00226 / TN-15&lt;/strong&gt;&lt;br&gt;
+        VELKE UHERCE
+        </description>
+            <Point id="458">
+                <coordinates>18.4443994,48.6115592,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="461">
+            <name>HRADOK V ZABOKREKOCH</name>
+            <description>&lt;strong&gt;OM-00227 / TN-16&lt;/strong&gt;&lt;br&gt;
+        ZABOKREKY NAD NITROU
+        </description>
+            <Point id="460">
+                <coordinates>18.3037639,48.6221242,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="463">
+            <name>BOSANSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00228 / TN-17&lt;/strong&gt;&lt;br&gt;
+        BOSANY
+        </description>
+            <Point id="462">
+                <coordinates>18.2482253,48.5808133,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465">
+            <name>LEHOTSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00229 / TN-18&lt;/strong&gt;&lt;br&gt;
+        CIERNA LEHOTA (OKR. BAN)
+        </description>
+            <Point id="464">
+                <coordinates>18.3278247,48.8771081,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="467">
+            <name>DIVIACKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00230 / TN-19&lt;/strong&gt;&lt;br&gt;
+        DIVIACKA NOVA VES
+        </description>
+            <Point id="466">
+                <coordinates>18.4903461,48.7479281,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="469">
+            <name>HRADOK V CERENANOCH</name>
+            <description>&lt;strong&gt;OM-00231 / TN-20&lt;/strong&gt;&lt;br&gt;
+        CERENANY
+        </description>
+            <Point id="468">
+                <coordinates>18.4848183,48.6420011,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="471">
+            <name>HRADOK V DIVIAKOCH NAD NITR.</name>
+            <description>&lt;strong&gt;OM-00232 / TN-21&lt;/strong&gt;&lt;br&gt;
+        DIVIAKY NAD NITRICOU
+        </description>
+            <Point id="470">
+                <coordinates>18.4945206,48.7655722,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="473">
+            <name>HRADOK V DLZINE</name>
+            <description>&lt;strong&gt;OM-00233 / TN-22&lt;/strong&gt;&lt;br&gt;
+        DLZIN
+        </description>
+            <Point id="472">
+                <coordinates>18.5239294,48.8134744,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="475">
+            <name>MENSI HRADOK</name>
+            <description>&lt;strong&gt;OM-00234 / TN-23&lt;/strong&gt;&lt;br&gt;
+        DOLNA MARIKOVA
+        </description>
+            <Point id="474">
+                <coordinates>18.3282547,49.2058111,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="477">
+            <name>HRADOK DUBODIEL</name>
+            <description>&lt;strong&gt;OM-00235 / TN-24&lt;/strong&gt;&lt;br&gt;
+        DUBODIEL
+        </description>
+            <Point id="476">
+                <coordinates>18.0982708,48.7670103,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="479">
+            <name>HALUZICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00236 / TN-25&lt;/strong&gt;&lt;br&gt;
+        HALUZICE
+        </description>
+            <Point id="478">
+                <coordinates>17.8699697,48.8211500,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="481">
+            <name>HRADOK V HRADCI</name>
+            <description>&lt;strong&gt;OM-00237 / TN-26&lt;/strong&gt;&lt;br&gt;
+        HRADEC
+        </description>
+            <Point id="480">
+                <coordinates>18.6834522,48.7592381,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="483">
+            <name>HRADOK V HRADISTI</name>
+            <description>&lt;strong&gt;OM-00238 / TN-27&lt;/strong&gt;&lt;br&gt;
+        HRADISTE (PAR)
+        </description>
+            <Point id="482">
+                <coordinates>18.3772475,48.6861350,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="485">
+            <name>HRADOK V JESKOVEJ VSI</name>
+            <description>&lt;strong&gt;OM-00239 / TN-28&lt;/strong&gt;&lt;br&gt;
+        JESKOVA VES NAD NITRICOU
+        </description>
+            <Point id="484">
+                <coordinates>18.4898811,48.7779378,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="487">
+            <name>HRADOK V KOSTOLNEJ VSI</name>
+            <description>&lt;strong&gt;OM-00240 / TN-29&lt;/strong&gt;&lt;br&gt;
+        KOSTOLNA VES
+        </description>
+            <Point id="486">
+                <coordinates>18.4906992,48.8068278,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="489">
+            <name>VODNY HRAD V SIMONOVANOCH</name>
+            <description>&lt;strong&gt;OM-00241 / TN-30&lt;/strong&gt;&lt;br&gt;
+        PARTIZANSKE
+        </description>
+            <Point id="488">
+                <coordinates>18.3909881,48.6311014,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491">
+            <name>HRADOK V RACICIACH</name>
+            <description>&lt;strong&gt;OM-00242 / TN-31&lt;/strong&gt;&lt;br&gt;
+        RACICE
+        </description>
+            <Point id="490">
+                <coordinates>18.4554978,48.7062950,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="493">
+            <name>HRADOK V RUSKOVCIACH</name>
+            <description>&lt;strong&gt;OM-00243 / TN-32&lt;/strong&gt;&lt;br&gt;
+        RUSKOVCE (BAN)
+        </description>
+            <Point id="492">
+                <coordinates>18.1974739,48.7440569,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="495">
+            <name>HRADOK V SIPKOVE</name>
+            <description>&lt;strong&gt;OM-00244 / TN-33&lt;/strong&gt;&lt;br&gt;
+        SIPKOV
+        </description>
+            <Point id="494">
+                <coordinates>18.2979860,48.8534635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="497">
+            <name>HRAD PODHRADISKO</name>
+            <description>&lt;strong&gt;OM-00245 / TN-34&lt;/strong&gt;&lt;br&gt;
+        TRENCIANSKE TEPLICE
+        </description>
+            <Point id="496">
+                <coordinates>18.1702997,48.9094050,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="499">
+            <name>HRADOK MARTAKOVA SKALA</name>
+            <description>&lt;strong&gt;OM-00246 / TN-35&lt;/strong&gt;&lt;br&gt;
+        ZEMIANSKE PODHRADIE
+        </description>
+            <Point id="498">
+                <coordinates>17.8147181,48.8472975,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="501">
+            <name>VODNY HRAD V BRODZANOCH</name>
+            <description>&lt;strong&gt;OM-00247 / TN-36&lt;/strong&gt;&lt;br&gt;
+        BRODZANY
+        </description>
+            <Point id="500">
+                <coordinates>18.3422167,48.6104786,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="503">
+            <name>HRAD NA SKALKE</name>
+            <description>&lt;strong&gt;OM-00248 / TN-37&lt;/strong&gt;&lt;br&gt;
+        DOMANIZA
+        </description>
+            <Point id="502">
+                <coordinates>18.5490861,49.0439464,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="505">
+            <name>HRAD OSTRY KAMEN</name>
+            <description>&lt;strong&gt;OM-00249 / TT-01&lt;/strong&gt;&lt;br&gt;
+        BUKOVA (OKR.TRNAVA)
+        </description>
+            <Point id="504">
+                <coordinates>17.3724544,48.5222406,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="507">
+            <name>HRAD DOBRA VODA</name>
+            <description>&lt;strong&gt;OM-00250 / TT-02&lt;/strong&gt;&lt;br&gt;
+        DOBRA VODA (OKR.TRNAVA)
+        </description>
+            <Point id="506">
+                <coordinates>17.5286750,48.6093200,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="509">
+            <name>HLOHOVECKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00251 / TT-03&lt;/strong&gt;&lt;br&gt;
+        HLOHOVEC
+        </description>
+            <Point id="508">
+                <coordinates>17.7876344,48.4193781,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511">
+            <name>HRAD BRANC</name>
+            <description>&lt;strong&gt;OM-00252 / TT-04&lt;/strong&gt;&lt;br&gt;
+        PODBRANC
+        </description>
+            <Point id="510">
+                <coordinates>17.4671586,48.7332639,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="513">
+            <name>KORLATSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00253 / TT-05&lt;/strong&gt;&lt;br&gt;
+        ROZBEHY 
+        </description>
+            <Point id="512">
+                <coordinates>17.3860889,48.5752322,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="515">
+            <name>SMOLENICKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00254 / TT-06&lt;/strong&gt;&lt;br&gt;
+        SMOLENICE
+        </description>
+            <Point id="514">
+                <coordinates>17.4324164,48.5135486,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="517">
+            <name>HOLICSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00255 / TT-07&lt;/strong&gt;&lt;br&gt;
+        HOLIC
+        </description>
+            <Point id="516">
+                <coordinates>17.1565644,48.8086786,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="519">
+            <name>LEOPOLDOVSKA PEVNOST</name>
+            <description>&lt;strong&gt;OM-00256 / TT-08&lt;/strong&gt;&lt;br&gt;
+        LEOPOLDOV
+        </description>
+            <Point id="518">
+                <coordinates>17.7780614,48.4444114,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="521">
+            <name>PEVNOST POSADKA</name>
+            <description>&lt;strong&gt;OM-00257 / TT-09&lt;/strong&gt;&lt;br&gt;
+        POSADKA
+        </description>
+            <Point id="520">
+                <coordinates>17.7659778,48.3660272,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="523">
+            <name>SINTAVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00258 / TT-10&lt;/strong&gt;&lt;br&gt;
+        SINTAVA
+        </description>
+            <Point id="522">
+                <coordinates>17.7442522,48.2867936,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="525">
+            <name>KLASTOR KATARINKA</name>
+            <description>&lt;strong&gt;OM-00259 / TT-11&lt;/strong&gt;&lt;br&gt;
+        NAHAC
+        </description>
+            <Point id="524">
+                <coordinates>17.5360078,48.5546828,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="527">
+            <name>SKALICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00260 / TT-12&lt;/strong&gt;&lt;br&gt;
+        SKALICA
+        </description>
+            <Point id="526">
+                <coordinates>17.2247267,48.8491200,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="529">
+            <name>HRADOK V HUBINE</name>
+            <description>&lt;strong&gt;OM-00261 / TT-13&lt;/strong&gt;&lt;br&gt;
+        HUBINA
+        </description>
+            <Point id="528">
+                <coordinates>17.8856750,48.6167814,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="531">
+            <name>HRADOK V CHTELNICI</name>
+            <description>&lt;strong&gt;OM-00262 / TT-14&lt;/strong&gt;&lt;br&gt;
+        CHTELNICA
+        </description>
+            <Point id="530">
+                <coordinates>17.6238594,48.5691917,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="533">
+            <name>HRADOK VARDOMB</name>
+            <description>&lt;strong&gt;OM-00263 / TT-15&lt;/strong&gt;&lt;br&gt;
+        MALA MACA
+        </description>
+            <Point id="532">
+                <coordinates>17.6388033,48.2242375,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="535">
+            <name>HRADISKO</name>
+            <description>&lt;strong&gt;OM-00264 / TT-16&lt;/strong&gt;&lt;br&gt;
+        TRAKOVICE
+        </description>
+            <Point id="534">
+                <coordinates>17.7098844,48.4390372,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="537">
+            <name>VESELSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00265 / TT-17&lt;/strong&gt;&lt;br&gt;
+        VESELE
+        </description>
+            <Point id="536">
+                <coordinates>17.7341606,48.5356772,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="539">
+            <name>KOSTOLEC</name>
+            <description>&lt;strong&gt;OM-00266 / TT-18&lt;/strong&gt;&lt;br&gt;
+        DUCOVE
+        </description>
+            <Point id="538">
+                <coordinates>17.8728017,48.6224083,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="541">
+            <name>MESTSKE HRADBY</name>
+            <description>&lt;strong&gt;OM-00267 / TT-19&lt;/strong&gt;&lt;br&gt;
+        TRNAVA
+        </description>
+            <Point id="540">
+                <coordinates>17.5879961,48.3776833,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="543">
+            <name>SASTINSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00268 / TT-20&lt;/strong&gt;&lt;br&gt;
+        SASTIN - STRAZE
+        </description>
+            <Point id="542">
+                <coordinates>17.1440781,48.6411089,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="545">
+            <name>BLATNICKY HRAD</name>
+            <description>&lt;strong&gt;OM-00269 / ZA-01&lt;/strong&gt;&lt;br&gt;
+        BLATNICA
+        </description>
+            <Point id="544">
+                <coordinates>18.9470325,48.9471731,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="547">
+            <name>HRICOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00270 / ZA-02&lt;/strong&gt;&lt;br&gt;
+        HRICOVSKE PODHRADIE
+        </description>
+            <Point id="546">
+                <coordinates>18.6199561,49.2116881,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="549">
+            <name>ZNIEVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00271 / ZA-03&lt;/strong&gt;&lt;br&gt;
+        KLASTOR POD ZNIEVOM
+        </description>
+            <Point id="548">
+                <coordinates>18.7728289,48.9683586,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="551">
+            <name>LIETAVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00272 / ZA-04&lt;/strong&gt;&lt;br&gt;
+        LIETAVA
+        </description>
+            <Point id="550">
+                <coordinates>18.6849083,49.1607156,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="553">
+            <name>LIKAVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00273 / ZA-05&lt;/strong&gt;&lt;br&gt;
+        LIKAVKA
+        </description>
+            <Point id="552">
+                <coordinates>19.3121986,49.1051422,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="555">
+            <name>VELKY HRAD LIPTOVSKY</name>
+            <description>&lt;strong&gt;OM-00274 / ZA-06&lt;/strong&gt;&lt;br&gt;
+        KALAMENY
+        </description>
+            <Point id="554">
+                <coordinates>19.4302853,49.1477428,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="557">
+            <name>LIPTOVSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00275 / ZA-07&lt;/strong&gt;&lt;br&gt;
+        LIPTOVSKY HRADOK
+        </description>
+            <Point id="556">
+                <coordinates>19.7328764,49.0458286,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="559">
+            <name>ORAVSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00276 / ZA-08&lt;/strong&gt;&lt;br&gt;
+        ORAVSKY PODZAMOK
+        </description>
+            <Point id="558">
+                <coordinates>19.3589331,49.2621250,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="561">
+            <name>SKLABINSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00277 / ZA-09&lt;/strong&gt;&lt;br&gt;
+        SKLABINSKY PODZAMOK
+        </description>
+            <Point id="560">
+                <coordinates>19.0189769,49.0545064,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="563">
+            <name>STRECNIANSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00278 / ZA-10&lt;/strong&gt;&lt;br&gt;
+        STRECNO
+        </description>
+            <Point id="562">
+                <coordinates>18.8622797,49.1745533,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="565">
+            <name>SULOVSKY HRAD</name>
+            <description>&lt;strong&gt;OM-00279 / ZA-11&lt;/strong&gt;&lt;br&gt;
+        SULOV - HRADNA
+        </description>
+            <Point id="564">
+                <coordinates>18.5835117,49.1747011,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="567">
+            <name>STARY HRAD</name>
+            <description>&lt;strong&gt;OM-00280 / ZA-12&lt;/strong&gt;&lt;br&gt;
+        VARIN
+        </description>
+            <Point id="566">
+                <coordinates>18.8908317,49.1779536,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="569">
+            <name>BUDATINSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00281 / ZA-13&lt;/strong&gt;&lt;br&gt;
+        ZILINA
+        </description>
+            <Point id="568">
+                <coordinates>18.7346442,49.2362811,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="571">
+            <name>BYTCIANSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00282 / ZA-14&lt;/strong&gt;&lt;br&gt;
+        BYTCA
+        </description>
+            <Point id="570">
+                <coordinates>18.5592997,49.2202892,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="573">
+            <name>VYSEHRAD</name>
+            <description>&lt;strong&gt;OM-00283 / ZA-15&lt;/strong&gt;&lt;br&gt;
+        JASENOVO
+        </description>
+            <Point id="572">
+                <coordinates>18.6998203,48.8758397,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="575">
+            <name>PEVNOST V PODHRADI</name>
+            <description>&lt;strong&gt;OM-00284 / ZA-16&lt;/strong&gt;&lt;br&gt;
+        PODHRADIE (OKR.MARTIN)
+        </description>
+            <Point id="574">
+                <coordinates>19.0682056,49.0724242,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="577">
+            <name>HRAD RAJEC</name>
+            <description>&lt;strong&gt;OM-00285 / ZA-17&lt;/strong&gt;&lt;br&gt;
+        RAJEC
+        </description>
+            <Point id="576">
+                <coordinates>18.6213783,49.1091844,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="579">
+            <name>KUNERADSKY ZAMOK</name>
+            <description>&lt;strong&gt;OM-00286 / ZA-18&lt;/strong&gt;&lt;br&gt;
+        KUNERAD
+        </description>
+            <Point id="578">
+                <coordinates>18.7392686,49.0848756,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="581">
+            <name>MALATINSKY HRADOK</name>
+            <description>&lt;strong&gt;OM-00287 / ZA-19&lt;/strong&gt;&lt;br&gt;
+        MALATINA
+        </description>
+            <Point id="580">
+                <coordinates>19.4319653,49.1851906,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="583">
+            <name>HRAD BIEL</name>
+            <description>&lt;strong&gt;OM-00288 / ZA-20&lt;/strong&gt;&lt;br&gt;
+        PODBIEL
+        </description>
+            <Point id="582">
+                <coordinates>19.4937611,49.2953706,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="585">
+            <name>HRAD PRAVNO</name>
+            <description>&lt;strong&gt;OM-00289 / ZA-21&lt;/strong&gt;&lt;br&gt;
+        SLOVENSKE PRAVNO
+        </description>
+            <Point id="584">
+                <coordinates>18.7635850,48.9175542,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="587">
+            <name>HRAD SUCANY</name>
+            <description>&lt;strong&gt;OM-00290 / ZA-22&lt;/strong&gt;&lt;br&gt;
+        SUCANY
+        </description>
+            <Point id="586">
+                <coordinates>18.9934019,49.0990417,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="589">
+            <name>HRAD ROHACKA</name>
+            <description>&lt;strong&gt;OM-00291 / ZA-23&lt;/strong&gt;&lt;br&gt;
+        PLOSTIN
+        </description>
+            <Point id="588">
+                <coordinates>19.6051119,49.0471797,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="591">
+            <name>HRADOK V BYSTRICKE</name>
+            <description>&lt;strong&gt;OM-00292 / ZA-24&lt;/strong&gt;&lt;br&gt;
+        BYSTRICKA (MAR)
+        </description>
+            <Point id="590">
+                <coordinates>18.8812950,49.0504778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="593">
+            <name>HRADOK V HORNOM JASENE</name>
+            <description>&lt;strong&gt;OM-00293 / ZA-25&lt;/strong&gt;&lt;br&gt;
+        HORNE JASENO
+        </description>
+            <Point id="592">
+                <coordinates>18.9937822,49.0241047,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="595">
+            <name>HRADOK HAVRANOK</name>
+            <description>&lt;strong&gt;OM-00294 / ZA-26&lt;/strong&gt;&lt;br&gt;
+        LIPTOVSKA SIELNICA
+        </description>
+            <Point id="594">
+                <coordinates>19.4795119,49.1033142,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="597">
+            <name>HRADOK VO VALENTOVEJ</name>
+            <description>&lt;strong&gt;OM-00295 / ZA-27&lt;/strong&gt;&lt;br&gt;
+        VALENTOVA (MAR)
+        </description>
+            <Point id="596">
+                <coordinates>18.8813178,48.9647606,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="599">
+            <name>HRADOK POHANOVO</name>
+            <description>&lt;strong&gt;OM-00296 / ZA-28&lt;/strong&gt;&lt;br&gt;
+        KRPELANY
+        </description>
+            <Point id="598">
+                <coordinates>19.10014148650,49.123434825983,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="601">
+            <name>HRADOK V LIPTOVSKOM JANE</name>
+            <description>&lt;strong&gt;OM-00297 / ZA-29&lt;/strong&gt;&lt;br&gt;
+        LIPTOVSKY JAN
+        </description>
+            <Point id="600">
+                <coordinates>19.6598192,49.0422542,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="603">
+            <name>HRADOK V KOSUTOCH</name>
+            <description>&lt;strong&gt;OM-00298 / ZA-30&lt;/strong&gt;&lt;br&gt;
+        MARTIN
+        </description>
+            <Point id="602">
+                <coordinates>18.9398725,49.0886919,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="605">
+            <name>HRADOK V NEZBUDSK. LUCKE</name>
+            <description>&lt;strong&gt;OM-00299 / ZA-31&lt;/strong&gt;&lt;br&gt;
+        NEZBUDSKA LUCKA
+        </description>
+            <Point id="604">
+                <coordinates>18.8673186,49.1796914,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="607">
+            <name>PEVNOST VELINOK</name>
+            <description>&lt;strong&gt;OM-00300 / ZA-32&lt;/strong&gt;&lt;br&gt;
+        PODTUREN
+        </description>
+            <Point id="606">
+                <coordinates>19.6990553,49.0564108,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="609">
+            <name>HRADOK STRAZA</name>
+            <description>&lt;strong&gt;OM-00301 / ZA-33&lt;/strong&gt;&lt;br&gt;
+        SOCOVCE
+        </description>
+            <Point id="608">
+                <coordinates>18.8600433,48.9480694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="611">
+            <name>HRADOK V SUTOVE</name>
+            <description>&lt;strong&gt;OM-00302 / ZA-34&lt;/strong&gt;&lt;br&gt;
+        SUTOVO
+        </description>
+            <Point id="610">
+                <coordinates>19.0871142,49.1418464,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="613">
+            <name>HRADOK V TURC. KLACANOCH</name>
+            <description>&lt;strong&gt;OM-00303 / ZA-35&lt;/strong&gt;&lt;br&gt;
+        TURCIANSKE KLACANY
+        </description>
+            <Point id="612">
+                <coordinates>18.9502619,49.1164431,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="615">
+            <name>HRAD TURIK</name>
+            <description>&lt;strong&gt;OM-00304 / ZA-36&lt;/strong&gt;&lt;br&gt;
+        TURIK
+        </description>
+            <Point id="614">
+                <coordinates>19.3803550,49.1080336,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="617">
+            <name>HRADISTE</name>
+            <description>&lt;strong&gt;OM-00305 / ZA-37&lt;/strong&gt;&lt;br&gt;
+        VRUTKY
+        </description>
+            <Point id="616">
+                <coordinates>18.9240167,49.1089311,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
