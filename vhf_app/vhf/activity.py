@@ -138,8 +138,9 @@ class Log:
         orig_gridsquares[self.gridsquare] = 1
 
         for qso in self.qsos:
+            ident = qso.call + getattr(qso, 'band', getattr(qso, 'freq', ''))
             if qso.gridsquare:
-                orig_qsos[qso.call + qso.band] = qso.gridsquare
+                orig_qsos[ident] = qso.gridsquare
                 orig_gridsquares[qso.gridsquare] = orig_gridsquares.get(qso.gridsquare, 0) + 1
                 orig_large_gridsquares[qso.gridsquare[0:4]] = orig_large_gridsquares.get(qso.gridsquare[0:4], 0) + 1
 
