@@ -46,6 +46,13 @@ class Qso:
                     if guess is not None:
                         gridsquare = guess
 
+            if not gridsquare and hasattr(self, 'comment'):
+                # fall back to guessing gridsquare from comment
+                if self.comment:
+                    guess = extract_gridsquare(self.comment)
+                    if guess is not None:
+                        gridsquare = guess
+
             # final check
             if not is_gridsquare(gridsquare):
                 gridsquare = None
